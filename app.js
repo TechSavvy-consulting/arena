@@ -30,7 +30,8 @@ function openImage(src, caption, poster = false) {
   if (!dialog.open) dialog.showModal();
   $('#dialog-close').focus();
 }
-function closeMedia() { dialog.close(); }
+function closeMedia() { dialogVideo.pause(); dialog.close(); }
+dialog.addEventListener('cancel', () => dialogVideo.pause());
 dialog.addEventListener('close', () => { dialogVideo.pause(); if (mediaOpener instanceof HTMLElement) mediaOpener.focus(); });
 $('#dialog-close').addEventListener('click', closeMedia);
 dialog.addEventListener('click', (event) => { if (event.target === dialog) { const r=dialog.getBoundingClientRect(); if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom) closeMedia(); } });
