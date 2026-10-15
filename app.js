@@ -19,10 +19,8 @@ const dialog = $('#media-dialog');
 const dialogImage = $('#dialog-image');
 const dialogVideo = $('#dialog-video');
 let posterPage = 0;
-let mediaOpener = null;
 
 function openImage(src, caption, poster = false) {
-  if (!dialog.open) mediaOpener = document.activeElement;
   dialogVideo.pause(); dialogVideo.hidden = true;
   dialogImage.src = src; dialogImage.alt = caption; dialogImage.hidden = false;
   $('#media-caption').textContent = caption;
@@ -32,12 +30,14 @@ function openImage(src, caption, poster = false) {
 }
 function closeMedia() { dialogVideo.pause(); dialog.close(); }
 dialog.addEventListener('cancel', () => dialogVideo.pause());
-dialog.addEventListener('close', () => { dialogVideo.pause(); if (mediaOpener instanceof HTMLElement) mediaOpener.focus(); });
+// Native dialog close already restores focus synchronously. Re-focusing in its
+// queued close event could steal focus from the visitor's next keyboard action.
+dialog.addEventListener('close', () => dialogVideo.pause());
 $('#dialog-close').addEventListener('click', closeMedia);
 dialog.addEventListener('click', (event) => { if (event.target === dialog) { const r=dialog.getBoundingClientRect(); if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom) closeMedia(); } });
 document.querySelectorAll('[data-image]').forEach(button => button.addEventListener('click', () => openImage(button.dataset.image, button.dataset.caption)));
 document.querySelectorAll('[data-video]').forEach(button => button.addEventListener('click', () => {
-  mediaOpener = button; dialogImage.hidden = true; dialogVideo.hidden = false; $('.poster-nav').hidden = true;
+  dialogImage.hidden = true; dialogVideo.hidden = false; $('.poster-nav').hidden = true;
   $('#media-caption').textContent = 'TechSavvy Arena v0.11 — new-build in-engine showcase';
   dialog.showModal(); dialogVideo.play().catch(() => {}); $('#dialog-close').focus();
 }));
