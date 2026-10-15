@@ -9,7 +9,7 @@ const worlds = [
   {name:'Alien Reactor Fortress', boss:'Kyle Abomination', text:'The largest battlefield: layered machinery, flanking corridors and the final boss court. Break its weapons, expose the core and finish the campaign.'}
 ];
 const enemies = [
-  ['Mini Rusher','mini','Small body. Big hurry.'],['Roller','roller','A tire with an attitude.'],['Spider','spider','Too many legs. Same Kyle.'],['Drone','drone','Trouble from above.'],['Shooter','shooter','Armed and familiar.'],['Sniper','sniper','Watch the firing lane.'],['Grenadier','grenadier','Move off marked ground.'],['Heavy','heavy','Break armor. Break guns.'],['Squid','squid','Sever the tentacles.'],['Artillery','artillery','Walking ground pressure.'],['Stalker','stalker','Fast claws. Faster decisions.'],['Behemoth','behemoth','A very large bad idea.']
+  ['Mini Rusher','mini','Small body. Big hurry.'],['Roller','roller','A tire with an attitude.'],['Spider','spider','Too many legs. Same Kyle.'],['Drone','drone','Trouble from above.'],['Shooter','shooter','Armed and familiar.'],['Heavy','heavy','Break armor. Break guns.'],['Squid','squid','Sever the tentacles.'],['Artillery','artillery','Walking ground pressure.'],['Behemoth','behemoth','A very large bad idea.']
 ];
 const champions = [
   ['Foundry Enforcer',3,'Wave 03 · armored heavy'],['Transit Sentinel',8,'Wave 08 · siege walker'],['Lab Ravager',13,'Wave 13 · monster brute'],['Research Executioner',18,'Wave 18 · monster brute'],['Sky Marshal',23,'Wave 23 · siege walker'],['Reactor Warlord',28,'Wave 28 · armored heavy']
@@ -17,33 +17,24 @@ const champions = [
 const $ = (query) => document.querySelector(query);
 const dialog = $('#media-dialog');
 const dialogImage = $('#dialog-image');
-const dialogVideo = $('#dialog-video');
 let posterPage = 0;
 
 function openImage(src, caption, poster = false) {
-  dialogVideo.pause(); dialogVideo.hidden = true;
   dialogImage.src = src; dialogImage.alt = caption; dialogImage.hidden = false;
   $('#media-caption').textContent = caption;
   $('.poster-nav').hidden = !poster;
   if (!dialog.open) dialog.showModal();
   $('#dialog-close').focus();
 }
-function closeMedia() { dialogVideo.pause(); dialog.close(); }
-dialog.addEventListener('cancel', () => dialogVideo.pause());
+function closeMedia() { dialog.close(); }
 // Native dialog close already restores focus synchronously. Re-focusing in its
 // queued close event could steal focus from the visitor's next keyboard action.
-dialog.addEventListener('close', () => dialogVideo.pause());
 $('#dialog-close').addEventListener('click', closeMedia);
 dialog.addEventListener('click', (event) => { if (event.target === dialog) { const r=dialog.getBoundingClientRect(); if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom) closeMedia(); } });
 document.querySelectorAll('[data-image]').forEach(button => button.addEventListener('click', () => openImage(button.dataset.image, button.dataset.caption)));
-document.querySelectorAll('[data-video]').forEach(button => button.addEventListener('click', () => {
-  dialogImage.hidden = true; dialogVideo.hidden = false; $('.poster-nav').hidden = true;
-  $('#media-caption').textContent = 'TechSavvy Arena v0.11 — new-build in-engine showcase';
-  dialog.showModal(); dialogVideo.play().catch(() => {}); $('#dialog-close').focus();
-}));
 function openPoster(page) {
   posterPage = page;
-  openImage(`assets/poster-${page}.webp`, page === 0 ? 'The Kyle enemy cast — illustrated cast poster, also in Pause → Characters.' : 'Guardians & champions — illustrated cast poster, also in Pause → Characters.', true);
+  openImage(`assets/poster-${page}.webp`, page === 0 ? 'The Kyle enemy cast — illustrated cast poster, also in Pause → Characters.' : 'More Kyles — illustrated cast poster, also in Pause → Characters.', true);
   $('#poster-prev').disabled = page === 0; $('#poster-next').disabled = page === 1;
 }
 $('#poster-button').addEventListener('click', () => openPoster(0));
@@ -64,7 +55,10 @@ const worldTabs = $('#world-tabs');
 worlds.forEach((world,index) => {
   const button = document.createElement('button'); button.id=`world-tab-${index}`; button.type='button';
   button.setAttribute('role','tab'); button.setAttribute('aria-selected',String(index===0)); button.setAttribute('aria-controls','world-panel'); button.tabIndex=index===0?0:-1;
-  const number=document.createElement('span'); number.textContent=`0${index+1}`; button.append(number, document.createTextNode(world.name));
+  const number=document.createElement('span'); number.className='world-tab-number'; number.textContent=String(index+1).padStart(2,'0');
+  const name=document.createElement('strong'); name.className='world-tab-name'; name.textContent=world.name;
+  const hint=document.createElement('span'); hint.className='world-tab-hint'; hint.textContent='View arena ↗';
+  button.append(number,name,hint);
   button.addEventListener('click',()=>selectWorld(index)); worldTabs.append(button);
 });
 function selectWorld(index) {
@@ -80,21 +74,20 @@ function selectWorld(index) {
 wireTabs(worldTabs,tab=>selectWorld([...worldTabs.children].indexOf(tab)));
 selectWorld(0);
 
-function selectCast(group) {
-  document.querySelectorAll('[data-cast]').forEach(tab=>{const active=tab.dataset.cast===group;tab.setAttribute('aria-selected',String(active));tab.tabIndex=active?0:-1;});
-  const panel=$('#cast-panel'); panel.setAttribute('aria-labelledby',`cast-tab-${group}`); panel.replaceChildren();
-  const entries=group==='enemies'?enemies.map(([name,id,text])=>({name,text,src:`assets/enemy-${id}.webp`})):
-    group==='bosses'?worlds.map((world,index)=>({name:world.boss,text:`Guardian · wave ${(index+1)*5}`,src:`assets/boss-${index}.webp`})):
-      champions.map(([name,wave,text])=>({name,text,src:`assets/champion-${wave}.webp`}));
+function renderCast() {
+  const panel=$('#cast-panel'); panel.replaceChildren();
+  const entries=[
+    ...enemies.map(([name,id,text])=>({name,text,src:`assets/enemy-${id}.webp`})),
+    ...worlds.map((world,index)=>({name:world.boss,text:`Wave ${String((index+1)*5).padStart(2,'0')} · ${world.name}`,src:`assets/boss-${index}.webp`})),
+    ...champions.map(([name,wave,text])=>({name,text,src:`assets/champion-${wave}.webp`}))
+  ];
   entries.forEach(entry=>{const button=document.createElement('button');button.className='cast-card';button.type='button';button.setAttribute('aria-label',`View ${entry.name}`);
     const img=document.createElement('img');img.src=entry.src;img.alt=entry.name+' in v0.11';img.loading='lazy';img.width=1280;img.height=720;
     const label=document.createElement('span');const name=document.createElement('b');name.textContent=entry.name;const text=document.createElement('small');text.textContent=entry.text;label.append(name,text);button.append(img,label);
     button.addEventListener('click',()=>openImage(entry.src,`${entry.name} — ${entry.text} Current v0.11 game-model render.`));panel.append(button);
   });
 }
-document.querySelectorAll('[data-cast]').forEach(tab=>tab.addEventListener('click',()=>selectCast(tab.dataset.cast)));
-wireTabs($('#cast-tabs'),tab=>selectCast(tab.dataset.cast));
-selectCast('enemies');
+renderCast();
 $('#share-button').addEventListener('click',async()=>{
   const url='https://techsavvy-consulting.github.io/arena/';
   try { await navigator.clipboard.writeText(url); $('#share-status').textContent='Link copied. Send in the Kyles.'; }

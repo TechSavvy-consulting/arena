@@ -11,6 +11,12 @@ included. Existing game source and released package are not modified.
 
 ## Media provenance
 
+The current website has no video player or Watch the Game button. Its single
+Kyle gallery combines the remaining enemy, guardian and champion images without
+group tabs, omitting the Sniper, Grenadier and Stalker cards as requested. The
+header and favicon use the existing TechSavvy headset-head logo, not the game
+icon. Previously published unused media is retained for rollback.
+
 All gameplay/map/character screenshots and the new short in-engine showcase
 come from TechSavvy Arena v0.11.0 at source commit
 `33dc7efeb8f91cbc35a56d31c58de34b757f56b4`. Character close-ups and video shots
