@@ -21,6 +21,10 @@ callout highlights extracting the folder and launching TechSavvyArena.exe. The
 header and favicon use the existing TechSavvy headset-head logo, not the game
 icon. Previously published unused media is retained for rollback.
 
+The homepage hero uses Kyle's supplied full cast picture, unchanged. It fits
+without cropping; the original 30 WAVES TO MAKE IT COUNT badge sits in a
+separate footer strip below the art so it cannot cover any character.
+
 All gameplay/map/character screenshots and the new short in-engine showcase
 come from TechSavvy Arena v0.11.0 at source commit
 `33dc7efeb8f91cbc35a56d31c58de34b757f56b4`. Character close-ups and video shots

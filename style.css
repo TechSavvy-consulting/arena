@@ -33,3 +33,11 @@ dialog{width:min(1150px,95vw);max-height:95dvh;padding:0;border:1px solid #54707
 .launch-callout p{color:#fffaf2;font-size:18px;font-weight:800;line-height:1.65}
 .launch-filename{overflow-wrap:anywhere}
 @media(max-width:650px){.launch-callout{padding:16px}.launch-callout p{font-size:16px}}
+
+/* Keep the supplied cast picture whole; the original badge has its own strip. */
+.hero-image{aspect-ratio:auto}
+.hero-image img{height:auto;object-fit:contain}
+.hero-art-footer{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;background:#182a31;padding:12px}
+.hero-art-footer .hero-stamp{position:static;flex-shrink:0;box-shadow:none;padding:10px 14px}
+.hero-art-footer .image-strip{display:block;flex:1;padding:0;background:transparent;text-align:right}
+.hero-art-footer .image-strip span{display:block;margin:3px 0}
