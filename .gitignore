@@ -1,0 +1,7 @@
+node_modules/
+.preview/
+*.log
+*.zip
+*.exe
+*.pck
+__pycache__/

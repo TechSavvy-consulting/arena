@@ -1,0 +1,25 @@
+TechSavvy Arena complete campaign rebuild v0.11
+
+All eighteen rebuilt creature/guardian bodies and all five first-person guns,
+gloved hands and sleeves were authored locally with Blender 4.5.14 LTS using
+the retained reproducible tools/build_realism_*.py scripts and original detail
+maps. No models were extracted from another commercial game or purchased.
+The six maps retain original gameplay topology and receive the reviewed original
+industrial detail library, authored weathering and stage-specific set dressing.
+See the environment provenance and existing ART_SOURCES_v09.txt for reused
+CC0 Poly Haven materials/HDRI and their exact sources/license links.
+
+Kyle's authorized dimensional photo-referenced expression heads remain exposed.
+They are not facial scans or a fully rigged anatomical likeness. Original private
+source photographs are not distributed. TechSavvy branding used with permission.
+
+The two approved character-gallery images are exact, hash-verified copies of
+the existing locally saved generated cast posters. They are whole images, not
+repainted, cropped or relabelled. Runtime name keys appear beneath them.
+See assets/character-gallery/PROVENANCE.txt for exact SHA-256 identities.
+They are illustrations, not evidence of equivalent rendered gameplay fidelity.
+
+Music has six original arrangements using authored motifs, chords, rhythms,
+sound design and the previously verified isolated CC0 instrument recordings.
+No precomposed song or commercial soundtrack is included. See AUDIO_SOURCES.txt,
+the v0.11 music notices and the retained original composition script/manifest.

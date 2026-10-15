@@ -1,0 +1,35 @@
+TechSavvy Arena v0.11 score - original offline compositions, October 15, 2026
+
+Six authored adaptive arrangements:
+Reactor Techno: 100 BPM, 128 beats / 76.8 seconds.
+Dark Synth: 80 BPM, 96 beats / 72 seconds.
+Drum & Bass: 150 BPM, 160 beats / 64 seconds.
+Neon Drive: 112 BPM, 128 beats / 68.571429 seconds.
+Foundry Breaks: 128 BPM, 128 beats / 60 seconds.
+Titan Score: 108 BPM, 128 beats / 71.111111 seconds.
+
+All note/chord progressions, melodic motifs, rhythmic arrangements, fills,
+velocity/timing variation, harmonics, synthesis and stereo effects were authored
+locally in tools/build_music_v011.py. No commercial song, copyrighted melody,
+precomposed musical loop, voice or voice clone was used. No purchases/downloads
+or new external services were required for this update.
+
+The five isolated drum/bass/guitar recordings previously acquired and licensed
+for v0.8 are reused without modifying the source files. Full source locations,
+author credits, verified license text and original SHA256 are preserved in
+AUDIO_SOURCES.txt and AUDIO_CC0.txt. These are CC0 Karoryfer instrument samples,
+not songs. Exact source and output hashes, uncompressed peaks/RMS, durations and
+tempos are recorded in assets/audio/score-v011/manifest.json.
+
+Four phase-matched stereo Vorbis stems per arrangement: pulse, percussion,
+bass and arpeggio/harmony. Original warm pads, string/brass-like synthesizers,
+plucks, bells, sub/reese bass, crash/tom/clap/metal transients combine with the
+isolated recorded instruments. These are not represented as a recorded live
+orchestra. 24-to-40-bar structures include restrained introductions, changes,
+breakdowns, returns and section fills rather than an eight-second phrase.
+
+Generation uses existing local NumPy and FFmpeg. PCM intermediates/listening
+mixes are kept in task-specific Codex Temp. Runtime uses only compressed stems.
+Music is protected by the game's dedicated compressor/ducking/limiter chain,
+with -1 dBFS ceiling; preferences/mute/focus and independent SFX volume remain.
+No Windows audio levels, global sound devices or other applications are changed.

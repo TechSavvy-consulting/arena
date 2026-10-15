@@ -1,0 +1,83 @@
+TechSavvy Arena v0.8 audio provenance
+Verified October 14, 2026. No commercial songs or purchased sound packs.
+
+ORIGINAL MUSIC AND DESIGNED EFFECTS
+Three original offline adaptive compositions: Reactor Techno (100 BPM, 57.6s),
+Dark Synth (80 BPM, 48s), Drum & Bass (150 BPM, 51.2s). Original note patterns,
+arrangements, synthesis, fills and processing combine with the five expressly
+licensed isolated instrument recordings enumerated below. No borrowed songs,
+commercial-song recordings or precomposed musical phrases/loops are used.
+Source: tools/build_music_v08.py. Runtime: assets/audio/score-v08/*_*.ogg.
+Four phase-matched stereo Vorbis stems play at a time; compressed cache is bounded.
+The retained historical v0.7 all-synth source tracks are not used by the v0.8 game.
+The shock blaster, ion lance and singularity launcher use original layered
+transient/chassis/energy/body/tail synthesis in scripts/arena_audio.gd.
+These designed sci-fi effects are not represented as firearm recordings.
+Critical and miniboss-alert feedback and the finite victory fanfare are original
+non-voice synthesized cues. No voice cloning or imitation of a commercial song.
+
+CC0 RECORDED INSTRUMENT TEXTURES
+Karoryfer / Karoryfer Samples. The creator's official free-library catalog states
+these libraries are released under CC0; each repository independently includes
+the full CC0 license. Black and Green guitar recordings are by Brian Wood.
+https://shop.karoryfer.com/pages/free-samples
+https://github.com/sfzinstruments/karoryfer.big-rusty-drums
+https://github.com/sfzinstruments/karoryfer.black-and-blue-basses
+https://github.com/sfzinstruments/karoryfer.black-and-green-guitars
+License files verified: Big Rusty Drums main/LICENSE, Black and Blue Basses
+main/license, Black and Green Guitars main/LICENSE. No Marie Ork library used.
+
+Exact raw recording paths and SHA256, unmodified source bytes:
+Big Rusty Drums: Samples/kick_24/kick/kick/k_vl4_rr1.flac
+2bdce9dd3e3b1df95cfb4de0e5613fb0e9f0b6f45946748f69535776314a377d
+Big Rusty Drums: Samples/snare_14/center/top/sn_center_vl4_rr1.flac
+3f3b87ca3173a82c3da737ab3ece1186cd34b0c6625a04fcf384b1e1591729f9
+Big Rusty Drums: Samples/hihat_14/cl/cl/ht_cl_vl4_rr1.flac
+df0456e6586c2cea26d16ee3dd28eaa0fd4b0d95901c2fbf00111deebf51f123
+Black and Blue Basses: Samples/babyblue/reg/babyblue_a2_f_rr1.wav
+67fc28da2901cc0902ff56ab86fee7ab0f77f3bebef8191919e2d15dbd136362
+Black and Green Guitars: Samples/black/ord/twang_a3_f_rr1.wav
+2284a0af11c31c0b2a745d13f300b1fed822a7bd0e280af692bc05d61d60aaac
+
+Instrument processing: silence trim, high-pass28Hz,44.1kHz decode, pitch/envelope,
+original patterns/chords, stereo positioning, wrap-around tails, controlled
+saturation/leveling, Vorbis q5. The isolated source recordings stay unchanged
+in task working storage; full sample libraries are not included or downloaded.
+Offline generation uses NumPy and the existing FFmpeg, not downloaded plugins,
+source scripts or executables. Composition/processing source remains in project.
+Karoryfer and Brian Wood are credited voluntarily; CC0 does not require credit.
+
+CC0 FIREARM RECORDINGS
+The Free Firearm Sound Library, created and recorded by Ben Jaszczak,
+Brian Nelson, Kevin Heras and Matthew Nanney; archived by OpenGameArt.
+https://opengameart.org/content/the-free-firearm-sound-library
+The source page identifies the library as CC0 and reproduces the team's
+CC0 NO RIGHTS RESERVED statement permitting personal/professional use.
+Archive: https://opengameart.org/sites/default/files/Prepared%20SFX%20Library.7z
+Archive SHA256: CC1AB5A99A0A365105C7C5DD783F4B0B1FE90938114D3CEEC53856BFE005F7D6
+Used source: Prepared SFX Library/AR-15/D_24P.wav
+  -> assets/audio/recorded/rifle_fire.wav (first shot, 0.543s + 0.44s)
+Used source: Prepared SFX Library/Mossberg/N_26P.wav
+  -> assets/audio/recorded/shotgun_fire.wav (first shot, 0.780s + 0.70s)
+
+CC0 RECORDED RELOAD MECHANICS
+SpringySpringo, Gun reload sounds, recorded using airsoft guns.
+https://opengameart.org/content/gun-reload-sounds
+The creator's source page declares CC0; attribution appreciated, not required.
+https://opengameart.org/sites/default/files/assaultriflereload1_0.wav
+Source SHA256: EFB2D724D634EABE6BA8D3065686ABCA848BB7497D4D43A5E4AED5E5EA23016F
+  -> assets/audio/recorded/rifle_reload.wav
+https://opengameart.org/sites/default/files/shotguncock_0.wav
+Source SHA256: 33E007321BA83301C861AEF573F2C40B70BC62F8F24C0164877E6DD123E24371
+  -> assets/audio/recorded/shotgun_cycle.wav
+The shotgun reload combines this recorded pump with original shell/metal clicks.
+
+PREPARATION
+tools/prepare_recorded_audio.ps1 explicitly selects/filters/trims these sources,
+converts to 22,050 Hz 16-bit mono PCM, levels and fades them for game playback.
+Original source files are unchanged. The full 194MB archive is not distributed.
+No executables or downloaded scripts from the recording archive are used.
+
+CC0 1.0 Universal: https://creativecommons.org/publicdomain/zero/1.0/
+Legal code: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+Full CC0 legal text accompanies this notice in AUDIO_CC0.txt.

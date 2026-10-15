@@ -1,0 +1,40 @@
+TechSavvy Arena v0.9 art sources
+==============================
+
+Original models
+---------------
+The authored Kyleverse anatomy/armor modules, five weapons/hands and industrial
+environment modules were created locally for this project with Blender 4.5.14.
+Reproducible original authoring scripts are retained in the project tools folder.
+These are not extracted assets from Borderlands or another commercial game.
+
+Kyle Hearn likeness and TechSavvy branding
+---------------------------------------
+Used with Kyle's explicit authorization for TechSavvy Arena. Original photos,
+including additional front/side references in his authorized Jessica&Kyle Drive
+folder, remain unchanged. Full private reference photos are not distributed.
+The dimensional face is an authored photo-referenced model, not a claim of a
+photogrammetry scan. Existing expression artwork remains in the game.
+
+Poly Haven scanned materials and HDRI - CC0 1.0
+---------------------------------------------
+https://polyhaven.com/license
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Concrete Floor Worn 001: https://polyhaven.com/a/concrete_floor_worn_001
+Concrete Wall 009: https://polyhaven.com/a/concrete_wall_009
+Metal Plate 02: https://polyhaven.com/a/metal_plate_02
+Rock 01: https://polyhaven.com/a/rock_01
+Industrial Sunset 02 (Pure Sky):
+https://polyhaven.com/a/industrial_sunset_02_puresky
+
+The 2K material albedo, OpenGL normal, roughness, ambient occlusion and optional
+metallic channels were downloaded through the public API. File size and provider
+MD5 were checked and SHA-256 recorded in the source provenance manifest.
+The shipped game works offline and does not use the live Poly Haven API.
+API terms reviewed October 14, 2026:
+https://github.com/Poly-Haven/Public-API/blob/master/ToS.md
+
+Tools are not part of the game distribution. Blender portable was downloaded
+from Blender's official mirror service and its SHA-256 matched the official
+release checksum. Blender license: https://www.blender.org/about/license/

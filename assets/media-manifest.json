@@ -1,0 +1,311 @@
+{
+  "game_version": "0.11.0",
+  "game_source_commit": "33dc7efeb8f91cbc35a56d31c58de34b757f56b4",
+  "note": "Staged real-engine captures; no game code or stats modified. No older-build gameplay media.",
+  "images": [
+    {
+      "asset": "action.webp",
+      "source": "captures/action.png",
+      "sha256": "0028c71cc586360289077393c2076f87384ecab3381f75a25a9f6993ec873c15",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "boss-0.webp",
+      "source": "captures/boss-0.png",
+      "sha256": "4cfaa750f6fbb156bc991ceb1b9c9b53729590c7986adb9101b02b08f2e51e05",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "boss-1.webp",
+      "source": "captures/boss-1.png",
+      "sha256": "8df3a748e13911fd23615439a532af281a344971c7d022e5b66569022068f33d",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "boss-2.webp",
+      "source": "captures/boss-2.png",
+      "sha256": "0d484f7976d198f8efe958cbdfd4c0140cd7040cb2f65375d6addabf91dbf0fe",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "boss-3.webp",
+      "source": "captures/boss-3.png",
+      "sha256": "6555553e8ad14673108999f3fd6943bb4168783410565355bb922259b1f885ed",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "boss-4.webp",
+      "source": "captures/boss-4.png",
+      "sha256": "d1646aaab049e05bc03cbdb70f8e6673992e252ba0d3957ec2e25c0e0e9caf2e",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "boss-5.webp",
+      "source": "captures/boss-5.png",
+      "sha256": "771ee322a2698b664ec23f0355e7143d9bcc13a9578d84fe9e15bd2732beeb6d",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "champion-13.webp",
+      "source": "captures/champion-13.png",
+      "sha256": "12eca40d1b6072a48f400b3e3461c651db66d0eddd2d92783894a2d31dbc782d",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "champion-18.webp",
+      "source": "captures/champion-18.png",
+      "sha256": "eea14d1f6ca343614cde5d886d70fb2367a18febefe3a8e429d496573caf291a",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "champion-23.webp",
+      "source": "captures/champion-23.png",
+      "sha256": "8712d4a066321716fff901ea3f3cf8a1ae9713f323a6d5de327bd589f7506cd8",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "champion-28.webp",
+      "source": "captures/champion-28.png",
+      "sha256": "bc55e14dc08986680c83ba81e21acea88ff9d8b428433ac970d7ffc2281c0e4c",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "champion-3.webp",
+      "source": "captures/champion-3.png",
+      "sha256": "327f1dbcb51670004b80281ec3b8d25d5a9a2f540da06f6531cc436a88516d44",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "champion-8.webp",
+      "source": "captures/champion-8.png",
+      "sha256": "17a2c8e756bbc997fd7e32526b36cc3e1197cd615e08b2d6e9d2726c20eed501",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "enemy-artillery.webp",
+      "source": "captures/enemy-artillery.png",
+      "sha256": "b291dd06898c6542e7efd9f7c1ee319cfbdd3c802ecc354b2631b0062b9831b8",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "enemy-behemoth.webp",
+      "source": "captures/enemy-behemoth.png",
+      "sha256": "72ac0491ba8ef019c112298a6e6bd193fc8e6e43d45f954a91e3b15b7c56a86a",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "enemy-drone.webp",
+      "source": "captures/enemy-drone.png",
+      "sha256": "e76be50595868d1c1b3564d0ae33db9a1ca153ee56cd109313b317bfadbb52aa",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "enemy-grenadier.webp",
+      "source": "captures/enemy-grenadier.png",
+      "sha256": "8e53e1c4b76497b1d04b1bce9ea0d925453741f8800b4b26b872b9a5d71da199",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "enemy-heavy.webp",
+      "source": "captures/enemy-heavy.png",
+      "sha256": "e46146caef923563ef890eae33504dca72d4dc6dd5e4ea4801d587c6fae34dee",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "enemy-mini.webp",
+      "source": "captures/enemy-mini.png",
+      "sha256": "aee56d1103e6ef72056090fb5ec08008e0c76fdc82b6d223b9dccc70b0387219",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "enemy-roller.webp",
+      "source": "captures/enemy-roller.png",
+      "sha256": "92938a527eae96228c1676c1088a5090f254366403abf9da341106f52d1af12a",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "enemy-shooter.webp",
+      "source": "captures/enemy-shooter.png",
+      "sha256": "81c151bb6fd7243bc58a030793980b460e3857c7980581a7c29a11e186370064",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "enemy-sniper.webp",
+      "source": "captures/enemy-sniper.png",
+      "sha256": "f13c57f86aed849de62a3d0fa974d0552bda968dd98c3c58edf40bf0070289b2",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "enemy-spider.webp",
+      "source": "captures/enemy-spider.png",
+      "sha256": "377463ecf354635fd908e21522f7b200951cc847b6580e9e4a115798717fa180",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "enemy-squid.webp",
+      "source": "captures/enemy-squid.png",
+      "sha256": "c0834e1d1718c4729dd84e2b51e3d69a6fa239f9b094d9da18f4a52dfe0c004e",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "enemy-stalker.webp",
+      "source": "captures/enemy-stalker.png",
+      "sha256": "6cfd6b52fd4e7e54a0070a70f1a6f5fb82669808dfd3151c9c28370bbaac8481",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "map-0.webp",
+      "source": "captures/map-0.png",
+      "sha256": "47f2934c212c643ec8333022f2f1308210e69ffdddfab4b265f7f63092cb054a",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "map-1.webp",
+      "source": "captures/map-1.png",
+      "sha256": "737b24dc5af1535dafcd82556abc5662906689ffcaeec52a8a7858cc9bc34f2c",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "map-2.webp",
+      "source": "captures/map-2.png",
+      "sha256": "f04cab993849b04097f3f75fb8576dd2242a1edfb06408c65721e6458814d8ce",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "map-3.webp",
+      "source": "captures/map-3.png",
+      "sha256": "74f5763f7063ee4a85f7dd1b0a858d3c695d20a7ddab90793960628b15a7b423",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "map-4.webp",
+      "source": "captures/map-4.png",
+      "sha256": "ca0990106fdde6189c48bc30c983acbaa43eb72c06078f3a8eee8cbd700bb44f",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "map-5.webp",
+      "source": "captures/map-5.png",
+      "sha256": "9f59ba2065e9f661a92a3f92ff07524780206626e67be2c0a037b009a3fc934d",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "upgrades.webp",
+      "source": "captures/upgrades.png",
+      "sha256": "fb9daaa686d59ada2b7ab8e08b866ece0da77af9e42bde256d9d0e43b8999442",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "home.webp",
+      "source": "screenshots/campaign-v011/01-home.png",
+      "sha256": "d8c28cbd21beea307ca6f10835696a2af6cdeffc1308382ad6c448f502452e51",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "victory.webp",
+      "source": "screenshots/campaign-v011/30-victory.png",
+      "sha256": "0733397acde3355166998e4330d4a9ceb3e492a8b205c5198641498505c301bf",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "options.webp",
+      "source": "screenshots/campaign-v011/05-options.png",
+      "sha256": "485643b6a6e01b4fecb5baf4bf505783e21dee195f4ccd614f71d2a493c2c94c",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "pause.webp",
+      "source": "screenshots/campaign-v011/02-pause.png",
+      "sha256": "d27a56e1d7853cdbaa495b7ddbaa8e69f931ae8e04eb1766b96335820fdd1bac",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 in-engine capture"
+    },
+    {
+      "asset": "poster-0.webp",
+      "source": "assets/character-gallery/enemy-cast.png",
+      "sha256": "3a5072c2b599e7b2dc2cd8b7943825cada80e1e5be11dd10ba4b39504c2b58ae",
+      "width": 1672,
+      "height": 941,
+      "kind": "approved illustrated in-game gallery poster"
+    },
+    {
+      "asset": "poster-1.webp",
+      "source": "assets/character-gallery/bosses-champions.png",
+      "sha256": "f81f83424904f28313b7dbedc125908eba606d18bd4066dcb9cffa317586b3f5",
+      "width": 1672,
+      "height": 941,
+      "kind": "approved illustrated in-game gallery poster"
+    }
+  ]
+}
