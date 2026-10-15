@@ -360,7 +360,150 @@
       "height": 720,
       "kind": "v0.11 real-engine staged action capture",
       "active_enemy_count": 12
+    },
+    {
+      "asset": "arena-variety-0.webp",
+      "source": "website-variety-20261015/captures/arena-variety-0.png",
+      "sha256": "459dc2828be905e0651ee315e9714acf8b902e4947ff503a89b6870b399ff039",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 real-engine staged encounter capture",
+      "enemy_count": 12,
+      "guardian": "boss",
+      "drone_count": 2,
+      "enemy_families": [
+        "artillery",
+        "boss",
+        "drone",
+        "heavy",
+        "mini",
+        "roller",
+        "shooter",
+        "spider"
+      ],
+      "composition": "Unique per-arena positions and animation timing; real drones staged aloft."
+    },
+    {
+      "asset": "arena-variety-1.webp",
+      "source": "website-variety-20261015/captures/arena-variety-1.png",
+      "sha256": "d69d4beb5470dc752bbefb43dc0dca00cb6d17bda0af870e57d89a9ec7fe1559",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 real-engine staged encounter capture",
+      "enemy_count": 12,
+      "guardian": "dredger",
+      "drone_count": 2,
+      "enemy_families": [
+        "artillery",
+        "dredger",
+        "drone",
+        "heavy",
+        "mini",
+        "roller",
+        "shooter",
+        "spider",
+        "squid"
+      ],
+      "composition": "Unique per-arena positions and animation timing; real drones staged aloft."
+    },
+    {
+      "asset": "arena-variety-2.webp",
+      "source": "website-variety-20261015/captures/arena-variety-2.png",
+      "sha256": "5b8d03decf0ea54640ba19d616a0e9c871fa9358b20501c6ac8b357c915dc552",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 real-engine staged encounter capture",
+      "enemy_count": 12,
+      "guardian": "matriarch",
+      "drone_count": 2,
+      "enemy_families": [
+        "behemoth",
+        "drone",
+        "grenadier",
+        "heavy",
+        "matriarch",
+        "mini",
+        "roller",
+        "shooter",
+        "squid",
+        "stalker"
+      ],
+      "composition": "Unique per-arena positions and animation timing; real drones staged aloft."
+    },
+    {
+      "asset": "arena-variety-3.webp",
+      "source": "website-variety-20261015/captures/arena-variety-3.png",
+      "sha256": "9904354105cbb5dbb7485442cf5f0579de2cbcc98ab13282863837bd5f435a02",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 real-engine staged encounter capture",
+      "enemy_count": 12,
+      "guardian": "leviathan",
+      "drone_count": 2,
+      "enemy_families": [
+        "artillery",
+        "behemoth",
+        "drone",
+        "heavy",
+        "leviathan",
+        "mini",
+        "roller",
+        "shooter",
+        "spider",
+        "squid",
+        "stalker"
+      ],
+      "composition": "Unique per-arena positions and animation timing; real drones staged aloft."
+    },
+    {
+      "asset": "arena-variety-4.webp",
+      "source": "website-variety-20261015/captures/arena-variety-4.png",
+      "sha256": "e321b5153a99dcb60bbaf76375ea1cb623a012e0c45c2b703b82b2391d3027a4",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 real-engine staged encounter capture",
+      "enemy_count": 12,
+      "guardian": "carrier",
+      "drone_count": 2,
+      "enemy_families": [
+        "artillery",
+        "behemoth",
+        "carrier",
+        "drone",
+        "heavy",
+        "mini",
+        "roller",
+        "shooter",
+        "sniper",
+        "stalker"
+      ],
+      "composition": "Unique per-arena positions and animation timing; real drones staged aloft."
+    },
+    {
+      "asset": "arena-variety-5.webp",
+      "source": "website-variety-20261015/captures/arena-variety-5.png",
+      "sha256": "bd3905c989c2a694251c6c087bb21a5df717b2d8fc3c3c6123a9962aefb0e795",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 real-engine staged encounter capture",
+      "enemy_count": 12,
+      "guardian": "overlord",
+      "drone_count": 2,
+      "enemy_families": [
+        "artillery",
+        "behemoth",
+        "drone",
+        "heavy",
+        "mini",
+        "overlord",
+        "roller",
+        "shooter",
+        "spider",
+        "squid",
+        "stalker"
+      ],
+      "composition": "Unique per-arena positions and animation timing; real drones staged aloft."
     }
   ],
-  "arena_capture_note": "Six current-build in-engine scenes with 12 active AI enemies each. No painted-in enemies, game source/stat edits or human playthrough claim."
+  "arena_capture_note": "The current six arena-variety previews each show twelve actual v0.11 actors, including the correct arena guardian and two drones staged aloft. Each has its own enemy mix, positions and animation timing. These are staged engine-rendered encounters, not painted-in enemies or human playthrough claims. Older arena-action assets are retained unused for rollback."
 }

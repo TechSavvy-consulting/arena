@@ -14,9 +14,13 @@ included. Existing game source and released package are not modified.
 The current website has no video player or Watch the Game button. Its single
 Kyle gallery combines the remaining enemy, guardian and champion images without
 group tabs, omitting the Sniper, Grenadier, Stalker, Squid, Foundry Enforcer and
-Transit Sentinel cards as requested. Tight thumbnail framing keeps characters
+Transit Sentinel and Lab Ravager cards as requested. Tight thumbnail framing keeps characters
 close, while image viewers retain the full originals. The six arena previews
-show active crowds captured in the unchanged v0.11 game. A prominent download
+show distinct crowd compositions captured in the unchanged v0.11 game, each
+including its arena guardian and two clearly visible flying drones. Enemy
+families, positions and animation timing vary by arena; the old repeated spider
+placement is not reused. These are staged real-engine scenes, not human
+playthrough claims. A prominent download
 callout highlights extracting the folder and launching TechSavvyArena.exe. The
 header and favicon use the existing TechSavvy headset-head logo, not the game
 icon. Previously published unused media is retained for rollback.

@@ -12,7 +12,7 @@ const enemies = [
   ['Mini Rusher','mini','Small body. Big hurry.'],['Roller','roller','A tire with an attitude.'],['Spider','spider','Too many legs. Same Kyle.'],['Drone','drone','Trouble from above.'],['Shooter','shooter','Armed and familiar.'],['Heavy','heavy','Break armor. Break guns.'],['Artillery','artillery','Walking ground pressure.'],['Behemoth','behemoth','A very large bad idea.']
 ];
 const champions = [
-  ['Lab Ravager',13,'Wave 13 · monster brute'],['Research Executioner',18,'Wave 18 · monster brute'],['Sky Marshal',23,'Wave 23 · siege walker'],['Reactor Warlord',28,'Wave 28 · armored heavy']
+  ['Research Executioner',18,'Wave 18 · monster brute'],['Sky Marshal',23,'Wave 23 · siege walker'],['Reactor Warlord',28,'Wave 28 · armored heavy']
 ];
 const $ = (query) => document.querySelector(query);
 const dialog = $('#media-dialog');
@@ -65,10 +65,10 @@ function selectWorld(index) {
   const world=worlds[index];
   [...worldTabs.children].forEach((tab,i)=>{tab.setAttribute('aria-selected',String(i===index));tab.tabIndex=i===index?0:-1;});
   $('#world-panel').setAttribute('aria-labelledby',`world-tab-${index}`);
-  $('#world-image').src=`assets/arena-action-${index}.webp`; $('#world-image').alt=`${world.name} with a crowd of active Kyle enemies, actual v0.11 in-engine screenshot`;
+  $('#world-image').src=`assets/arena-variety-${index}.webp`; $('#world-image').alt=`${world.name} with ${world.boss}, flying drones and a varied Kyle enemy crowd, actual v0.11 in-engine screenshot`;
   $('#world-name').textContent=world.name; $('#world-description').textContent=world.text; $('#world-boss').textContent=world.boss;
   $('#world-wave').textContent=`WAVES ${String(index*5+1).padStart(2,'0')}—${String(index*5+5).padStart(2,'0')}`;
-  $('#world-image-button').onclick=()=>openImage(`assets/arena-action-${index}.webp`,`${world.name} — waves ${index*5+1}–${index*5+5}. Current v0.11 arena with active enemies, captured in-engine.`);
+  $('#world-image-button').onclick=()=>openImage(`assets/arena-variety-${index}.webp`,`${world.name} — waves ${index*5+1}–${index*5+5}. ${world.boss}, flying drones and a varied enemy crowd, staged in the current v0.11 engine.`);
   $('#world-boss-button').onclick=()=>openImage(`assets/boss-${index}.webp`,`${world.boss} — the guardian of ${world.name}, rendered from the current game.`);
 }
 wireTabs(worldTabs,tab=>selectWorld([...worldTabs.children].indexOf(tab)));
