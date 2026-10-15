@@ -9,10 +9,10 @@ const worlds = [
   {name:'Alien Reactor Fortress', boss:'Kyle Abomination', text:'The largest battlefield: layered machinery, flanking corridors and the final boss court. Break its weapons, expose the core and finish the campaign.'}
 ];
 const enemies = [
-  ['Mini Rusher','mini','Small body. Big hurry.'],['Roller','roller','A tire with an attitude.'],['Spider','spider','Too many legs. Same Kyle.'],['Drone','drone','Trouble from above.'],['Shooter','shooter','Armed and familiar.'],['Heavy','heavy','Break armor. Break guns.'],['Squid','squid','Sever the tentacles.'],['Artillery','artillery','Walking ground pressure.'],['Behemoth','behemoth','A very large bad idea.']
+  ['Mini Rusher','mini','Small body. Big hurry.'],['Roller','roller','A tire with an attitude.'],['Spider','spider','Too many legs. Same Kyle.'],['Drone','drone','Trouble from above.'],['Shooter','shooter','Armed and familiar.'],['Heavy','heavy','Break armor. Break guns.'],['Artillery','artillery','Walking ground pressure.'],['Behemoth','behemoth','A very large bad idea.']
 ];
 const champions = [
-  ['Foundry Enforcer',3,'Wave 03 · armored heavy'],['Transit Sentinel',8,'Wave 08 · siege walker'],['Lab Ravager',13,'Wave 13 · monster brute'],['Research Executioner',18,'Wave 18 · monster brute'],['Sky Marshal',23,'Wave 23 · siege walker'],['Reactor Warlord',28,'Wave 28 · armored heavy']
+  ['Lab Ravager',13,'Wave 13 · monster brute'],['Research Executioner',18,'Wave 18 · monster brute'],['Sky Marshal',23,'Wave 23 · siege walker'],['Reactor Warlord',28,'Wave 28 · armored heavy']
 ];
 const $ = (query) => document.querySelector(query);
 const dialog = $('#media-dialog');
@@ -65,10 +65,10 @@ function selectWorld(index) {
   const world=worlds[index];
   [...worldTabs.children].forEach((tab,i)=>{tab.setAttribute('aria-selected',String(i===index));tab.tabIndex=i===index?0:-1;});
   $('#world-panel').setAttribute('aria-labelledby',`world-tab-${index}`);
-  $('#world-image').src=`assets/map-${index}.webp`; $('#world-image').alt=`${world.name}, actual v0.11 in-engine screenshot`;
+  $('#world-image').src=`assets/arena-action-${index}.webp`; $('#world-image').alt=`${world.name} with a crowd of active Kyle enemies, actual v0.11 in-engine screenshot`;
   $('#world-name').textContent=world.name; $('#world-description').textContent=world.text; $('#world-boss').textContent=world.boss;
   $('#world-wave').textContent=`WAVES ${String(index*5+1).padStart(2,'0')}—${String(index*5+5).padStart(2,'0')}`;
-  $('#world-image-button').onclick=()=>openImage(`assets/map-${index}.webp`,`${world.name} — waves ${index*5+1}–${index*5+5}, captured from v0.11.`);
+  $('#world-image-button').onclick=()=>openImage(`assets/arena-action-${index}.webp`,`${world.name} — waves ${index*5+1}–${index*5+5}. Current v0.11 arena with active enemies, captured in-engine.`);
   $('#world-boss-button').onclick=()=>openImage(`assets/boss-${index}.webp`,`${world.boss} — the guardian of ${world.name}, rendered from the current game.`);
 }
 wireTabs(worldTabs,tab=>selectWorld([...worldTabs.children].indexOf(tab)));
@@ -82,8 +82,10 @@ function renderCast() {
     ...champions.map(([name,wave,text])=>({name,text,src:`assets/champion-${wave}.webp`}))
   ];
   entries.forEach(entry=>{const button=document.createElement('button');button.className='cast-card';button.type='button';button.setAttribute('aria-label',`View ${entry.name}`);
-    const img=document.createElement('img');img.src=entry.src;img.alt=entry.name+' in v0.11';img.loading='lazy';img.width=1280;img.height=720;
-    const label=document.createElement('span');const name=document.createElement('b');name.textContent=entry.name;const text=document.createElement('small');text.textContent=entry.text;label.append(name,text);button.append(img,label);
+    const portrait=document.createElement('div');portrait.className='cast-portrait';
+    if(entry.src.startsWith('assets/boss-')) portrait.classList.add('cast-portrait-wide');
+    const img=document.createElement('img');img.src=entry.src;img.alt=entry.name+' in v0.11';img.loading='lazy';img.width=1280;img.height=720;portrait.append(img);
+    const label=document.createElement('span');const name=document.createElement('b');name.textContent=entry.name;const text=document.createElement('small');text.textContent=entry.text;label.append(name,text);button.append(portrait,label);
     button.addEventListener('click',()=>openImage(entry.src,`${entry.name} — ${entry.text} Current v0.11 game-model render.`));panel.append(button);
   });
 }

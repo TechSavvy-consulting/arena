@@ -306,6 +306,61 @@
       "width": 1672,
       "height": 941,
       "kind": "approved illustrated in-game gallery poster"
+    },
+    {
+      "asset": "arena-action-0.webp",
+      "source": "website-action-20261015/captures/arena-action-0.png",
+      "sha256": "acfd6be67fc6dd9d3ad5ab98aff5bad36795fa6f208ab1e5df2c4d056ab588b2",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 real-engine staged action capture",
+      "active_enemy_count": 12
+    },
+    {
+      "asset": "arena-action-1.webp",
+      "source": "website-action-20261015/captures/arena-action-1.png",
+      "sha256": "5db608ddc096f72842e3ab849d606ccf3c2831bcb2dac7d4a25c8a4f1f60bfc9",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 real-engine staged action capture",
+      "active_enemy_count": 12
+    },
+    {
+      "asset": "arena-action-2.webp",
+      "source": "website-action-20261015/captures/arena-action-2.png",
+      "sha256": "bdfd84d832a9ce7aba4beb1883df83a78bf8a9a2897cfac0b9d2dc70c40096f8",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 real-engine staged action capture",
+      "active_enemy_count": 12
+    },
+    {
+      "asset": "arena-action-3.webp",
+      "source": "website-action-20261015/captures/arena-action-3.png",
+      "sha256": "37ceffd1135adaaa08618e90cfb98b7c6ab4ad6cf8d6d24e5288dbe6a220e597",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 real-engine staged action capture",
+      "active_enemy_count": 12
+    },
+    {
+      "asset": "arena-action-4.webp",
+      "source": "website-action-20261015/captures/arena-action-4.png",
+      "sha256": "e67b04b70614723e897057807491718ed6a3218f31057bb2920509b38d5a4178",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 real-engine staged action capture",
+      "active_enemy_count": 12
+    },
+    {
+      "asset": "arena-action-5.webp",
+      "source": "website-action-20261015/captures/arena-action-5.png",
+      "sha256": "91cff89579af3de42b9124c5bec086e77aed9d257a194bd4f9baa11e41658ee4",
+      "width": 1280,
+      "height": 720,
+      "kind": "v0.11 real-engine staged action capture",
+      "active_enemy_count": 12
     }
-  ]
+  ],
+  "arena_capture_note": "Six current-build in-engine scenes with 12 active AI enemies each. No painted-in enemies, game source/stat edits or human playthrough claim."
 }
