@@ -1,509 +1,357 @@
 {
-  "game_version": "0.11.0",
-  "game_source_commit": "33dc7efeb8f91cbc35a56d31c58de34b757f56b4",
-  "note": "Staged real-engine captures; no game code or stats modified. No older-build gameplay media.",
+  "game_version": "0.13.2",
+  "source_state": "verified local v0.13.2 release source",
+  "note": "Active gameplay captures refreshed from the new game. Illustrated hero/posters preserved. No player profile or private photos published.",
   "images": [
     {
       "asset": "action.webp",
       "source": "captures/action.png",
-      "sha256": "0028c71cc586360289077393c2076f87384ecab3381f75a25a9f6993ec873c15",
+      "sha256": "767f78d2df12f8f49fe91aacda3f4a2a11422a070d32a8136bb7e1408dd5420a",
+      "source_sha256": "7f131f5c8f5d9818e936ef12080dcd531c10cdbce635288183ec1483b8328aaf",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
+    },
+    {
+      "asset": "arena-variety-0.webp",
+      "source": "captures/arena-variety-0.png",
+      "sha256": "5b2c9ff1c456c77a7e709f3141fd9e5227e4bb2764a5eaa34391697e967d3003",
+      "source_sha256": "6e33015aad627d543f958de95081e52cca5975a293604e42fc11b26e5618f0e2",
+      "width": 1280,
+      "height": 720,
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
+    },
+    {
+      "asset": "arena-variety-1.webp",
+      "source": "captures/arena-variety-1.png",
+      "sha256": "cbe7e5ee1a9119c48b329f3e70604a66f38d08c9518044c95acfd1938d2c2c85",
+      "source_sha256": "6649be4d1f6db54df93157dcc18d76f332e97a489124a537224f3fe728b7f912",
+      "width": 1280,
+      "height": 720,
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
+    },
+    {
+      "asset": "arena-variety-2.webp",
+      "source": "captures/arena-variety-2.png",
+      "sha256": "63c9cc469f8beee9579b66fff1782ba2987eeb3380e81364df34d7c63bb055d3",
+      "source_sha256": "8c10970957986148336f7e198708c6e893b8d8ecfacfba464738db3925473f03",
+      "width": 1280,
+      "height": 720,
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
+    },
+    {
+      "asset": "arena-variety-3.webp",
+      "source": "captures/arena-variety-3.png",
+      "sha256": "3dc92f06dfc77265050e3d6e89e0a2bed9a925edb7d211f290058637d6a7bde9",
+      "source_sha256": "d8812a2bb01267f1df663fa25e089e8798970f17aac686dbd2482ca4f8175d17",
+      "width": 1280,
+      "height": 720,
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
+    },
+    {
+      "asset": "arena-variety-4.webp",
+      "source": "captures/arena-variety-4.png",
+      "sha256": "98a24c525d69054ed31d178be4f58661120bbafb62a4525b48d910aef5385d7f",
+      "source_sha256": "e2d41a61830e9a2976d0872d754b40b34e8576266a532081dc81ae95c6547bcc",
+      "width": 1280,
+      "height": 720,
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
+    },
+    {
+      "asset": "arena-variety-5.webp",
+      "source": "captures/arena-variety-5.png",
+      "sha256": "270cd268dc7d16f157597ce19abf72af17bbc93ca0a4db20511c8086800e24f6",
+      "source_sha256": "e6109206bbee6ffaef791ce0f100b966dcf364f9c278ad816ea7e7e8189f89aa",
+      "width": 1280,
+      "height": 720,
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
       "asset": "boss-0.webp",
       "source": "captures/boss-0.png",
-      "sha256": "4cfaa750f6fbb156bc991ceb1b9c9b53729590c7986adb9101b02b08f2e51e05",
+      "sha256": "b4e6ade0c82e932bd791e903c73a8f00a439025c0b667bd38891adaae33b0b25",
+      "source_sha256": "221877902a968dd4634db7e99cf3377f69b2d3441e78cea9155062ca7aaad308",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
       "asset": "boss-1.webp",
       "source": "captures/boss-1.png",
-      "sha256": "8df3a748e13911fd23615439a532af281a344971c7d022e5b66569022068f33d",
+      "sha256": "f3dcff3698645329d0297eba86fae3ee32b406a5a8a8bc75d025224f9a26f549",
+      "source_sha256": "672569dfc53a944cf2158ce8a452a3cbdfba50f376885534e6be7be0a04d0cb7",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
       "asset": "boss-2.webp",
       "source": "captures/boss-2.png",
-      "sha256": "0d484f7976d198f8efe958cbdfd4c0140cd7040cb2f65375d6addabf91dbf0fe",
+      "sha256": "0d53d97c17b066fc57792de1b749bd606531ab876536da71419cd2bf5931a09a",
+      "source_sha256": "59497ab8b38c4cca142ab774f91d507f19d74806f09c73b5bd6dc2aaa8261088",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
       "asset": "boss-3.webp",
       "source": "captures/boss-3.png",
-      "sha256": "6555553e8ad14673108999f3fd6943bb4168783410565355bb922259b1f885ed",
+      "sha256": "ba8c141e4a8f416993bf64df9d3947162a7eba856ecd1dd3e2f125d2b0ed506b",
+      "source_sha256": "cc1e6404f6b6945f18a83841a304da7a3ed1c439a015dddf7ec3e57b0eb86cc4",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
       "asset": "boss-4.webp",
       "source": "captures/boss-4.png",
-      "sha256": "d1646aaab049e05bc03cbdb70f8e6673992e252ba0d3957ec2e25c0e0e9caf2e",
+      "sha256": "d580bdfcce6ef8f67b9e13d1fd3f71092d7acaf6105b1e1fb69bd97f64fb416e",
+      "source_sha256": "ea06a533b3623cf3232f352a5aa9230340d0fbadeaaa242f62516e7622981154",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
       "asset": "boss-5.webp",
       "source": "captures/boss-5.png",
-      "sha256": "771ee322a2698b664ec23f0355e7143d9bcc13a9578d84fe9e15bd2732beeb6d",
+      "sha256": "9fb6ac11de5217eeaee2ab560747d4629bd3cd61fe60e85f51f83ac98e47c3c5",
+      "source_sha256": "00aa00ad32870a3033b0e636e04002e25b2f9ad1b0b079c1cab74ab86012b868",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
-    },
-    {
-      "asset": "champion-13.webp",
-      "source": "captures/champion-13.png",
-      "sha256": "12eca40d1b6072a48f400b3e3461c651db66d0eddd2d92783894a2d31dbc782d",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
       "asset": "champion-18.webp",
       "source": "captures/champion-18.png",
-      "sha256": "eea14d1f6ca343614cde5d886d70fb2367a18febefe3a8e429d496573caf291a",
+      "sha256": "bd5b312b1e73047c3dc78ef441daa584888b1439b345d784fe4ab58ad12ade6f",
+      "source_sha256": "96d197ce199b96774b0e04be007c6a4220c9ca99dcaf6a6200a45fa7aa99354e",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
       "asset": "champion-23.webp",
       "source": "captures/champion-23.png",
-      "sha256": "8712d4a066321716fff901ea3f3cf8a1ae9713f323a6d5de327bd589f7506cd8",
+      "sha256": "04409166438554914ee6b47ff502d5f3038cf3d0594c9562564e3c34cebd26f0",
+      "source_sha256": "bb1cd7e2dcb8f345133c17b8d0ef2f968e967728887b5f0f9ac822f08a516418",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
       "asset": "champion-28.webp",
       "source": "captures/champion-28.png",
-      "sha256": "bc55e14dc08986680c83ba81e21acea88ff9d8b428433ac970d7ffc2281c0e4c",
+      "sha256": "aa830373ccae233416d7f92562f8cd3489eb83a817708a101c85aff67aa8cb91",
+      "source_sha256": "dc4dd45384b674b6e839d91818dd417eed58a102b5072007d3a2d8d121df0d8d",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
-    },
-    {
-      "asset": "champion-3.webp",
-      "source": "captures/champion-3.png",
-      "sha256": "327f1dbcb51670004b80281ec3b8d25d5a9a2f540da06f6531cc436a88516d44",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 in-engine capture"
-    },
-    {
-      "asset": "champion-8.webp",
-      "source": "captures/champion-8.png",
-      "sha256": "17a2c8e756bbc997fd7e32526b36cc3e1197cd615e08b2d6e9d2726c20eed501",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
       "asset": "enemy-artillery.webp",
       "source": "captures/enemy-artillery.png",
-      "sha256": "b291dd06898c6542e7efd9f7c1ee319cfbdd3c802ecc354b2631b0062b9831b8",
+      "sha256": "e98e42eba2fadea99b175976da659befac91df60bf799e7aadf7663676fc7404",
+      "source_sha256": "298b00634cccc1dc61efb5ee2d5b518c32219db67f889b21b30fda32f17b53e0",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
       "asset": "enemy-behemoth.webp",
       "source": "captures/enemy-behemoth.png",
-      "sha256": "72ac0491ba8ef019c112298a6e6bd193fc8e6e43d45f954a91e3b15b7c56a86a",
+      "sha256": "b8d28510c81e0993a9a20d638da05ea68da2771273bcdf139fa88568399d345c",
+      "source_sha256": "f13b02dd4528c73a9c5f47e9f2ffc7622c86fcbcd83dd0855f3d6d42f090d29b",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
       "asset": "enemy-drone.webp",
       "source": "captures/enemy-drone.png",
-      "sha256": "e76be50595868d1c1b3564d0ae33db9a1ca153ee56cd109313b317bfadbb52aa",
+      "sha256": "a49c973118039e8ee788cc371420c363f9d3a2e5aceac82c738f0ba1c6de8fe7",
+      "source_sha256": "9a506f9ff688905388051f282c6dacfbe54781960749b0b61d9830e31f33ee49",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
-    },
-    {
-      "asset": "enemy-grenadier.webp",
-      "source": "captures/enemy-grenadier.png",
-      "sha256": "8e53e1c4b76497b1d04b1bce9ea0d925453741f8800b4b26b872b9a5d71da199",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
       "asset": "enemy-heavy.webp",
       "source": "captures/enemy-heavy.png",
-      "sha256": "e46146caef923563ef890eae33504dca72d4dc6dd5e4ea4801d587c6fae34dee",
+      "sha256": "84c92e2a3de6a0b828387e233dac3c546116fdb3a5a1a1bb75b699c0477a7611",
+      "source_sha256": "f05cc107094d2c1ac739c989dda5d24d76324974936e1187d6c4a8187eb75d9b",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
       "asset": "enemy-mini.webp",
       "source": "captures/enemy-mini.png",
-      "sha256": "aee56d1103e6ef72056090fb5ec08008e0c76fdc82b6d223b9dccc70b0387219",
+      "sha256": "ed5acc6dfaeffbb1c5a67bdf02b1e219761cf8194d7f6b3ed19d20749d085ae6",
+      "source_sha256": "c7c9d6b0dfabd09d741efcf98723be905c4d681efafcb364c0e701decbfa3a3a",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
       "asset": "enemy-roller.webp",
       "source": "captures/enemy-roller.png",
-      "sha256": "92938a527eae96228c1676c1088a5090f254366403abf9da341106f52d1af12a",
+      "sha256": "12d7e168c309647b5c8b6e11c71233204c9bf1853118b68cc058921f09648ce6",
+      "source_sha256": "05e048ea8d78b09059a6a0e38e0d39d20a6b30f0986c84a1eb7fa0a00186f5a4",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
       "asset": "enemy-shooter.webp",
       "source": "captures/enemy-shooter.png",
-      "sha256": "81c151bb6fd7243bc58a030793980b460e3857c7980581a7c29a11e186370064",
+      "sha256": "cf3645f7b988823053e94d74a9aa03ad319511b7cf1182cb5fdc6180fc9788bd",
+      "source_sha256": "522b2a772ddbe691e78506d173027717d0f31c8e12b761d7bfd67eec3533cccc",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
-    },
-    {
-      "asset": "enemy-sniper.webp",
-      "source": "captures/enemy-sniper.png",
-      "sha256": "f13c57f86aed849de62a3d0fa974d0552bda968dd98c3c58edf40bf0070289b2",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
       "asset": "enemy-spider.webp",
       "source": "captures/enemy-spider.png",
-      "sha256": "377463ecf354635fd908e21522f7b200951cc847b6580e9e4a115798717fa180",
+      "sha256": "556714387726bf111749e3a438b367a23b6ce822aed4edb212d9214af642e51a",
+      "source_sha256": "99d6607c2682e6eac0f03d6d273bc99121525f33cef66df1db600e230ce73621",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
-      "asset": "enemy-squid.webp",
-      "source": "captures/enemy-squid.png",
-      "sha256": "c0834e1d1718c4729dd84e2b51e3d69a6fa239f9b094d9da18f4a52dfe0c004e",
+      "asset": "home.webp",
+      "source": "captures/home.png",
+      "sha256": "fdbd3a4a8573ef457cde91c2fa7f65f575df5307c8ce506b7a0a6cf37f4ccf02",
+      "source_sha256": "f1bea177202d15658af282885c242c5383e6b500d0f710b50404f59bf68790e7",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
-      "asset": "enemy-stalker.webp",
-      "source": "captures/enemy-stalker.png",
-      "sha256": "6cfd6b52fd4e7e54a0070a70f1a6f5fb82669808dfd3151c9c28370bbaac8481",
+      "asset": "options.webp",
+      "source": "captures/options.png",
+      "sha256": "38116684c212f0761389f4b6f95ebce0b9b774dae449d376ef78b69c1fa1494f",
+      "source_sha256": "2cb0ae1a75deb88c04646e20989fba3e10f93802ea80e133e8c514137bd7703e",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
-      "asset": "map-0.webp",
-      "source": "captures/map-0.png",
-      "sha256": "47f2934c212c643ec8333022f2f1308210e69ffdddfab4b265f7f63092cb054a",
+      "asset": "pause.webp",
+      "source": "captures/pause.png",
+      "sha256": "968e8c164fedf101e4c0ec72c91c9a0395891ebbd71657a4e8ce7318c9a5762b",
+      "source_sha256": "4bfb3a1044f792bb2b5d3a576912589e3385d505734bfd2fef707ddea6fb770b",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
-      "asset": "map-1.webp",
-      "source": "captures/map-1.png",
-      "sha256": "737b24dc5af1535dafcd82556abc5662906689ffcaeec52a8a7858cc9bc34f2c",
+      "asset": "personalize.webp",
+      "source": "captures/personalize.png",
+      "sha256": "e74cf9ea7224f2718e63c7d21f0fa815818ded9ea01daabb6fd611bd7f2b4d56",
+      "source_sha256": "6173aaf7444f9bc8181f8f9dc24e16e6fe3e38539a39c2f76bcdc8fffe9368b4",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
-    },
-    {
-      "asset": "map-2.webp",
-      "source": "captures/map-2.png",
-      "sha256": "f04cab993849b04097f3f75fb8576dd2242a1edfb06408c65721e6458814d8ce",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 in-engine capture"
-    },
-    {
-      "asset": "map-3.webp",
-      "source": "captures/map-3.png",
-      "sha256": "74f5763f7063ee4a85f7dd1b0a858d3c695d20a7ddab90793960628b15a7b423",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 in-engine capture"
-    },
-    {
-      "asset": "map-4.webp",
-      "source": "captures/map-4.png",
-      "sha256": "ca0990106fdde6189c48bc30c983acbaa43eb72c06078f3a8eee8cbd700bb44f",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 in-engine capture"
-    },
-    {
-      "asset": "map-5.webp",
-      "source": "captures/map-5.png",
-      "sha256": "9f59ba2065e9f661a92a3f92ff07524780206626e67be2c0a037b009a3fc934d",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
       "asset": "upgrades.webp",
       "source": "captures/upgrades.png",
-      "sha256": "fb9daaa686d59ada2b7ab8e08b866ece0da77af9e42bde256d9d0e43b8999442",
+      "sha256": "daebd6d475627417fb50a537ea1f4500a8168c9c224a64785c654764c3c9a7a7",
+      "source_sha256": "dec62e04142422204faa51185630472d4651f7459165159759f49710695a826d",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
-    },
-    {
-      "asset": "home.webp",
-      "source": "screenshots/campaign-v011/01-home.png",
-      "sha256": "d8c28cbd21beea307ca6f10835696a2af6cdeffc1308382ad6c448f502452e51",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
       "asset": "victory.webp",
-      "source": "screenshots/campaign-v011/30-victory.png",
-      "sha256": "0733397acde3355166998e4330d4a9ceb3e492a8b205c5198641498505c301bf",
+      "source": "captures/victory.png",
+      "sha256": "df540d1f3fee2f5134c0d26f1988ec89b2c29cefbe015b4ac6607ab506235d77",
+      "source_sha256": "ba4c5641c014e527d27533b86aa3586272098d41a2ad894d8b33131e60938a19",
       "width": 1280,
       "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "kind": "actual Godot Forward+ v0.13.2 screen or arranged encounter",
+      "human_playthrough": false,
+      "people": "Kyle Hearn only; existing approved game artwork"
     },
     {
-      "asset": "options.webp",
-      "source": "screenshots/campaign-v011/05-options.png",
-      "sha256": "485643b6a6e01b4fecb5baf4bf505783e21dee195f4ccd614f71d2a493c2c94c",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 in-engine capture"
-    },
-    {
-      "asset": "pause.webp",
-      "source": "screenshots/campaign-v011/02-pause.png",
-      "sha256": "d27a56e1d7853cdbaa495b7ddbaa8e69f931ae8e04eb1766b96335820fdd1bac",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 in-engine capture"
+      "asset": "hero-kyle-cast.png",
+      "sha256": "17d4c2bee535d631c6276d63fb6b6503fb04c3cb41906b7bbbeac4e72ed65ce2",
+      "kind": "unchanged approved illustrated hero"
     },
     {
       "asset": "poster-0.webp",
-      "source": "assets/character-gallery/enemy-cast.png",
-      "sha256": "3a5072c2b599e7b2dc2cd8b7943825cada80e1e5be11dd10ba4b39504c2b58ae",
-      "width": 1672,
-      "height": 941,
-      "kind": "approved illustrated in-game gallery poster"
+      "sha256": "56a39a246a3481636b2dc0ce20872b891f719088c38e12fe1a07c64189227d29",
+      "kind": "unchanged approved in-game illustrated poster"
     },
     {
       "asset": "poster-1.webp",
-      "source": "assets/character-gallery/bosses-champions.png",
-      "sha256": "f81f83424904f28313b7dbedc125908eba606d18bd4066dcb9cffa317586b3f5",
-      "width": 1672,
-      "height": 941,
-      "kind": "approved illustrated in-game gallery poster"
+      "sha256": "581c74ee65fbbefbcccbed288701f0e2d39cdcbe2a6fe67fdf1b071f16ba46c0",
+      "kind": "unchanged approved in-game illustrated poster"
     },
     {
-      "asset": "arena-action-0.webp",
-      "source": "website-action-20261015/captures/arena-action-0.png",
-      "sha256": "acfd6be67fc6dd9d3ad5ab98aff5bad36795fa6f208ab1e5df2c4d056ab588b2",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 real-engine staged action capture",
-      "active_enemy_count": 12
-    },
-    {
-      "asset": "arena-action-1.webp",
-      "source": "website-action-20261015/captures/arena-action-1.png",
-      "sha256": "5db608ddc096f72842e3ab849d606ccf3c2831bcb2dac7d4a25c8a4f1f60bfc9",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 real-engine staged action capture",
-      "active_enemy_count": 12
-    },
-    {
-      "asset": "arena-action-2.webp",
-      "source": "website-action-20261015/captures/arena-action-2.png",
-      "sha256": "bdfd84d832a9ce7aba4beb1883df83a78bf8a9a2897cfac0b9d2dc70c40096f8",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 real-engine staged action capture",
-      "active_enemy_count": 12
-    },
-    {
-      "asset": "arena-action-3.webp",
-      "source": "website-action-20261015/captures/arena-action-3.png",
-      "sha256": "37ceffd1135adaaa08618e90cfb98b7c6ab4ad6cf8d6d24e5288dbe6a220e597",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 real-engine staged action capture",
-      "active_enemy_count": 12
-    },
-    {
-      "asset": "arena-action-4.webp",
-      "source": "website-action-20261015/captures/arena-action-4.png",
-      "sha256": "e67b04b70614723e897057807491718ed6a3218f31057bb2920509b38d5a4178",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 real-engine staged action capture",
-      "active_enemy_count": 12
-    },
-    {
-      "asset": "arena-action-5.webp",
-      "source": "website-action-20261015/captures/arena-action-5.png",
-      "sha256": "91cff89579af3de42b9124c5bec086e77aed9d257a194bd4f9baa11e41658ee4",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 real-engine staged action capture",
-      "active_enemy_count": 12
-    },
-    {
-      "asset": "arena-variety-0.webp",
-      "source": "website-variety-20261015/captures/arena-variety-0.png",
-      "sha256": "459dc2828be905e0651ee315e9714acf8b902e4947ff503a89b6870b399ff039",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 real-engine staged encounter capture",
-      "enemy_count": 12,
-      "guardian": "boss",
-      "drone_count": 2,
-      "enemy_families": [
-        "artillery",
-        "boss",
-        "drone",
-        "heavy",
-        "mini",
-        "roller",
-        "shooter",
-        "spider"
-      ],
-      "composition": "Unique per-arena positions and animation timing; real drones staged aloft."
-    },
-    {
-      "asset": "arena-variety-1.webp",
-      "source": "website-variety-20261015/captures/arena-variety-1.png",
-      "sha256": "d69d4beb5470dc752bbefb43dc0dca00cb6d17bda0af870e57d89a9ec7fe1559",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 real-engine staged encounter capture",
-      "enemy_count": 12,
-      "guardian": "dredger",
-      "drone_count": 2,
-      "enemy_families": [
-        "artillery",
-        "dredger",
-        "drone",
-        "heavy",
-        "mini",
-        "roller",
-        "shooter",
-        "spider",
-        "squid"
-      ],
-      "composition": "Unique per-arena positions and animation timing; real drones staged aloft."
-    },
-    {
-      "asset": "arena-variety-2.webp",
-      "source": "website-variety-20261015/captures/arena-variety-2.png",
-      "sha256": "5b8d03decf0ea54640ba19d616a0e9c871fa9358b20501c6ac8b357c915dc552",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 real-engine staged encounter capture",
-      "enemy_count": 12,
-      "guardian": "matriarch",
-      "drone_count": 2,
-      "enemy_families": [
-        "behemoth",
-        "drone",
-        "grenadier",
-        "heavy",
-        "matriarch",
-        "mini",
-        "roller",
-        "shooter",
-        "squid",
-        "stalker"
-      ],
-      "composition": "Unique per-arena positions and animation timing; real drones staged aloft."
-    },
-    {
-      "asset": "arena-variety-3.webp",
-      "source": "website-variety-20261015/captures/arena-variety-3.png",
-      "sha256": "9904354105cbb5dbb7485442cf5f0579de2cbcc98ab13282863837bd5f435a02",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 real-engine staged encounter capture",
-      "enemy_count": 12,
-      "guardian": "leviathan",
-      "drone_count": 2,
-      "enemy_families": [
-        "artillery",
-        "behemoth",
-        "drone",
-        "heavy",
-        "leviathan",
-        "mini",
-        "roller",
-        "shooter",
-        "spider",
-        "squid",
-        "stalker"
-      ],
-      "composition": "Unique per-arena positions and animation timing; real drones staged aloft."
-    },
-    {
-      "asset": "arena-variety-4.webp",
-      "source": "website-variety-20261015/captures/arena-variety-4.png",
-      "sha256": "e321b5153a99dcb60bbaf76375ea1cb623a012e0c45c2b703b82b2391d3027a4",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 real-engine staged encounter capture",
-      "enemy_count": 12,
-      "guardian": "carrier",
-      "drone_count": 2,
-      "enemy_families": [
-        "artillery",
-        "behemoth",
-        "carrier",
-        "drone",
-        "heavy",
-        "mini",
-        "roller",
-        "shooter",
-        "sniper",
-        "stalker"
-      ],
-      "composition": "Unique per-arena positions and animation timing; real drones staged aloft."
-    },
-    {
-      "asset": "arena-variety-5.webp",
-      "source": "website-variety-20261015/captures/arena-variety-5.png",
-      "sha256": "bd3905c989c2a694251c6c087bb21a5df717b2d8fc3c3c6123a9962aefb0e795",
-      "width": 1280,
-      "height": 720,
-      "kind": "v0.11 real-engine staged encounter capture",
-      "enemy_count": 12,
-      "guardian": "overlord",
-      "drone_count": 2,
-      "enemy_families": [
-        "artillery",
-        "behemoth",
-        "drone",
-        "heavy",
-        "mini",
-        "overlord",
-        "roller",
-        "shooter",
-        "spider",
-        "squid",
-        "stalker"
-      ],
-      "composition": "Unique per-arena positions and animation timing; real drones staged aloft."
+      "asset": "techsavvy-head.png",
+      "sha256": "607503d7fe3930814be344ab71067937d786951fdf6d2a60e0719bc35651130f",
+      "kind": "unchanged approved brand mark"
     }
-  ],
-  "arena_capture_note": "The current six arena-variety previews each show twelve actual v0.11 actors, including the correct arena guardian and two drones staged aloft. Each has its own enemy mix, positions and animation timing. These are staged engine-rendered encounters, not painted-in enemies or human playthrough claims. Older arena-action assets are retained unused for rollback."
+  ]
 }

@@ -65,10 +65,10 @@ function selectWorld(index) {
   const world=worlds[index];
   [...worldTabs.children].forEach((tab,i)=>{tab.setAttribute('aria-selected',String(i===index));tab.tabIndex=i===index?0:-1;});
   $('#world-panel').setAttribute('aria-labelledby',`world-tab-${index}`);
-  $('#world-image').src=`assets/arena-variety-${index}.webp`; $('#world-image').alt=`${world.name} with ${world.boss}, flying drones and a varied Kyle enemy crowd, actual v0.11 in-engine screenshot`;
+  $('#world-image').src=`assets/arena-variety-${index}.webp`; $('#world-image').alt=`${world.name} with ${world.boss}, flying drones and a varied Kyle enemy crowd, actual v0.13.2 in-engine screenshot`;
   $('#world-name').textContent=world.name; $('#world-description').textContent=world.text; $('#world-boss').textContent=world.boss;
   $('#world-wave').textContent=`WAVES ${String(index*5+1).padStart(2,'0')}—${String(index*5+5).padStart(2,'0')}`;
-  $('#world-image-button').onclick=()=>openImage(`assets/arena-variety-${index}.webp`,`${world.name} — waves ${index*5+1}–${index*5+5}. ${world.boss}, flying drones and a varied enemy crowd, staged in the current v0.11 engine.`);
+  $('#world-image-button').onclick=()=>openImage(`assets/arena-variety-${index}.webp`,`${world.name} — waves ${index*5+1}–${index*5+5}. ${world.boss}, flying drones and a varied enemy crowd, staged in the current v0.13.2 engine.`);
   $('#world-boss-button').onclick=()=>openImage(`assets/boss-${index}.webp`,`${world.boss} — the guardian of ${world.name}, rendered from the current game.`);
 }
 wireTabs(worldTabs,tab=>selectWorld([...worldTabs.children].indexOf(tab)));
@@ -84,9 +84,9 @@ function renderCast() {
   entries.forEach(entry=>{const button=document.createElement('button');button.className='cast-card';button.type='button';button.setAttribute('aria-label',`View ${entry.name}`);
     const portrait=document.createElement('div');portrait.className='cast-portrait';
     if(entry.src.startsWith('assets/boss-')) portrait.classList.add('cast-portrait-wide');
-    const img=document.createElement('img');img.src=entry.src;img.alt=entry.name+' in v0.11';img.loading='lazy';img.width=1280;img.height=720;portrait.append(img);
+    const img=document.createElement('img');img.src=entry.src;img.alt=entry.name+' in v0.13.2';img.loading='lazy';img.width=1280;img.height=720;portrait.append(img);
     const label=document.createElement('span');const name=document.createElement('b');name.textContent=entry.name;const text=document.createElement('small');text.textContent=entry.text;label.append(name,text);button.append(portrait,label);
-    button.addEventListener('click',()=>openImage(entry.src,`${entry.name} — ${entry.text} Current v0.11 game-model render.`));panel.append(button);
+    button.addEventListener('click',()=>openImage(entry.src,`${entry.name} — ${entry.text} Current v0.13.2 game-model render.`));panel.append(button);
   });
 }
 renderCast();

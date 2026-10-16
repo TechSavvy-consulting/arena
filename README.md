@@ -16,7 +16,7 @@ Kyle gallery combines the remaining enemy, guardian and champion images without
 group tabs, omitting the Sniper, Grenadier, Stalker, Squid, Foundry Enforcer and
 Transit Sentinel and Lab Ravager cards as requested. Tight thumbnail framing keeps characters
 close, while image viewers retain the full originals. The six arena previews
-show distinct crowd compositions captured in the unchanged v0.11 game, each
+show distinct crowd compositions captured in the current v0.13.2 game, each
 including its arena guardian and two clearly visible flying drones. Enemy
 families, positions and animation timing vary by arena; the old repeated spider
 placement is not reused. These are staged real-engine scenes, not human
@@ -29,16 +29,27 @@ The homepage hero uses Kyle's supplied full cast picture, unchanged. It fits
 without cropping; the original 30 WAVES TO MAKE IT COUNT badge sits in a
 separate footer strip below the art so it cannot cover any character.
 
-All gameplay/map/character screenshots and the new short in-engine showcase
-come from TechSavvy Arena v0.11.0 at source commit
-`33dc7efeb8f91cbc35a56d31c58de34b757f56b4`. Character close-ups and video shots
+The active gameplay/map/character screenshots and the personalization screen
+come from TechSavvy Arena v0.13.2. Character close-ups and encounter shots
 are staged in-engine capture fixtures, not AI-painted gameplay or human
-playthrough claims. The separate illustrated character posters are the same
+playthrough claims. There is no video player. The separate illustrated character posters are the same
 approved artwork used inside Pause → Characters. `assets/media-manifest.json`
 records source paths without private absolute paths and SHA-256 hashes.
 
 Screenshot/media capture tools live outside this public repository under the
 task-specific Codex Temp directory. Only final, approved media is published.
+
+## Local face personalization
+
+The v0.13.2 update preserves the existing website design, supplied hero,
+30-wave badge, gallery roster and extraction callout. A compact feature card
+and expandable instructions explain Happy plus optional Focused/Angry photos,
+preview before Apply, a named local people gallery, switching by portrait,
+Save name, Restore Kyle and confirmed deletion of only the selected person.
+Adding a person keeps existing profiles; campaign progress and settings remain
+shared. One-photo expressions are approximate and can
+retain the smile; this is not a 3D scan. The public demonstration uses Kyle.
+No private player or family photos, face profiles or originals are published.
 
 ## Updating a release
 
