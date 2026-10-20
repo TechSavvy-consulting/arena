@@ -24,9 +24,16 @@ dialog{width:min(1150px,95vw);max-height:95dvh;padding:0;border:1px solid #54707
 @media(max-width:1000px){.world-picker{grid-template-columns:repeat(3,minmax(0,1fr))}.world-picker button{min-height:125px}}
 @media(max-width:650px){.world-picker{gap:8px}.world-picker button{min-height:132px;padding:11px 9px;gap:8px}.world-picker button .world-tab-name{font-size:12px}.world-picker button .world-tab-hint{font-size:9px}.brand .brand-head{width:34px;height:36px}.cast-toolbar{display:flex}}
 
-/* Latest portraits already frame the character. Never crop heads or wide limbs. */
-.cast-portrait{aspect-ratio:4/3;overflow:hidden;background:#101f27}
+/* Transparent native-model portraits: retain complete heads and wide limbs. */
+.cast-portrait{aspect-ratio:1;overflow:hidden;background:#20303d}
 .cast-card .cast-portrait img{width:100%;height:100%;aspect-ratio:auto;object-fit:contain;object-position:center;transform:none}
+.screen-tile.model-tile img{object-fit:contain;background:#20303d}
+#dialog-image{background:#20303d}
+.world-feature>.world-picture{display:flex;flex-direction:column;min-width:0;background:#14232b}
+.world-picture>.image-button{width:100%;flex:1}
+.world-picture img{object-fit:contain;aspect-ratio:16/9;height:auto}
+.world-location{display:flex;justify-content:space-between;gap:12px;padding:12px 16px;color:#eeeae1;font-size:11px;background:#20303d}
+.world-location span{color:#b6c8d0;font-size:10px}
 .launch-callout{max-width:520px;margin-top:16px;padding:18px 21px;background:#263c46;border:1px solid #66828f;border-left:5px solid var(--orange);border-radius:4px}
 .launch-callout>strong{display:block;color:var(--cyan);font-size:11px;letter-spacing:1.6px;margin-bottom:8px}
 .launch-callout p{color:#fffaf2;font-size:18px;font-weight:800;line-height:1.65}

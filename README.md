@@ -14,8 +14,8 @@ included. Existing game source and released package are not modified.
 The current website has no video player or Watch the Game button. Its single
 Kyle gallery combines the remaining enemy, guardian and champion images without
 group tabs, omitting the Sniper, Grenadier, Stalker, Squid, Foundry Enforcer and
-Transit Sentinel and Lab Ravager cards as requested. Tight thumbnail framing keeps characters
-close, while image viewers retain the full originals. The six arena previews
+Transit Sentinel and Lab Ravager cards as requested. Square, background-free
+native-model views retain complete faces, bodies and wide limbs. The six arena previews
 show populated scenes captured in the current v2.1.0 game. These are staged
 real-engine scenes, not human playthrough claims. A prominent download
 callout highlights extracting the folder and launching TechSavvyArena.exe. The
@@ -26,12 +26,26 @@ The homepage hero uses Kyle's supplied full cast picture, unchanged. It fits
 without cropping; the original 30 WAVES TO MAKE IT COUNT badge sits in a
 separate footer strip below the art so it cannot cover any character.
 
-The active gameplay/map/character screenshots and the personalization screen
-come from TechSavvy Arena v2.1.0 under `assets/v21/`. Character close-ups and encounter shots
-are staged in-engine capture fixtures, not AI-painted gameplay or human
-playthrough claims. There is no video player. The separate illustrated character posters are the same
-approved artwork used inside Pause → Characters. `assets/v21/media-manifest.json`
-records capture names without private absolute paths and SHA-256 hashes.
+The menus and personalization screen come from TechSavvy Arena v2.1.0 under
+`assets/v21/`. The current cast and arena images live in `assets/v21-showcase/`.
+All seventeen character views are actual shipped native game models rendered
+into a transparent studio viewport with dedicated portrait lighting. They are
+not gameplay screenshots, AI redraws or cutouts retouched from screenshots.
+The room background is absent by construction; CSS supplies a flat neutral
+backdrop. These views are independent of future room-layout changes.
+
+The twelve arena images show six different pairs of real locations, including
+the furnace gallery, flooded platform, upper observation room, wet laboratory,
+open Sky Control roof and Reactor Heart. Enemy poses are staged, but world
+geometry, materials and lighting are unchanged. Interior architecture still
+shares structural elements in v2.1.0; this website update does not imply the
+planned game-room redesign is already implemented.
+
+Both asset directories have a `media-manifest.json` recording source-capture
+names, SHA-256 hashes and the shipped package hash without private absolute
+paths. The new manifest also identifies actual room IDs and viewpoints.
+There is no video player. The separate illustrated character posters are the
+same approved artwork used inside Pause → Characters.
 
 Screenshot/media capture tools live outside this public repository under the
 task-specific Codex Temp directory. Only final, approved media is published.
@@ -76,9 +90,10 @@ releases, two short previews and the explicitly unshipped v0.6.1 experiment.
 v0.11.0 and v0.13.2 keep their existing public URLs; the other unchanged portable
 ZIPs are assets of the `build-history` release. These recovered archives were
 checked for integrity/distribution contents but were not newly playtested.
-No raw source snapshots or private runtime files are published. Six additional
-upper-route room images are available from the arena panel without adding
-another long gallery.
+No raw source snapshots or private runtime files are published. Six alternate
+locations are available from the arena panel without adding another long
+gallery. The current and historic game downloads are unchanged by this
+website-only media refresh.
 
 Performance limitations are disclosed, not marketed as smooth 60 FPS:
 final packaged 1080p Balanced fourteen-enemy pursuit tests averaged 36–49 FPS
