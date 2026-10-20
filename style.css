@@ -55,3 +55,23 @@ dialog{width:min(1150px,95vw);max-height:95dvh;padding:0;border:1px solid #54707
 .face-copy .micro{font-size:10px}
 @media(max-width:850px){.face-feature{grid-template-columns:1fr;gap:22px}.face-copy>p:not(.eyebrow):not(.micro),.face-copy ul{font-size:13px}}
 @media(max-width:650px){.face-feature{padding:16px;gap:20px;margin-top:25px}.face-copy h2{font-size:31px}.face-copy .micro{font-size:11px}}
+
+/* Compact archive: one expandable panel, not another long gallery. */
+#previous-versions{padding-top:0;padding-bottom:50px}
+.build-history{border:1px solid #354b56;border-radius:5px;background:#101f27}
+.build-history>summary{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:21px 24px;cursor:pointer;list-style:none}
+.build-history>summary::-webkit-details-marker{display:none}
+.build-history>summary .eyebrow{display:block;margin-bottom:5px;font-size:9px}
+.build-history>summary b{display:block;font:29px/1.2 var(--display)}
+.build-history[open]>summary .detail-icon{transform:rotate(45deg)}
+.build-history .details-body{padding:0 24px 24px;max-width:1000px}
+.history-picker{margin:20px 0;padding:20px;background:#192e38;border-left:3px solid var(--orange)}
+.history-picker[hidden]{display:none}
+.history-picker label{display:block;font-weight:700;color:var(--paper);margin-bottom:8px}
+.history-picker select{width:100%;max-width:580px;min-height:44px;padding:10px 12px;border:1px solid #77919e;border-radius:3px;background:#0b151b;color:var(--paper);font:inherit}
+.history-picker select:focus-visible{outline:3px solid var(--cyan);outline-offset:3px}
+#history-description{margin:13px 0;color:var(--paper)}
+.history-picker .button-row{gap:18px}
+.history-picker .button{white-space:normal;text-align:center;overflow-wrap:anywhere}
+.history-picker .micro{margin-top:12px}
+@media(max-width:650px){.build-history>summary{padding:17px}.build-history .details-body{padding:0 17px 20px}.history-picker{padding:15px}}

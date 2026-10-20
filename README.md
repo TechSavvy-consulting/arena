@@ -16,11 +16,8 @@ Kyle gallery combines the remaining enemy, guardian and champion images without
 group tabs, omitting the Sniper, Grenadier, Stalker, Squid, Foundry Enforcer and
 Transit Sentinel and Lab Ravager cards as requested. Tight thumbnail framing keeps characters
 close, while image viewers retain the full originals. The six arena previews
-show distinct crowd compositions captured in the current v0.13.2 game, each
-including its arena guardian and two clearly visible flying drones. Enemy
-families, positions and animation timing vary by arena; the old repeated spider
-placement is not reused. These are staged real-engine scenes, not human
-playthrough claims. A prominent download
+show populated scenes captured in the current v2.1.0 game. These are staged
+real-engine scenes, not human playthrough claims. A prominent download
 callout highlights extracting the folder and launching TechSavvyArena.exe. The
 header and favicon use the existing TechSavvy headset-head logo, not the game
 icon. Previously published unused media is retained for rollback.
@@ -30,18 +27,18 @@ without cropping; the original 30 WAVES TO MAKE IT COUNT badge sits in a
 separate footer strip below the art so it cannot cover any character.
 
 The active gameplay/map/character screenshots and the personalization screen
-come from TechSavvy Arena v0.13.2. Character close-ups and encounter shots
+come from TechSavvy Arena v2.1.0 under `assets/v21/`. Character close-ups and encounter shots
 are staged in-engine capture fixtures, not AI-painted gameplay or human
 playthrough claims. There is no video player. The separate illustrated character posters are the same
-approved artwork used inside Pause → Characters. `assets/media-manifest.json`
-records source paths without private absolute paths and SHA-256 hashes.
+approved artwork used inside Pause → Characters. `assets/v21/media-manifest.json`
+records capture names without private absolute paths and SHA-256 hashes.
 
 Screenshot/media capture tools live outside this public repository under the
 task-specific Codex Temp directory. Only final, approved media is published.
 
 ## Local face personalization
 
-The v0.13.2 update preserves the existing website design, supplied hero,
+The v2.1.0 update preserves the existing website design, supplied hero,
 30-wave badge, gallery roster and extraction callout. A compact feature card
 and expandable instructions explain Happy plus optional Focused/Angry photos,
 preview before Apply, a named local people gallery, switching by portrait,
@@ -50,6 +47,46 @@ Adding a person keeps existing profiles; campaign progress and settings remain
 shared. One-photo expressions are approximate and can
 retain the smile; this is not a 3D scan. The public demonstration uses Kyle.
 No private player or family photos, face profiles or originals are published.
+
+## Current release and compatibility
+
+The current download is `TechSavvy-Arena-v2.1.0.zip`, 886,404,014 bytes
+(886 MB decimal), hosted as a GitHub Release asset. Visible branding remains
+**TechSavvy Arena**. This rebuild has six connected, two-to-three-floor
+facilities, thirty encounters, power/security/cache objectives, eighteen local
+tracks across six music stations, and the existing five weapons/eight uncapped
+upgrade benefits. It is still offline and single-player.
+
+The how-to-play section reflects v2.1.0 input prompts, toggle sprint, direct
+weapon keys, checkpoint arrivals/objectives and saved view restoration.
+Source references checked: `arena_rules.gd`, `expedition_layouts.gd`,
+`campaign_radio.gd`, `arena_ui.gd`, `main.gd`, `facility_save.gd`,
+`project.godot`, and `BUILD-v2.1.0.md` in the private game project.
+
+The rebuild uses separate `TechSavvyArenaCampaign2` local user data.
+It does not silently import saves/settings/private portrait libraries from v1.x
+or earlier.
+Existing v2.0 campaign checkpoints remain supported. The page advises extracting
+to a new folder and retaining older games. The compact Previous versions section
+links historical releases; older builds can share local storage, so it warns
+against treating separate installation folders as separate save slots.
+
+The compact historical selector uses `assets/build-history.json`: 16 older full
+releases, two short previews and the explicitly unshipped v0.6.1 experiment.
+v0.11.0 and v0.13.2 keep their existing public URLs; the other unchanged portable
+ZIPs are assets of the `build-history` release. These recovered archives were
+checked for integrity/distribution contents but were not newly playtested.
+No raw source snapshots or private runtime files are published. Six additional
+upper-route room images are available from the arena panel without adding
+another long gallery.
+
+Performance limitations are disclosed, not marketed as smooth 60 FPS:
+final packaged 1080p Balanced fourteen-enemy pursuit tests averaged 36–49 FPS
+across the six maps on the RTX 4060 Laptop test machine; extreme synthetic
+combat averaged 24–31 FPS and hit brief hitches. These are bounded fixture
+results, not universal minimum requirements or a controlled before/after result.
+Crowded view obstruction remains possible. No physical-controller or complete
+human-playthrough test is implied by the website.
 
 ## Updating a release
 

@@ -1,0 +1,216 @@
+{
+  "updated": "2026-10-20",
+  "current": "2.1.0",
+  "builds": [
+    {
+      "label": "v2.0.0",
+      "version": "2.0.0",
+      "kind": "full_release",
+      "description": "Six-map modular expedition campaign and full-song local radio.",
+      "file": "TechSavvy-Arena-v2.0.0.zip",
+      "bytes": 886220256,
+      "sha256": "6f801ee78b60cf8ca92893a5113c8f501f043718662daa6ed5d5042506426012",
+      "url": "https://github.com/TechSavvy-consulting/arena/releases/download/build-history/TechSavvy-Arena-v2.0.0.zip",
+      "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/build-history"
+    },
+    {
+      "label": "v1.1.1",
+      "version": "1.1.1",
+      "kind": "full_release",
+      "description": "Checkpoint precision repair.",
+      "file": "TechSavvy-Arena-v1.1.1.zip",
+      "bytes": 791652634,
+      "sha256": "0b251e38c9a3d38579a462c344aedd6485e5a6bf474f39d0918c45a3553ddcf4",
+      "url": "https://github.com/TechSavvy-consulting/arena/releases/download/build-history/TechSavvy-Arena-v1.1.1.zip",
+      "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/build-history"
+    },
+    {
+      "label": "v1.1.0",
+      "version": "1.1.0",
+      "kind": "full_release",
+      "description": "Relentless: larger enemies and improved pursuit.",
+      "file": "TechSavvy-Arena-v1.1.0.zip",
+      "bytes": 791648850,
+      "sha256": "35536b23448c35e32d1bfed76c08faaef8916901004ee431e67dacca849f535d",
+      "url": "https://github.com/TechSavvy-consulting/arena/releases/download/build-history/TechSavvy-Arena-v1.1.0.zip",
+      "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/build-history"
+    },
+    {
+      "label": "v1.0.0",
+      "version": "1.0.0",
+      "kind": "full_release",
+      "description": "Connected multi-room, multi-floor facilities.",
+      "file": "TechSavvy-Arena-v1.0.0.zip",
+      "bytes": 786938247,
+      "sha256": "819fdd79595c796c0e289a86f2964b9e0a27e7edbe769b0494a0e1ecaf0d20c2",
+      "url": "https://github.com/TechSavvy-consulting/arena/releases/download/build-history/TechSavvy-Arena-v1.0.0.zip",
+      "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/build-history"
+    },
+    {
+      "label": "v0.13.2",
+      "version": "0.13.2",
+      "kind": "full_release",
+      "description": "Named local face-profile library; existing public release.",
+      "file": "TechSavvy-Arena-v0.13.2.zip",
+      "bytes": 745966124,
+      "sha256": "b19609a7910a8a7fac488bb1a8ac8d0e0fa0723b4d267cac0ac3808b2304c51b",
+      "url": "https://github.com/TechSavvy-consulting/arena/releases/download/v0.13.2/TechSavvy-Arena-v0.13.2.zip",
+      "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/v0.13.2"
+    },
+    {
+      "label": "v0.13.1",
+      "version": "0.13.1",
+      "kind": "full_release",
+      "description": "Natural head fitting and optional expression photographs.",
+      "file": "TechSavvy-Arena-v0.13.1.zip",
+      "bytes": 745956262,
+      "sha256": "33f32b517fe63541eee18a54b6cc689ae039d55367d5869f06da2be2908084d6",
+      "url": "https://github.com/TechSavvy-consulting/arena/releases/download/build-history/TechSavvy-Arena-v0.13.1.zip",
+      "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/build-history"
+    },
+    {
+      "label": "v0.13.0",
+      "version": "0.13.0",
+      "kind": "full_release",
+      "description": "First local face-personalization build.",
+      "file": "TechSavvy-Arena-v0.13.0.zip",
+      "bytes": 745936598,
+      "sha256": "4224c116af0d423edfd464ce54ea4caf691bd054c419e3714ea5d0360dd2423b",
+      "url": "https://github.com/TechSavvy-consulting/arena/releases/download/build-history/TechSavvy-Arena-v0.13.0.zip",
+      "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/build-history"
+    },
+    {
+      "label": "v0.12.1",
+      "version": "0.12.1",
+      "kind": "full_release",
+      "description": "Collision, defeat effects and performance corrections.",
+      "file": "TechSavvy-Arena-v0.12.1.zip",
+      "bytes": 606552190,
+      "sha256": "f47e4912b85914755fc72979a6914fb81fa965cc2aa169fa68c17f1b47d4e472",
+      "url": "https://github.com/TechSavvy-consulting/arena/releases/download/build-history/TechSavvy-Arena-v0.12.1.zip",
+      "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/build-history"
+    },
+    {
+      "label": "v0.12.0",
+      "version": "0.12.0",
+      "kind": "full_release",
+      "description": "Production overhaul: physical grenades, pickups and detailed creatures.",
+      "file": "TechSavvy-Arena-v0.12.0.zip",
+      "bytes": 606540970,
+      "sha256": "f44d8b063e2c54786fc18e0df416deec62791b0ea4691644a6219cc612184389",
+      "url": "https://github.com/TechSavvy-consulting/arena/releases/download/build-history/TechSavvy-Arena-v0.12.0.zip",
+      "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/build-history"
+    },
+    {
+      "label": "v0.11.0",
+      "version": "0.11.0",
+      "kind": "full_release",
+      "description": "Complete Kyleverse rebuild and character gallery.",
+      "file": "TechSavvy-Arena-v0.11.0.zip",
+      "bytes": 415766063,
+      "sha256": "c71e46aef9ee0f274409e756b5a5806d2f8ef0eb1e9f07b14cccab949aa5e3e7",
+      "url": "https://github.com/TechSavvy-consulting/arena/releases/download/v0.11.0/TechSavvy-Arena-v0.11.0.zip",
+      "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/v0.11.0"
+    },
+    {
+      "label": "v0.9.1",
+      "version": "0.9.1",
+      "kind": "full_release",
+      "description": "Forged Lighting: six-map baked-lighting update.",
+      "file": "TechSavvy-Arena-v0.9.1-Windows.zip",
+      "bytes": 236356239,
+      "sha256": "88af8fca22ba78381a2c4c2d510bdf2c56a7ce1d229e6691072d7427e4dd3a52",
+      "url": "https://github.com/TechSavvy-consulting/arena/releases/download/build-history/TechSavvy-Arena-v0.9.1-Windows.zip",
+      "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/build-history"
+    },
+    {
+      "label": "v0.9.0",
+      "version": "0.9.0",
+      "kind": "full_release",
+      "description": "Forged: first authored art overhaul.",
+      "file": "TechSavvy-Arena-v0.9.0-Windows.zip",
+      "bytes": 120647154,
+      "sha256": "537e4db448abffe54d7fbedd27550ba5c50ce14eeef94b58f67eb0d2e9375257",
+      "url": "https://github.com/TechSavvy-consulting/arena/releases/download/build-history/TechSavvy-Arena-v0.9.0-Windows.zip",
+      "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/build-history"
+    },
+    {
+      "label": "v0.8.0",
+      "version": "0.8.0",
+      "kind": "full_release",
+      "description": "Encore: death screen, music and combat feedback.",
+      "file": "TechSavvy-Arena-v0.8.0-Windows.zip",
+      "bytes": 69995863,
+      "sha256": "13be2527cdbf6a2c945d8fccb8524cdc5dfee2c95e35a9efe2b508a20e6a1461",
+      "url": "https://github.com/TechSavvy-consulting/arena/releases/download/build-history/TechSavvy-Arena-v0.8.0-Windows.zip",
+      "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/build-history"
+    },
+    {
+      "label": "v0.7.0",
+      "version": "0.7.0",
+      "kind": "full_release",
+      "description": "Living Landscapes / Open Arsenal: magazine upgrades and uncapped perks.",
+      "file": "TechSavvy-Arena-v0.7.0-Windows.zip",
+      "bytes": 70618402,
+      "sha256": "176ed926a6b7d655fd92f3690a9b941d21805009c7462273a83d399d9e630f4f",
+      "url": "https://github.com/TechSavvy-consulting/arena/releases/download/build-history/TechSavvy-Arena-v0.7.0-Windows.zip",
+      "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/build-history"
+    },
+    {
+      "label": "v0.6.1 \u2014 unshipped experiment",
+      "version": "0.6.1",
+      "kind": "experimental",
+      "description": "Unshipped landscaping experiment; not a verified historical release.",
+      "file": "TechSavvy-Arena-v0.6.1-Windows.zip",
+      "bytes": 63955969,
+      "sha256": "cdf10ebb499d38660f265309f1c66bee07b9f8b773d5c4267f447041a9ccb72d",
+      "url": "https://github.com/TechSavvy-consulting/arena/releases/download/build-history/TechSavvy-Arena-v0.6.1-Windows.zip",
+      "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/build-history"
+    },
+    {
+      "label": "v0.6.0",
+      "version": "0.6.0",
+      "kind": "full_release",
+      "description": "Flooded Mutations: six maps and 30 waves.",
+      "file": "TechSavvy-Arena-v0.6.0-Windows.zip",
+      "bytes": 63937970,
+      "sha256": "19201e9d2738551a7ec3132f9900800682c3d6bb16093649218adc159289a0f8",
+      "url": "https://github.com/TechSavvy-consulting/arena/releases/download/build-history/TechSavvy-Arena-v0.6.0-Windows.zip",
+      "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/build-history"
+    },
+    {
+      "label": "v0.5.0",
+      "version": "0.5.0",
+      "kind": "full_release",
+      "description": "Kyleverse Invasion: original five-map, 25-wave campaign.",
+      "file": "TechSavvy-Arena-v0.5.0-Windows.zip",
+      "bytes": 60598833,
+      "sha256": "89e2036baf4c02d77b35d0eaf924a47a13b8bac1163a1d3b34f3d479aab6ab2a",
+      "url": "https://github.com/TechSavvy-consulting/arena/releases/download/build-history/TechSavvy-Arena-v0.5.0-Windows.zip",
+      "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/build-history"
+    },
+    {
+      "label": "Realism preview",
+      "version": null,
+      "kind": "preview",
+      "description": "Realism preview: early short one-way graphical experiment.",
+      "file": "TechSavvy-Arena-Realism-Preview.zip",
+      "bytes": 225840059,
+      "sha256": "e4ce62a2afca848d4ca31bcb35efa89c853e01ac2a4455ea1007c4ee4f830046",
+      "url": "https://github.com/TechSavvy-consulting/arena/releases/download/build-history/TechSavvy-Arena-Realism-Preview.zip",
+      "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/build-history"
+    },
+    {
+      "label": "Reactor Expedition preview",
+      "version": null,
+      "kind": "preview",
+      "description": "Reactor Expedition: separate five-encounter map preview.",
+      "file": "TechSavvy-Arena-Reactor-Preview.zip",
+      "bytes": 962636953,
+      "sha256": "072c8b24b80066654220e1a87dfd6c22136d6169c9d3d89a0df45d44d92852e2",
+      "url": "https://github.com/TechSavvy-consulting/arena/releases/download/build-history/TechSavvy-Arena-Reactor-Preview.zip",
+      "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/build-history"
+    }
+  ],
+  "note": "Historical portable builds, not newly playtested. Previews and the unshipped v0.6.1 experiment are labeled separately. Keep installations separate and back up saves before switching."
+}

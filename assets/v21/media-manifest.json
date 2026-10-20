@@ -1,0 +1,377 @@
+{
+  "game_version": "2.1.0",
+  "package_sha256": "4c2495407e575202478183c80e7cda71f0fd39d31754e1a0da4b6ad8aa3dfd88",
+  "boundary": "Staged real game poses and UI from the shipped package, not a human playthrough. No scene retouching; WebP/JPEG encoding and proportional social-preview resize only. Default public Kyle cast, no private profiles.",
+  "images": [
+    {
+      "asset": "home.webp",
+      "sha256": "6a68c02cf20cbc45c1c5461597d985faab1d39ea7a009dc918f17ce7cfcae623",
+      "source_capture": "home.png",
+      "source_sha256": "c39f29bfa824fdd93be22b69c27a75d42c04f49306a6ab27cc0edbe61b0ec47c",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "personalize.webp",
+      "sha256": "f4628b0515df00193d0a367af0f6a1f4299ab670aabec721947d4ce465f8c461",
+      "source_capture": "personalize.png",
+      "source_sha256": "c0c72a949f5537e2b5b696b28ff0a0aada3711da976eb6e3af6de761500fdb2d",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "action.webp",
+      "sha256": "f5c6097985c1f46105c9623665c90a149a97212bc46f698345e908097246a3d6",
+      "source_capture": "action.png",
+      "source_sha256": "dcf54027607b0e4d451127e1e543c367e208f3e16b8e25428b317aed95f6ee4b",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "pause.webp",
+      "sha256": "1054ca7018688b5f9a08e0cbb829b66e660a7184ee6987b9dcf3056d34ce73c2",
+      "source_capture": "pause.png",
+      "source_sha256": "e97003dfc4bba6cecfb4e512e50b2aa18feebc0bd58e6211bdaf2f023b80a8ea",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "options.webp",
+      "sha256": "43bf04c81254da3628229f9a35d3eb82c44c619a883984c5bafe7edbd9c20c9c",
+      "source_capture": "options.png",
+      "source_sha256": "97f97e3bb56d13d6165b07f941770e9f207d7ef5c7600d815d780b5662f6cb1d",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "upgrades.webp",
+      "sha256": "8e4e833f8b17d38d155a683f7b2c35bd7f44a66ac2a9d15f8057e350ef3460b0",
+      "source_capture": "upgrades.png",
+      "source_sha256": "30ce8cae222c8d1206c06b185de26037a45168e83e4d644ca954c03bb9e6a3d7",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "victory.webp",
+      "sha256": "80fe3ecec6a7cf39c2cc307dbad9c396e0bcb21bd64d334e83cb106212de21c1",
+      "source_capture": "victory.png",
+      "source_sha256": "270f35c064ecda64488636265d50d6acc50cd3ae3133326b65baeddb9f6f206a",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "enemy-mini.webp",
+      "sha256": "0748fb926d2e08e0ff1d4dccc4343f4944ba7c148c154e01f0e0eb01ae69d263",
+      "source_capture": "enemy-mini.png",
+      "source_sha256": "93ad509c4834cf4c6c91a4a9a2163d63f2fed62c6f408f163ee2a01c890bafcb",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "enemy-roller.webp",
+      "sha256": "ec42e1efe3dae77600a0e2221bcfcb1596d6a9be4d69f67a972cbd1d473f2091",
+      "source_capture": "enemy-roller.png",
+      "source_sha256": "09155d8fe3a5a180430aeb4d167ba326542772ef8b3729c44c8341d5803374ee",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "enemy-spider.webp",
+      "sha256": "c2eaec44b15be9ea4475b1bb3ec66d72885f4be24f8182d25a6645a848c7a40d",
+      "source_capture": "enemy-spider.png",
+      "source_sha256": "080cd56e08e9721f3622eb68f3b92941ce0d3a8985234f2c84eb7e35a656ae84",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "enemy-drone.webp",
+      "sha256": "bfdca51e87e26f77193ea33e1c618751afeb8bb6fc89a4783fb4f6d8a98be6cf",
+      "source_capture": "enemy-drone.png",
+      "source_sha256": "2a2497c0beddf8708fc3ba69e5b0ce8017334ebcde3ab20e190e841aa247203c",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "enemy-shooter.webp",
+      "sha256": "3573a7df85aebdf8f211ffb2f95aba9c6565445e9d6bfd53dc93db7d4ac7e5d2",
+      "source_capture": "enemy-shooter.png",
+      "source_sha256": "d2ef1dcf7c44645b7452e80343d51e980e544129cd51a570650fe3028d4195fb",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "enemy-heavy.webp",
+      "sha256": "9b71407b46f1cc8f0880a2c087e14c584740c73ec1e4d4421e7e087c8524d952",
+      "source_capture": "enemy-heavy.png",
+      "source_sha256": "f2fb6645106e6d2e801891951579efb224bda96aec9f70025b783d749109429f",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "enemy-artillery.webp",
+      "sha256": "efc2f267e52fcacb4f7d610f23b3d7edaa528740e5c758c6ec0e873a737ee0de",
+      "source_capture": "enemy-artillery.png",
+      "source_sha256": "17a1fc70e59c52d4710075370457efb470d43eccd8205f4bdf8aacdc4223c311",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "enemy-behemoth.webp",
+      "sha256": "3600c77979859ef771893e280235d62a33d55d274945bb73d2cde6265aa93329",
+      "source_capture": "enemy-behemoth.png",
+      "source_sha256": "0d8188b93d0c00dad54523de53eaf4eb223e55500cc7a272d7a43e2ef5faf6e8",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "boss-0.webp",
+      "sha256": "2817af11becfbe06bd90fb9fd001fa6ef6ab001527822ff1db3dbd44e83534e9",
+      "source_capture": "boss-0.png",
+      "source_sha256": "64772fff578fa254b08d968337c4835e8d6c02dacfe431ec0f795fe211d765c8",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "boss-1.webp",
+      "sha256": "30f4cf479ab871a0f6a52425f3ea8b804f048564b2d6e3db49dee6a837c3321b",
+      "source_capture": "boss-1.png",
+      "source_sha256": "07af61f803d14b27e1230d7b243b01938e90e9ae409dac482deb59abcff445ac",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "boss-2.webp",
+      "sha256": "64c260654537856b1097425d213d24d16f72738152e6373bf724ac72fe20df77",
+      "source_capture": "boss-2.png",
+      "source_sha256": "089e43cef0089c97078e7b07de13eceb2120f16a02a2a8150b59dbd282ec151d",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "boss-3.webp",
+      "sha256": "bc372424ea45afb08be879fbe840bd6abf6e181d953e9128289900b1aefcf537",
+      "source_capture": "boss-3.png",
+      "source_sha256": "614dbb34c4c33f4b73582e1df43f20fe5755279a1ad4a1f836bf42ca6d73e482",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "boss-4.webp",
+      "sha256": "1ad55db9687ebd7e2eeb8ee5781a61c246ce8f32a486f3befb1c44a67cd874a2",
+      "source_capture": "boss-4.png",
+      "source_sha256": "d0e8034bd456575083489394ce642f047f5d8afed74bd4bafd89adcb3cf390f8",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "boss-5.webp",
+      "sha256": "42b8f49abbf8c3decb3d06c9ccb2c38357cd58cfc83244204be2ab43292995ac",
+      "source_capture": "boss-5.png",
+      "source_sha256": "2e993944f0c0378f73b7ddbfeba73995d26393d49c1891a7eac137d408fea8a2",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "champion-18.webp",
+      "sha256": "e16b22ecf84971225c48f4e226db2ad97f42c2f7a57a4bb6ff31d9c813107fda",
+      "source_capture": "champion-18.png",
+      "source_sha256": "567e2cb8fe92829c7221eb7ba24776843dc164b6c72e9260543e64a6398764c9",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "champion-23.webp",
+      "sha256": "e6f0872f20f385b1e5762050ca24de09a13ed3ff60ee2eba5247dfcd9c6ff123",
+      "source_capture": "champion-23.png",
+      "source_sha256": "c1f0e6356e66f3e99d274606e342602f79e43a714cd61802e59acab4bb3093ab",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "champion-28.webp",
+      "sha256": "5be866b733cafc3aeebfb733806258a4d95aa320b62b767abf93bde1cbc4c491",
+      "source_capture": "champion-28.png",
+      "source_sha256": "0ec787f482accc93a514f14ee7b0c3fbe0c47bb8e089f8ccf4ed83fbd069be3f",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "arena-variety-0.webp",
+      "sha256": "ac3ab580e164dc063170f5a6c1fa106be9d9f2baf2ab22f82b361695f37e1e12",
+      "source_capture": "arena-variety-0.png",
+      "source_sha256": "79f92df9b106d0c5ec54fc282a16aef73bbc2da4ade5684adbb64a1910cf6279",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "arena-upper-0.webp",
+      "sha256": "c970b7c2b8d0e086b3c6da55ea7e5dfc95db47cdae26f047b13c39eef802ed97",
+      "source_capture": "arena-upper-0.png",
+      "source_sha256": "88f38a853c07a201c78ff8fe7483a22b9f1422ba944e950ed4be2c1ac1381b8f",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "arena-variety-1.webp",
+      "sha256": "23ca9a7685b5957cccff4f9067e7ccf8d746f293b1df9ddd270b5ed75340980b",
+      "source_capture": "arena-variety-1.png",
+      "source_sha256": "a864d31760364485fc8ecce8b7686526e94a0a45d83e7b802a797f3a5eac3a2c",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "arena-upper-1.webp",
+      "sha256": "00ea28b3e131e041058777d4343497ac9232866391c8e7f30d8a5b2f18f3a23f",
+      "source_capture": "arena-upper-1.png",
+      "source_sha256": "654847c464c5d86292456b50c595f9d88f67201ed07cab0fd5845da110d6e9bd",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "arena-variety-2.webp",
+      "sha256": "bf1e4445294b9e7a5b464acc2bde0b97ffff932cd1c4ec8e33c100839ebdfd28",
+      "source_capture": "arena-variety-2.png",
+      "source_sha256": "53339d67a63427241a530fd5fd58fd622d11daf6970de7ab7371cfc78a6366bf",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "arena-upper-2.webp",
+      "sha256": "2039e4561b7e12e22890cc066a6336f233020506ea395fe7d51ec600caa7b1be",
+      "source_capture": "arena-upper-2.png",
+      "source_sha256": "e08c7d8ec23ca00bf2fd91855deaf6fb1b7867733fae2d4ef066e857e68bf302",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "arena-variety-3.webp",
+      "sha256": "dd2bf10c1979876b5acb9560d368fe0c3cf774f9a88e298593897d0236469a68",
+      "source_capture": "arena-variety-3.png",
+      "source_sha256": "f487798ca8a539ea5c5b0d8cddb25c0ed70231f18b20c72c015276e0c6aa2f79",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "arena-upper-3.webp",
+      "sha256": "1b3a10bf5f83cc0271138856ccafef286e45818cbbdfc5746163b4dba1ecca68",
+      "source_capture": "arena-upper-3.png",
+      "source_sha256": "b4e8b91b819afbe90304b7a959db046595f14284ecf258f6ee0251873bd57b11",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "arena-variety-4.webp",
+      "sha256": "8d85ade557f48c1dfed563030b671fe2d8ded8d9fd660c341f763917f4ce322c",
+      "source_capture": "arena-variety-4.png",
+      "source_sha256": "b0d270aa7bd93c9e734c7516258ba1423b731f5f6e5cbd681406906953f773f9",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "arena-upper-4.webp",
+      "sha256": "60945e394d319d3c768dfee522d5a7356e6de3b9b706223ffcdd798fbc7c2ed0",
+      "source_capture": "arena-upper-4.png",
+      "source_sha256": "fec1062d0811786d88d4a142157977c2a03b2a165b4d36cafd6d7a096a5da93e",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "arena-variety-5.webp",
+      "sha256": "ce3bed8ec87e7d6cde4539a766f8463264ba2872752a12172b3f403960128fed",
+      "source_capture": "arena-variety-5.png",
+      "source_sha256": "34203ea38829e607fab01dfd0ac1b542e314805cea5f2386349e015aed22284d",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "arena-upper-5.webp",
+      "sha256": "defd5d4f04e609005eaae701c778ef82d3c60a73275b1bc69ef0f554e35c36de",
+      "source_capture": "arena-upper-5.png",
+      "source_sha256": "f9cf039fe3f404453c1474ce49967934cc88d0d8116265fd41f0a97e3606a2b8",
+      "width": 1920,
+      "height": 1080,
+      "human_playthrough": false,
+      "kind": "staged actual v2.1.0 shipped-pack capture"
+    },
+    {
+      "asset": "social.jpg",
+      "sha256": "bf4e1cc908ac1d7b1589125093fb12c279fc65c0854aa0882c92a621f03dca94",
+      "source_capture": "action.png",
+      "source_sha256": "dcf54027607b0e4d451127e1e543c367e208f3e16b8e25428b317aed95f6ee4b",
+      "width": 1280,
+      "height": 720,
+      "human_playthrough": false,
+      "kind": "format-only resized actual v2.1.0 capture"
+    }
+  ]
+}

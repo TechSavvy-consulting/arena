@@ -1,12 +1,12 @@
 'use strict';
 
 const worlds = [
-  {name:'Foundry Complex', boss:'Foundry Warden', text:'Machine bays, linked yards and steel catwalks. Your introduction to the Kyleverse is anything but gentle.'},
-  {name:'Flooded Transit', boss:'Transit Dredger', text:'Flooded train halls, maintenance loops and connected platforms. Cross the shallow water; steer clear of marked electrical danger.'},
-  {name:'Mutation Laboratory', boss:'Tentacle Matriarch', text:'Linked containment rooms, lab wings and observation decks. The specimens have faces. And mounted weapons. And tentacles.'},
-  {name:'Flooded Research Complex', boss:'Drowned Colossus', text:'A flooded research building with room-to-room routes, upper walkways and a central water hall. Something very large is waiting inside.'},
-  {name:'Sky Docks', boss:'Sky Carrier', text:'Cargo terraces, hangar lanes and rooftop bridges. Watch your flanks, then look up: the flying Kyles have arrived.'},
-  {name:'Alien Reactor Fortress', boss:'Kyle Abomination', text:'The largest battlefield: layered machinery, flanking corridors and the final boss court. Break its weapons, expose the core and finish the campaign.'}
+  {name:'Foundry Complex', boss:'Foundry Warden', text:'Receiving airlock, furnace gallery and casting machinery across two floors. Restore power, explore the workshop branch and push into the Smelter Chamber.'},
+  {name:'Flooded Transit', boss:'Transit Dredger', text:'A two-floor transit facility with flooded platforms, drainage services and upper dispatch rooms. Restore the pumps and unlock the route to the Freight Terminus.'},
+  {name:'Mutation Laboratory', boss:'Tentacle Matriarch', text:'Three floors of containment, genetics and observation rooms. Find the power and quarantine controls; the specimens have mounted weapons and tentacles.'},
+  {name:'Flooded Research Complex', boss:'Drowned Colossus', text:'Wet laboratories, emergency pumps and upper analysis rooms across three floors. Follow the control route through the building to the Pressure Chamber.'},
+  {name:'Sky Docks', boss:'Sky Carrier', text:'Cargo sorting, hangars and upper flight-control rooms connect to rooftop supply routes. Work through the three-floor dock complex and face the Carrier.'},
+  {name:'Alien Reactor Fortress', boss:'Kyle Abomination', text:'Three floors of coolant services, armories and core-isolation rooms. Release security, reach the Reactor Heart and dismantle the final Abomination.'}
 ];
 const enemies = [
   ['Mini Rusher','mini','Small body. Big hurry.'],['Roller','roller','A tire with an attitude.'],['Spider','spider','Too many legs. Same Kyle.'],['Drone','drone','Trouble from above.'],['Shooter','shooter','Armed and familiar.'],['Heavy','heavy','Break armor. Break guns.'],['Artillery','artillery','Walking ground pressure.'],['Behemoth','behemoth','A very large bad idea.']
@@ -65,11 +65,12 @@ function selectWorld(index) {
   const world=worlds[index];
   [...worldTabs.children].forEach((tab,i)=>{tab.setAttribute('aria-selected',String(i===index));tab.tabIndex=i===index?0:-1;});
   $('#world-panel').setAttribute('aria-labelledby',`world-tab-${index}`);
-  $('#world-image').src=`assets/arena-variety-${index}.webp`; $('#world-image').alt=`${world.name} with ${world.boss}, flying drones and a varied Kyle enemy crowd, actual v0.13.2 in-engine screenshot`;
+  $('#world-image').src=`assets/v21/arena-variety-${index}.webp`; $('#world-image').alt=`${world.name} populated with Kyle enemies in a staged v2.1.0 in-engine scene`;
   $('#world-name').textContent=world.name; $('#world-description').textContent=world.text; $('#world-boss').textContent=world.boss;
-  $('#world-wave').textContent=`WAVES ${String(index*5+1).padStart(2,'0')}—${String(index*5+5).padStart(2,'0')}`;
-  $('#world-image-button').onclick=()=>openImage(`assets/arena-variety-${index}.webp`,`${world.name} — waves ${index*5+1}–${index*5+5}. ${world.boss}, flying drones and a varied enemy crowd, staged in the current v0.13.2 engine.`);
-  $('#world-boss-button').onclick=()=>openImage(`assets/boss-${index}.webp`,`${world.boss} — the guardian of ${world.name}, rendered from the current game.`);
+  $('#world-wave').textContent=`ENCOUNTERS ${String(index*5+1).padStart(2,'0')}—${String(index*5+5).padStart(2,'0')}`;
+  $('#world-image-button').onclick=()=>openImage(`assets/v21/arena-variety-${index}.webp`,`${world.name} — encounters ${index*5+1}–${index*5+5}. Populated showcase scene staged in the v2.1.0 engine.`);
+  $('#world-boss-button').onclick=()=>openImage(`assets/v21/boss-${index}.webp`,`${world.boss} — the guardian of ${world.name}, staged in the v2.1.0 engine.`);
+  $('#world-room-button').onclick=()=>openImage(`assets/v21/arena-upper-${index}.webp`,`${world.name} — another room along the upper route. Actual v2.1.0 environment with staged enemies.`);
 }
 wireTabs(worldTabs,tab=>selectWorld([...worldTabs.children].indexOf(tab)));
 selectWorld(0);
@@ -77,16 +78,16 @@ selectWorld(0);
 function renderCast() {
   const panel=$('#cast-panel'); panel.replaceChildren();
   const entries=[
-    ...enemies.map(([name,id,text])=>({name,text,src:`assets/enemy-${id}.webp`})),
-    ...worlds.map((world,index)=>({name:world.boss,text:`Wave ${String((index+1)*5).padStart(2,'0')} · ${world.name}`,src:`assets/boss-${index}.webp`})),
-    ...champions.map(([name,wave,text])=>({name,text,src:`assets/champion-${wave}.webp`}))
+    ...enemies.map(([name,id,text])=>({name,text,src:`assets/v21/enemy-${id}.webp`})),
+    ...worlds.map((world,index)=>({name:world.boss,text:`Encounter ${String((index+1)*5).padStart(2,'0')} · ${world.name}`,src:`assets/v21/boss-${index}.webp`})),
+    ...champions.map(([name,wave,text])=>({name,text,src:`assets/v21/champion-${wave}.webp`}))
   ];
   entries.forEach(entry=>{const button=document.createElement('button');button.className='cast-card';button.type='button';button.setAttribute('aria-label',`View ${entry.name}`);
     const portrait=document.createElement('div');portrait.className='cast-portrait';
-    if(entry.src.startsWith('assets/boss-')) portrait.classList.add('cast-portrait-wide');
-    const img=document.createElement('img');img.src=entry.src;img.alt=entry.name+' in v0.13.2';img.loading='lazy';img.width=1280;img.height=720;portrait.append(img);
+    if(entry.src.startsWith('assets/v21/boss-')) portrait.classList.add('cast-portrait-wide');
+    const img=document.createElement('img');img.src=entry.src;img.alt=entry.name+' in v2.1.0';img.loading='lazy';img.width=1280;img.height=720;portrait.append(img);
     const label=document.createElement('span');const name=document.createElement('b');name.textContent=entry.name;const text=document.createElement('small');text.textContent=entry.text;label.append(name,text);button.append(portrait,label);
-    button.addEventListener('click',()=>openImage(entry.src,`${entry.name} — ${entry.text} Current v0.13.2 game-model render.`));panel.append(button);
+    button.addEventListener('click',()=>openImage(entry.src,`${entry.name} — ${entry.text} Staged v2.1.0 in-engine character view.`));panel.append(button);
   });
 }
 renderCast();
@@ -95,3 +96,48 @@ $('#share-button').addEventListener('click',async()=>{
   try { await navigator.clipboard.writeText(url); $('#share-status').textContent='Link copied. Send in the Kyles.'; }
   catch { $('#share-status').textContent=url; }
 });
+
+// A small, optional archive picker. The direct release links remain available
+// when JavaScript is disabled or the catalog cannot load.
+async function loadBuildHistory() {
+  try {
+    const response = await fetch('assets/build-history.json?v=20261020');
+    if (!response.ok) throw new Error('Archive catalog unavailable');
+    const catalog = await response.json();
+    const builds = catalog.builds.filter(build =>
+      typeof build.label === 'string' &&
+      /^https:\/\/github\.com\/TechSavvy-consulting\/arena\/releases\/download\/(?:build-history|v[\d.]+)\/TechSavvy-Arena-[A-Za-z0-9.-]+\.zip$/.test(build.url) &&
+      /^https:\/\/github\.com\/TechSavvy-consulting\/arena\/releases\/tag\/(?:build-history|v[\d.]+)$/.test(build.notes));
+    if (!builds.length) throw new Error('No archived builds');
+    const select = $('#history-version');
+    const groups = [
+      ['full_release', 'Previous full games'],
+      ['preview', 'Short previews'],
+      ['experimental', 'Unshipped experiments']
+    ];
+    groups.forEach(([kind, label]) => {
+      const group = document.createElement('optgroup'); group.label = label;
+      builds.forEach((build, index) => {
+        if (build.kind !== kind) return;
+        const option = document.createElement('option');
+        option.value = String(index); option.textContent = build.label; group.append(option);
+      });
+      if (group.children.length) select.append(group);
+    });
+    const update = () => {
+      const build = builds[Number(select.value)];
+      if (!build) return;
+      $('#history-description').textContent = build.description;
+      $('#history-download').href = build.url;
+      $('#history-download').textContent = `Download ${build.label} ↓`;
+      $('#history-notes').href = build.notes;
+      $('#history-size').textContent = `${Math.round(build.bytes / 1000000)} MB ZIP · Windows 64-bit · Older build`;
+    };
+    select.addEventListener('change', update);
+    update();
+    $('#history-picker').hidden = false;
+  } catch {
+    // No broken button or spinner: ordinary release links work independently.
+  }
+}
+loadBuildHistory();
