@@ -1,7 +1,38 @@
 {
-  "updated": "2026-10-20",
-  "current": "2.2.0",
+  "updated": "2026-10-21",
+  "current": "2.5.0",
+  "current_release": {
+    "version": "2.5.0",
+    "file": "TechSavvy-Arena-v2.5.0.zip",
+    "bytes": 1281336324,
+    "sha256": "4abd831a90ba08febad70641d66ee22aa6a2b3743954452e2eb9c69473487891",
+    "source_commit": "89c72aa5d98c7f8308e4e24e33f9c48e6340946f",
+    "url": "https://github.com/TechSavvy-consulting/arena/releases/download/v2.5.0/TechSavvy-Arena-v2.5.0.zip",
+    "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/v2.5.0"
+  },
   "builds": [
+    {
+      "label": "v2.4.0",
+      "version": "2.4.0",
+      "kind": "full_release",
+      "description": "Full twenty-four-character native roster, occasional travel pursuers, steadier compass and uncapped collected ammo/grenades. Uses the same local data as v2.5.",
+      "file": "TechSavvy-Arena-v2.4.0.zip",
+      "bytes": 1281133691,
+      "sha256": "8ec48c603573128d05a87ed663f43dc9bd212a8a92b0cf3d1136dc945f98f17a",
+      "url": "https://github.com/TechSavvy-consulting/arena/releases/download/v2.4.0/TechSavvy-Arena-v2.4.0.zip",
+      "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/v2.4.0"
+    },
+    {
+      "label": "v2.2.0",
+      "version": "2.2.0",
+      "kind": "full_release",
+      "description": "Distinct multi-floor rooms, physical mission controls, route compass and the earlier Kyle character roster.",
+      "file": "TechSavvy-Arena-v2.2.0.zip",
+      "bytes": 890155812,
+      "sha256": "a9558213dd266b242c8826d428c29a34d00f4d76e5f59828e0a00e658173e6e3",
+      "url": "https://github.com/TechSavvy-consulting/arena/releases/download/v2.2.0/TechSavvy-Arena-v2.2.0.zip",
+      "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/v2.2.0"
+    },
     {
       "label": "v2.1.0",
       "version": "2.1.0",

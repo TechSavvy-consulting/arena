@@ -1,0 +1,28 @@
+TechSavvy Arena - character-model artwork notices
+
+This website shows rendered views of the game's actual character models.
+The approved illustrated hero/cast posters are separate artwork.
+
+Humanoid Robot Pack / Aero by Sotudios
+Source: https://sotudios.com/Assets/Humanoid-RobotPack/
+License: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+
+Adapted for TechSavvy Arena. Modifications include helmet/head removal, open
+neck/collar, body proportions, armor and garments, weapons, skin weights,
+native animation clips and local material/paint response. The game's public
+Kyle head and newly authored parts are separate additions. No endorsement by
+Sotudios is implied. These notices apply to the incorporated licensed model
+material; they do not grant unrelated likeness or trademark rights.
+
+FORGE / AETHER-02 by Ramon Linares
+Released under the CC0 1.0 Universal Public Domain Dedication:
+https://creativecommons.org/publicdomain/zero/1.0/
+The existing approved pilot model includes modified geometry from this asset.
+
+Other full-roster machine/organism body geometry and materials were authored
+locally for TechSavvy Arena. Complete game asset, modification and software
+notices accompany the Windows download under licenses/Character-Pilot and
+licenses/Full-Roster. Private player face profiles are never website assets.
+
+TechSavvy Arena features Kyle Hearn. TechSavvy Consulting LLC.
