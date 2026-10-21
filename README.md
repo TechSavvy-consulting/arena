@@ -28,6 +28,10 @@ gallery displays nineteen cards (eight ordinary enemies, six guardians and five
 champions). Captures use only the public default Kyle, never private player/family
 portraits or local face profiles.
 
+The “Meet the welcoming committee” tile deliberately reuses the approved
+original in-game close-up at `assets/boss-3.webp`, as requested by Kyle. Its
+enlarged view uses that same image. The current character gallery stays on v2.2.
+
 Arena scenes are staged in the actual v2.2 game, not a human-playthrough claim.
 The twelve views show these real room pairs:
 
