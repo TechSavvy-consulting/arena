@@ -1,18 +1,22 @@
 'use strict';
 
 const worlds = [
-  {name:'Foundry Complex', boss:'Foundry Warden', view:'Furnace Gallery', other:'Casting Machinery', text:'Receiving airlock, furnace gallery and casting machinery across two floors. Restore power, explore the workshop branch and push into the Smelter Chamber.'},
-  {name:'Flooded Transit', boss:'Transit Dredger', view:'Flooded Platform', other:'Drain Pumps', text:'A two-floor transit facility with flooded platforms, drainage services and upper dispatch rooms. Restore the pumps and unlock the route to the Freight Terminus.'},
-  {name:'Mutation Laboratory', boss:'Tentacle Matriarch', view:'Observation Room', other:'Isolation Laboratory', text:'Three floors of containment, genetics and observation rooms. Find the power and quarantine controls; the specimens have mounted weapons and tentacles.'},
-  {name:'Flooded Research Complex', boss:'Drowned Colossus', view:'Wet Laboratory', other:'Water Treatment', text:'Wet laboratories, emergency pumps and upper analysis rooms across three floors. Follow the control route through the building to the Pressure Chamber.'},
-  {name:'Sky Docks', boss:'Sky Carrier', view:'Open-air Sky Control', other:'Upper exterior walkway', text:'Cargo sorting, hangars and upper flight-control rooms connect to rooftop supply routes. Work through the three-floor dock complex and face the Carrier.'},
-  {name:'Alien Reactor Fortress', boss:'Kyle Abomination', view:'Reactor Heart', other:'Energy Storage', text:'Three floors of coolant services, armories and core-isolation rooms. Release security, reach the Reactor Heart and dismantle the final Abomination.'}
+  {name:'Foundry Complex', boss:'Foundry Warden', view:'Furnace Gallery', other:'Crane Workshop', text:'A tall furnace hall, crane workshop and upper gantries replace identical-looking rooms. Pull the power controls, explore the workshop branch and reach the Smelter Chamber.'},
+  {name:'Flooded Transit', boss:'Transit Dredger', view:'Flooded Platform', other:'Dispatch Room', text:'Long flooded rail platforms open into upper dispatch and maintenance rooms. Work the pumps, follow the central train lane and push toward the Freight Terminus.'},
+  {name:'Mutation Laboratory', boss:'Tentacle Matriarch', view:'Containment Hall', other:'Observation Room', text:'A glass containment atrium, observation galleries and laboratories across three floors. Operate the quarantine controls; the specimens have mounted weapons and tentacles.'},
+  {name:'Flooded Research Complex', boss:'Drowned Colossus', view:'Sample Archive', other:'Water Treatment', text:'Dry upper archive galleries contrast with flooded lower filter rooms and heavy water-treatment machinery. Follow the power and pump route to the Pressure Chamber.'},
+  {name:'Sky Docks', boss:'Sky Carrier', view:'Launch Chamber', other:'Sky Control', text:'Open-sky crane decks, cargo hangars and upper dispatch walkways. Use the compass to connect the floors, then dodge the Carrier’s marked bomb runs.'},
+  {name:'Alien Reactor Fortress', boss:'Kyle Abomination', view:'Reactor Heart', other:'Coolant Injection', text:'Core vaults and separate coolant machinery rooms lead through the fortress. Release security, follow the reactor galleries and dismantle the final Abomination.'}
 ];
 const enemies = [
   ['Mini Rusher','mini','Small body. Big hurry.'],['Roller','roller','A tire with an attitude.'],['Spider','spider','Too many legs. Same Kyle.'],['Drone','drone','Trouble from above.'],['Shooter','shooter','Armed and familiar.'],['Heavy','heavy','Break armor. Break guns.'],['Artillery','artillery','Walking ground pressure.'],['Behemoth','behemoth','A very large bad idea.']
 ];
 const champions = [
-  ['Research Executioner',18,'Wave 18 · monster brute'],['Sky Marshal',23,'Wave 23 · siege walker'],['Reactor Warlord',28,'Wave 28 · armored heavy']
+  ['Foundry Enforcer',3,'Wave 03 · rebuilt forge champion'],
+  ['Transit Sentinel',8,'Wave 08 · six-legged pump walker'],
+  ['Research Executioner',18,'Wave 18 · scythe-armed bone brute'],
+  ['Sky Marshal',23,'Wave 23 · mortar tripod'],
+  ['Reactor Warlord',28,'Wave 28 · tracked siege platform']
 ];
 const $ = (query) => document.querySelector(query);
 const dialog = $('#media-dialog');
@@ -65,14 +69,14 @@ function selectWorld(index) {
   const world=worlds[index];
   [...worldTabs.children].forEach((tab,i)=>{tab.setAttribute('aria-selected',String(i===index));tab.tabIndex=i===index?0:-1;});
   $('#world-panel').setAttribute('aria-labelledby',`world-tab-${index}`);
-  $('#world-image').src=`assets/v21-showcase/arena-variety-${index}.webp`; $('#world-image').alt=`${world.view} in ${world.name}, with staged Kyle enemies in the actual v2.1.0 environment`;
+  $('#world-image').src=`assets/v22/arena-${index}.webp`; $('#world-image').alt=`${world.view} in ${world.name}, with staged Kyle enemies in the actual v2.2.0 environment`;
   $('#world-location').textContent=world.view;
   $('#world-name').textContent=world.name; $('#world-description').textContent=world.text; $('#world-boss').textContent=world.boss;
   $('#world-wave').textContent=`ENCOUNTERS ${String(index*5+1).padStart(2,'0')}—${String(index*5+5).padStart(2,'0')}`;
-  $('#world-image-button').onclick=()=>openImage(`assets/v21-showcase/arena-variety-${index}.webp`,`${world.name} — ${world.view}. Actual v2.1.0 environment with staged enemies.`);
-  $('#world-boss-button').onclick=()=>openImage(`assets/v21-showcase/boss-${index}.webp`,`${world.boss} — actual v2.1.0 game model, studio lighting and no room background.`);
+  $('#world-image-button').onclick=()=>openImage(`assets/v22/arena-${index}.webp`,`${world.name} — ${world.view}. Actual v2.2.0 environment with staged enemies.`);
+  $('#world-boss-button').onclick=()=>openImage(`assets/v22/boss-${index}.webp`,`${world.boss} — actual v2.2.0 game model, studio lighting and no room background.`);
   $('#world-room-button').textContent=`Visit ${world.other} ↗`;
-  $('#world-room-button').onclick=()=>openImage(`assets/v21-showcase/arena-alternate-${index}.webp`,`${world.name} — ${world.other}. Actual v2.1.0 environment with staged enemies.`);
+  $('#world-room-button').onclick=()=>openImage(`assets/v22/arena-alternate-${index}.webp`,`${world.name} — ${world.other}. Actual v2.2.0 environment with staged enemies.`);
 }
 wireTabs(worldTabs,tab=>selectWorld([...worldTabs.children].indexOf(tab)));
 selectWorld(0);
@@ -80,15 +84,15 @@ selectWorld(0);
 function renderCast() {
   const panel=$('#cast-panel'); panel.replaceChildren();
   const entries=[
-    ...enemies.map(([name,id,text])=>({name,text,src:`assets/v21-showcase/enemy-${id}.webp`})),
-    ...worlds.map((world,index)=>({name:world.boss,text:`Encounter ${String((index+1)*5).padStart(2,'0')} · ${world.name}`,src:`assets/v21-showcase/boss-${index}.webp`})),
-    ...champions.map(([name,wave,text])=>({name,text,src:`assets/v21-showcase/champion-${wave}.webp`}))
+    ...enemies.map(([name,id,text])=>({name,text,src:`assets/v22/enemy-${id}.webp`})),
+    ...worlds.map((world,index)=>({name:world.boss,text:`Encounter ${String((index+1)*5).padStart(2,'0')} · ${world.name}`,src:`assets/v22/boss-${index}.webp`})),
+    ...champions.map(([name,wave,text])=>({name,text,src:`assets/v22/champion-${wave}.webp`}))
   ];
   entries.forEach(entry=>{const button=document.createElement('button');button.className='cast-card';button.type='button';button.setAttribute('aria-label',`View ${entry.name}`);
     const portrait=document.createElement('div');portrait.className='cast-portrait';
-    const img=document.createElement('img');img.src=entry.src;img.alt=entry.name+' — background-free view of the v2.1.0 game model';img.loading='lazy';img.width=1200;img.height=1200;portrait.append(img);
+    const img=document.createElement('img');img.src=entry.src;img.alt=entry.name+' — background-free view of the v2.2.0 game model';img.loading='lazy';img.width=1200;img.height=1200;portrait.append(img);
     const label=document.createElement('span');const name=document.createElement('b');name.textContent=entry.name;const text=document.createElement('small');text.textContent=entry.text;label.append(name,text);button.append(portrait,label);
-    button.addEventListener('click',()=>openImage(entry.src,`${entry.name} — ${entry.text} · Actual v2.1.0 game model, studio lighting and no room background.`));panel.append(button);
+    button.addEventListener('click',()=>openImage(entry.src,`${entry.name} — ${entry.text} · Actual v2.2.0 game model, studio lighting and no room background.`));panel.append(button);
   });
 }
 renderCast();
@@ -102,7 +106,7 @@ $('#share-button').addEventListener('click',async()=>{
 // when JavaScript is disabled or the catalog cannot load.
 async function loadBuildHistory() {
   try {
-    const response = await fetch('assets/build-history.json?v=20261020');
+    const response = await fetch('assets/build-history.json?v=20261020-v22');
     if (!response.ok) throw new Error('Archive catalog unavailable');
     const catalog = await response.json();
     const builds = catalog.builds.filter(build =>

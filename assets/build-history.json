@@ -1,7 +1,18 @@
 {
   "updated": "2026-10-20",
-  "current": "2.1.0",
+  "current": "2.2.0",
   "builds": [
+    {
+      "label": "v2.1.0",
+      "version": "2.1.0",
+      "kind": "full_release",
+      "description": "Performance and control polish for the six-map expedition campaign.",
+      "file": "TechSavvy-Arena-v2.1.0.zip",
+      "bytes": 886404014,
+      "sha256": "9456684fd2cfefc03ff79956713ec26679587fc1628da96399eebc30f3d7c96d",
+      "url": "https://github.com/TechSavvy-consulting/arena/releases/download/v2.1.0/TechSavvy-Arena-v2.1.0.zip",
+      "notes": "https://github.com/TechSavvy-consulting/arena/releases/tag/v2.1.0"
+    },
     {
       "label": "v2.0.0",
       "version": "2.0.0",

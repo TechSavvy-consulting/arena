@@ -1,0 +1,575 @@
+{
+  "version": "2.2.0",
+  "package_sha256": "01237e422299918507c831219ecf480f194a2afcd2aed2b0491cc00ca4688ddd",
+  "source_kind": "actual released native models, studio-lit transparent viewport",
+  "is_gameplay_screenshot": false,
+  "private_profiles_loaded": false,
+  "game_or_settings_written": false,
+  "ai_generated_or_redrawn": false,
+  "conversion": "1200x1200 WebP quality94 method6, exact alpha; no crop/retouch",
+  "capture_manifest_sha256": "2b6bc0aa3d1d8d613310bc35b58688a6c2db1f43c5f30e2e89edf3b9c30fd8a6",
+  "capture_script_sha256": "9720d0abed7cb6dcfa9216ed89be478a5d6b1b329c4476ec7e460a33e75c1d59",
+  "conversion_script_sha256": "5ba21cd2e94fd251144d29878a49c5565edb0e59bb5f79270aed844801446f1e",
+  "captures": [
+    {
+      "name": "enemy-mini",
+      "display_name": "Mini Rusher",
+      "kind": "mini",
+      "champion": "",
+      "wave": 0,
+      "form": "mini",
+      "expression": "smirk",
+      "head_in_frustum": true,
+      "head_screen_position": [
+        614.782958984375,
+        308.881317138672
+      ],
+      "source_capture": "cast-native-01/enemy-mini.png",
+      "source_sha256": "e6125d86c81a7dc211a07526d381a286185a7828f629b63402ae6eb835986a6c",
+      "width": 1200,
+      "height": 1200,
+      "alpha_bounds": [
+        276,
+        85,
+        946,
+        1117
+      ],
+      "file": "enemy-mini.webp",
+      "sha256": "6d487125a5082ac3a2e89ddd651f3dcd2373ce12b57fb4ba0fb87c1a2aa13aab",
+      "bytes": 89190,
+      "alpha_preserved_exactly": true
+    },
+    {
+      "name": "enemy-roller",
+      "display_name": "Roller",
+      "kind": "roller",
+      "champion": "",
+      "wave": 0,
+      "form": "roller",
+      "expression": "smirk",
+      "head_in_frustum": true,
+      "head_screen_position": [
+        640.024291992188,
+        322.381195068359
+      ],
+      "source_capture": "cast-native-01/enemy-roller.png",
+      "source_sha256": "d3ffad6211b5d66797653c4571c32ff8146442af0db4249014fe9ba99fdd42c9",
+      "width": 1200,
+      "height": 1200,
+      "alpha_bounds": [
+        256,
+        86,
+        946,
+        1116
+      ],
+      "file": "enemy-roller.webp",
+      "sha256": "418945e33a7b417d6e0fd04fd3e47d9c8650f05dfed5fb1e31f5e591d80375e7",
+      "bytes": 87398,
+      "alpha_preserved_exactly": true
+    },
+    {
+      "name": "enemy-spider",
+      "display_name": "Spider",
+      "kind": "spider",
+      "champion": "",
+      "wave": 0,
+      "form": "spider",
+      "expression": "smirk",
+      "head_in_frustum": true,
+      "head_screen_position": [
+        619.399291992188,
+        448.958740234375
+      ],
+      "source_capture": "cast-native-01/enemy-spider.png",
+      "source_sha256": "8534b94ca79b0f360d94d7c8dc635cae85b891b326f238c0eb20bcac84807501",
+      "width": 1200,
+      "height": 1200,
+      "alpha_bounds": [
+        84,
+        333,
+        1116,
+        869
+      ],
+      "file": "enemy-spider.webp",
+      "sha256": "a21b2f63f4226901bcd5443eacc7a43c1b962e887da738fd047bea4efadbfb94",
+      "bytes": 54180,
+      "alpha_preserved_exactly": true
+    },
+    {
+      "name": "enemy-drone",
+      "display_name": "Drone",
+      "kind": "drone",
+      "champion": "",
+      "wave": 0,
+      "form": "drone",
+      "expression": "focused",
+      "head_in_frustum": true,
+      "head_screen_position": [
+        617.699951171875,
+        501.010345458984
+      ],
+      "source_capture": "cast-native-01/enemy-drone.png",
+      "source_sha256": "6221c307e3e556e4e6c4992f378e092499e51162edbacff413b10c362392fec7",
+      "width": 1200,
+      "height": 1200,
+      "alpha_bounds": [
+        97,
+        374,
+        1103,
+        827
+      ],
+      "file": "enemy-drone.webp",
+      "sha256": "afab9a5fc2322116182dc1076bc38d16b132e611853f9bb1cb5f9204c7e076af",
+      "bytes": 36314,
+      "alpha_preserved_exactly": true
+    },
+    {
+      "name": "enemy-shooter",
+      "display_name": "Shooter",
+      "kind": "shooter",
+      "champion": "",
+      "wave": 0,
+      "form": "shooter",
+      "expression": "focused",
+      "head_in_frustum": true,
+      "head_screen_position": [
+        594.403747558594,
+        209.665054321289
+      ],
+      "source_capture": "cast-native-01/enemy-shooter.png",
+      "source_sha256": "93cc263f4dba30eacf6d05125f5f9faccaef262e5fe381e319b198269f7ffd9a",
+      "width": 1200,
+      "height": 1200,
+      "alpha_bounds": [
+        284,
+        82,
+        893,
+        1115
+      ],
+      "file": "enemy-shooter.webp",
+      "sha256": "6d5028467ce1cc44b2fc8d985e4430b44c4c3f3ea0ba45ab6ae7dde22bdc48d0",
+      "bytes": 80890,
+      "alpha_preserved_exactly": true
+    },
+    {
+      "name": "enemy-heavy",
+      "display_name": "Heavy",
+      "kind": "heavy",
+      "champion": "",
+      "wave": 0,
+      "form": "heavy",
+      "expression": "focused",
+      "head_in_frustum": true,
+      "head_screen_position": [
+        597.493408203125,
+        209.981353759766
+      ],
+      "source_capture": "cast-native-01/enemy-heavy.png",
+      "source_sha256": "6fa8ace6bcad5d5fd97f11723b1f7e44c955f326f5703af72bb9b6fe3ebab954",
+      "width": 1200,
+      "height": 1200,
+      "alpha_bounds": [
+        220,
+        83,
+        957,
+        1115
+      ],
+      "file": "enemy-heavy.webp",
+      "sha256": "53cf4c3e432fce79cfa89b986c2a79fe825fbff1cec0ca1d4fcd765c357ee8e3",
+      "bytes": 90258,
+      "alpha_preserved_exactly": true
+    },
+    {
+      "name": "enemy-artillery",
+      "display_name": "Artillery",
+      "kind": "artillery",
+      "champion": "",
+      "wave": 0,
+      "form": "artillery",
+      "expression": "angry",
+      "head_in_frustum": true,
+      "head_screen_position": [
+        620.649963378906,
+        327.508819580078
+      ],
+      "source_capture": "cast-native-01/enemy-artillery.png",
+      "source_sha256": "4d1054e0d8f8386de6212c8d5c2d13419e63fc41ab3d2f94b32e3ad5952d02f5",
+      "width": 1200,
+      "height": 1200,
+      "alpha_bounds": [
+        147,
+        83,
+        1053,
+        1117
+      ],
+      "file": "enemy-artillery.webp",
+      "sha256": "3caae90ebbc084aa26788863513509dc45bc432bb39464a2a59d103676dc63e8",
+      "bytes": 63744,
+      "alpha_preserved_exactly": true
+    },
+    {
+      "name": "enemy-behemoth",
+      "display_name": "Behemoth",
+      "kind": "behemoth",
+      "champion": "",
+      "wave": 0,
+      "form": "behemoth",
+      "expression": "angry",
+      "head_in_frustum": true,
+      "head_screen_position": [
+        611.4423828125,
+        309.236145019531
+      ],
+      "source_capture": "cast-native-01/enemy-behemoth.png",
+      "source_sha256": "98f45cfe684b015c302f1f935d3229289d40a0f50ba4c3a95de100f6e98d2d32",
+      "width": 1200,
+      "height": 1200,
+      "alpha_bounds": [
+        213,
+        84,
+        990,
+        1118
+      ],
+      "file": "enemy-behemoth.webp",
+      "sha256": "70a08625c003600227259e2a7b9e7334ddb7692dc86b67b36891a02c785ac06c",
+      "bytes": 105604,
+      "alpha_preserved_exactly": true
+    },
+    {
+      "name": "boss-0",
+      "display_name": "Foundry Warden",
+      "kind": "boss",
+      "champion": "",
+      "wave": 5,
+      "form": "furnace_warden",
+      "expression": "angry",
+      "head_in_frustum": true,
+      "head_screen_position": [
+        627.172790527344,
+        208.991287231445
+      ],
+      "source_capture": "cast-native-01/boss-0.png",
+      "source_sha256": "9768abb7c41aa5043ecd4566cfb3362f2aa5196cdc24026542afc5a5fe15f722",
+      "width": 1200,
+      "height": 1200,
+      "alpha_bounds": [
+        293,
+        85,
+        907,
+        1115
+      ],
+      "file": "boss-0.webp",
+      "sha256": "bbae917656e2d0c95994453a7f70b56de993ffbc6644968450241cae5a384eab",
+      "bytes": 83032,
+      "alpha_preserved_exactly": true
+    },
+    {
+      "name": "boss-1",
+      "display_name": "Transit Dredger",
+      "kind": "dredger",
+      "champion": "",
+      "wave": 10,
+      "form": "dredger",
+      "expression": "angry",
+      "head_in_frustum": true,
+      "head_screen_position": [
+        612.3876953125,
+        330.126861572266
+      ],
+      "source_capture": "cast-native-01/boss-1.png",
+      "source_sha256": "7ffe42f8b95ec4f40159cb97ad427ba44f74be8942d231028fb28b5e0f4e7e57",
+      "width": 1200,
+      "height": 1200,
+      "alpha_bounds": [
+        279,
+        82,
+        898,
+        1116
+      ],
+      "file": "boss-1.webp",
+      "sha256": "67cec884da6ab05d471a5ef618c7e462d938556763cf23a0a1c83f1e2df3ee1b",
+      "bytes": 79252,
+      "alpha_preserved_exactly": true
+    },
+    {
+      "name": "boss-2",
+      "display_name": "Tentacle Matriarch",
+      "kind": "matriarch",
+      "champion": "",
+      "wave": 15,
+      "form": "matriarch",
+      "expression": "angry",
+      "head_in_frustum": true,
+      "head_screen_position": [
+        667.022155761719,
+        299.106658935547
+      ],
+      "source_capture": "cast-native-01/boss-2.png",
+      "source_sha256": "b9ce7b8041261e2b21b4b40517f8ed6196b0cb5a5681cebdede8edadf2f9080f",
+      "width": 1200,
+      "height": 1200,
+      "alpha_bounds": [
+        115,
+        85,
+        1080,
+        1111
+      ],
+      "file": "boss-2.webp",
+      "sha256": "77f5745968e03f5fd579ee5cc3913285c7b51684fcb6f4fd69db17f5ea189e0f",
+      "bytes": 81878,
+      "alpha_preserved_exactly": true
+    },
+    {
+      "name": "boss-3",
+      "display_name": "Drowned Colossus",
+      "kind": "leviathan",
+      "champion": "",
+      "wave": 20,
+      "form": "leviathan",
+      "expression": "angry",
+      "head_in_frustum": true,
+      "head_screen_position": [
+        609.954772949219,
+        390.270568847656
+      ],
+      "source_capture": "cast-native-01/boss-3.png",
+      "source_sha256": "4971b5707345d3f44d6912007fec439fdde69e3ee4b1f63865dea61e4b6e27b2",
+      "width": 1200,
+      "height": 1200,
+      "alpha_bounds": [
+        88,
+        263,
+        1112,
+        948
+      ],
+      "file": "boss-3.webp",
+      "sha256": "23ae77a2a1c3efe827cd246134d9ffdf72d8d03fd4371b972d72b9302aca009c",
+      "bytes": 81794,
+      "alpha_preserved_exactly": true
+    },
+    {
+      "name": "boss-4",
+      "display_name": "Sky Carrier",
+      "kind": "carrier",
+      "champion": "",
+      "wave": 25,
+      "form": "sky_carrier",
+      "expression": "angry",
+      "head_in_frustum": true,
+      "head_screen_position": [
+        637.384887695313,
+        479.062377929688
+      ],
+      "source_capture": "cast-native-01/boss-4.png",
+      "source_sha256": "e39b58b25fb9ea2960704b4c506d8c07d979439f6aaf33bc2b7103fa5e026e06",
+      "width": 1200,
+      "height": 1200,
+      "alpha_bounds": [
+        92,
+        320,
+        1095,
+        882
+      ],
+      "file": "boss-4.webp",
+      "sha256": "9f080f5e6afeef1f2c23801dc905c17e8430e1d88b331d83cb2a9a3882ae34a7",
+      "bytes": 80760,
+      "alpha_preserved_exactly": true
+    },
+    {
+      "name": "boss-5",
+      "display_name": "Kyle Abomination",
+      "kind": "overlord",
+      "champion": "",
+      "wave": 30,
+      "form": "overlord",
+      "expression": "angry",
+      "head_in_frustum": true,
+      "head_screen_position": [
+        620.369812011719,
+        224.188400268555
+      ],
+      "source_capture": "cast-native-01/boss-5.png",
+      "source_sha256": "7f849f06c322f894e2bec35a19065febbb79fa5edc197a597cd283ab5b03c422",
+      "width": 1200,
+      "height": 1200,
+      "alpha_bounds": [
+        222,
+        84,
+        976,
+        1116
+      ],
+      "file": "boss-5.webp",
+      "sha256": "603a872bf0c464dd29fe757c7879fa3576100c9ae9f3b1849363d1e5ed7f7b48",
+      "bytes": 79110,
+      "alpha_preserved_exactly": true
+    },
+    {
+      "name": "champion-3",
+      "display_name": "Foundry Enforcer",
+      "kind": "heavy",
+      "champion": "vanguard",
+      "wave": 3,
+      "form": "forge_vanguard",
+      "expression": "focused",
+      "head_in_frustum": true,
+      "head_screen_position": [
+        585.552978515625,
+        209.192993164063
+      ],
+      "source_capture": "cast-native-01/champion-3.png",
+      "source_sha256": "315b84ae66a08e8313a2c202d8c8b359fc412a863cb86e81f7dc241a7b380857",
+      "width": 1200,
+      "height": 1200,
+      "alpha_bounds": [
+        345,
+        83,
+        857,
+        1115
+      ],
+      "file": "champion-3.webp",
+      "sha256": "3a07ad643cd9e2f7b0ae02aa046d5cf0050dbcdad14255be725d299b4a764e7e",
+      "bytes": 64638,
+      "alpha_preserved_exactly": true
+    },
+    {
+      "name": "champion-8",
+      "display_name": "Transit Sentinel",
+      "kind": "artillery",
+      "champion": "siege",
+      "wave": 8,
+      "form": "transit_sentinel",
+      "expression": "angry",
+      "head_in_frustum": true,
+      "head_screen_position": [
+        626.737854003906,
+        217.341537475586
+      ],
+      "source_capture": "cast-native-01/champion-8.png",
+      "source_sha256": "f4fbf14367eb0eaa7aee8b32704519db672758e6cc0dbe696e742cf79c79e627",
+      "width": 1200,
+      "height": 1200,
+      "alpha_bounds": [
+        221,
+        86,
+        976,
+        1119
+      ],
+      "file": "champion-8.webp",
+      "sha256": "fd7c1d63d4165d760f8798f2dcfc4790c7231feefb30b1836fc1bbc375ab5f11",
+      "bytes": 100766,
+      "alpha_preserved_exactly": true
+    },
+    {
+      "name": "champion-13",
+      "display_name": "Lab Ravager",
+      "kind": "behemoth",
+      "champion": "breacher",
+      "wave": 13,
+      "form": "lab_ravager",
+      "expression": "angry",
+      "head_in_frustum": true,
+      "head_screen_position": [
+        613.518676757813,
+        290.553436279297
+      ],
+      "source_capture": "cast-native-01/champion-13.png",
+      "source_sha256": "7f091cfff3c85f2f1796ea906b5121dd94da7ed8ac67b29d8b09556b271c295d",
+      "width": 1200,
+      "height": 1200,
+      "alpha_bounds": [
+        268,
+        83,
+        942,
+        1116
+      ],
+      "file": "champion-13.webp",
+      "sha256": "f59957a1faf4c449707f29dc39b9bb55fa87b14d837427c8f52e3c854ac06b1b",
+      "bytes": 86912,
+      "alpha_preserved_exactly": true
+    },
+    {
+      "name": "champion-18",
+      "display_name": "Research Executioner",
+      "kind": "behemoth",
+      "champion": "executioner",
+      "wave": 18,
+      "form": "research_executioner",
+      "expression": "angry",
+      "head_in_frustum": true,
+      "head_screen_position": [
+        613.67431640625,
+        290.512817382813
+      ],
+      "source_capture": "cast-native-01/champion-18.png",
+      "source_sha256": "f180d25da3001029cec69d18aa1444ffcd53a06c6e48fd0708888e038b3a1426",
+      "width": 1200,
+      "height": 1200,
+      "alpha_bounds": [
+        276,
+        82,
+        924,
+        1116
+      ],
+      "file": "champion-18.webp",
+      "sha256": "ac4e6598e438077d95e51fa32f8e64d376b2723db3569437c709b2ba91a32602",
+      "bytes": 89272,
+      "alpha_preserved_exactly": true
+    },
+    {
+      "name": "champion-23",
+      "display_name": "Sky Marshal",
+      "kind": "artillery",
+      "champion": "marshal",
+      "wave": 23,
+      "form": "sky_marshal",
+      "expression": "angry",
+      "head_in_frustum": true,
+      "head_screen_position": [
+        629.252197265625,
+        234.656127929688
+      ],
+      "source_capture": "cast-native-01/champion-23.png",
+      "source_sha256": "7ed856761b5ed65535573e50fa9272e3ac23e9e6c87372d80de34cc07334ce62",
+      "width": 1200,
+      "height": 1200,
+      "alpha_bounds": [
+        239,
+        83,
+        958,
+        1118
+      ],
+      "file": "champion-23.webp",
+      "sha256": "c60ec32951cf65aedcb1574f3223c2ac0c48e834175732b646bd48b4571266a6",
+      "bytes": 88970,
+      "alpha_preserved_exactly": true
+    },
+    {
+      "name": "champion-28",
+      "display_name": "Reactor Warlord",
+      "kind": "heavy",
+      "champion": "warlord",
+      "wave": 28,
+      "form": "reactor_warlord",
+      "expression": "focused",
+      "head_in_frustum": true,
+      "head_screen_position": [
+        605.515686035156,
+        211.603149414063
+      ],
+      "source_capture": "cast-native-01/champion-28.png",
+      "source_sha256": "7e302615146b9a25870b8d999d76c2597bc863018a18e4147656ca07875852ae",
+      "width": 1200,
+      "height": 1200,
+      "alpha_bounds": [
+        279,
+        83,
+        921,
+        1118
+      ],
+      "file": "champion-28.webp",
+      "sha256": "e21d374e9f24220c18b99f0af62383ce2b525583d180231bd311fb4ad179ef00",
+      "bytes": 86108,
+      "alpha_preserved_exactly": true
+    }
+  ]
+}
