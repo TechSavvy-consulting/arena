@@ -53,10 +53,16 @@ path. Physical-controller testing is not implied by scripted checks.
 
 ## Current media and provenance
 
-The current gallery uses `assets/v25/`: home, pause, upgrades, victory,
+The original v2.5 media remains in `assets/v25/`: home, pause, upgrades, victory,
 personalization, options hub and all five category pages; six primary and six
 alternate facility views; twenty-four background-free character portraits;
 and a social preview. Retain earlier assets for recoverability.
+
+Location-only refresh, October 22: the twelve primary/alternate images in
+“New arena. New problems.” use `assets/v25-locations-20261022/` and its
+`location-manifest.json`. These are closer staged native enemies in the same
+v2.5 geometry, cameras and lighting—not a new game build. Menus, portraits,
+hero, social image, welcoming tile and game downloads remain unchanged.
 
 The twelve distinct room views remain:
 
@@ -81,9 +87,9 @@ scattering; these studio head-lighting views are not exact gameplay-lighting
 matches. The model geometry, materials and public face assets are unchanged.
 Only the public default Kyle may appear; never load private saved people.
 The website manifests record final image/source/PCK hashes and capture limits.
-Current media was encoded from the successful 471-check world/menu capture
+Original v2.5 media was encoded from the successful 471-check world/menu capture
 and 562-check cast capture, then copied with all fifty file hashes verified.
-The complete current media directory is about 5.7 MB, not another game ZIP.
+The retained original media directory is about 5.7 MB, not another game ZIP.
 
 The existing cast posters and hero are approved illustrations, not real-time
 fidelity evidence. The game uses articulated modeled bodies and fitted photo

@@ -1,0 +1,1867 @@
+{
+  "version": "2.5.0",
+  "media_revision": "2026-10-22-close-enemies",
+  "package_sha256": "15eb9ce5b27c0440ef09c427b43457d5f5c9facf184d80bb33a74f400a707c70",
+  "packed_config_sha256": "21680598fce023e7aa8c1650b393e0b99a0e30e3700dfeda9c411d52174ff74b",
+  "capture_report_sha256": "3cac342d5de8fc57b09d8e3c7e3afe74ba8c1769eb021a9ab9eda18d1beee565",
+  "capture_script_sha256": "b8d3f612a6a6f4578f8824f4c0ac3ea6040584550392140e6f8ef8e04ad98f03",
+  "conversion_script_sha256": "5dea5da93643feccc64b37a248d7efd4bbafaeeee6052bfc9dfa1f49488a6d9e",
+  "checks": 366,
+  "failures": [],
+  "private_profiles_loaded": false,
+  "ai_generated_or_redrawn": false,
+  "game_build_or_download_changed": false,
+  "camera_fov_lighting_geometry_materials_changed": false,
+  "conversion": "Whole native 1920x1080 frames, WebP quality94, no crop, retouch or compositing.",
+  "boundary": "Staged native v2.5 game views with closer real enemies and brief live AI animation. Same location cameras and shipped geometry/materials/baked lighting. Default public Kyle only; no private profiles or human playthrough claim.",
+  "images": [
+    {
+      "asset": "arena-0.webp",
+      "sha256": "0faeceb12c302bfc5cb4a7ffb987857243eeb0ab8621f75511e54be033326b3b",
+      "bytes": 252336,
+      "source_capture": "arena-0.png",
+      "source_sha256": "c22d14c3110fc12d3e0c61dd5604b6032bdab2c9258a33d7f71df5331ebc94af",
+      "width": 1920,
+      "height": 1080,
+      "stage": 0,
+      "view": 0,
+      "label": "Furnace Gallery",
+      "camera": [
+        11.0,
+        1.65896475315094,
+        13.0
+      ],
+      "look_at": [
+        -5.0,
+        4.09999990463257,
+        -8.0
+      ],
+      "layout_signature": "campaign2-distinct-worlds-v22-r1-stage0",
+      "visible_actors": 5,
+      "readable_actors": 4,
+      "largest_head_pixels": 101.283996582031,
+      "actors": [
+        {
+          "body_pixels": 332.4375,
+          "body_screen_rect": [
+            872.175964355469,
+            512.161865234375,
+            258.466613769531,
+            332.4375
+          ],
+          "head": [
+            7.66697835922241,
+            2.03001999855042,
+            7.88145160675049
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 65.0032348632813,
+          "kind": "heavy",
+          "live_ai_advanced": true,
+          "position": [
+            7.66697835922241,
+            0.000812067126389593,
+            7.88145160675049
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 315.439025878906,
+          "body_screen_rect": [
+            461.702606201172,
+            589.838439941406,
+            144.159576416016,
+            315.439025878906
+          ],
+          "head": [
+            6.46558809280396,
+            1.44987297058105,
+            11.2913942337036
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 101.283996582031,
+          "kind": "mini",
+          "live_ai_advanced": true,
+          "position": [
+            6.23694801330566,
+            0.000836718420032412,
+            11.0800352096558
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 139.213562011719,
+          "body_screen_rect": [
+            1430.53625488281,
+            487.369873046875,
+            192.660522460938,
+            139.213562011719
+          ],
+          "head": [
+            11.3487243652344,
+            2.31792116165161,
+            5.21453619003296
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 61.4568786621094,
+          "kind": "drone",
+          "live_ai_advanced": true,
+          "position": [
+            11.3498086929321,
+            0.305000007152557,
+            5.19040584564209
+          ],
+          "readable": false,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 404.364196777344,
+          "body_screen_rect": [
+            67.8132247924805,
+            523.6083984375,
+            382.837585449219,
+            404.364196777344
+          ],
+          "head": [
+            3.92347359657288,
+            1.82482886314392,
+            12.1262168884277
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 86.7332153320313,
+          "kind": "roller",
+          "live_ai_advanced": true,
+          "position": [
+            3.91936254501343,
+            0.000840387481730431,
+            12.1230850219727
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 297.186218261719,
+          "body_screen_rect": [
+            30.633659362793,
+            530.6669921875,
+            241.764678955078,
+            297.186218261719
+          ],
+          "head": [
+            1.48962116241455,
+            1.9555150270462,
+            12.5552368164063
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 57.3331298828125,
+          "kind": "shooter",
+          "live_ai_advanced": true,
+          "position": [
+            1.48962116241455,
+            0.000836721388623118,
+            12.5552368164063
+          ],
+          "readable": true,
+          "world_sight_line": true
+        }
+      ],
+      "camera_matches_previous_view": true
+    },
+    {
+      "asset": "arena-alternate-0.webp",
+      "sha256": "2ab2d227348de25f4be704217499cd58c5f11efcb03d37635d23091f56a6e707",
+      "bytes": 296766,
+      "source_capture": "arena-alternate-0.png",
+      "source_sha256": "46c6a7c76b220b2b00aca75218e061d58141196630dc01ff976028abf1c28729",
+      "width": 1920,
+      "height": 1080,
+      "stage": 0,
+      "view": 1,
+      "label": "Crane Workshop",
+      "camera": [
+        -37.0,
+        9.86009979248047,
+        39.0
+      ],
+      "look_at": [
+        -53.0,
+        10.8999996185303,
+        50.0
+      ],
+      "layout_signature": "campaign2-distinct-worlds-v22-r1-stage0",
+      "visible_actors": 5,
+      "readable_actors": 4,
+      "largest_head_pixels": 103.856506347656,
+      "actors": [
+        {
+          "body_pixels": 309.395294189453,
+          "body_screen_rect": [
+            854.703125,
+            500.612213134766,
+            212.289428710938,
+            309.395294189453
+          ],
+          "head": [
+            -41.9013786315918,
+            10.1555137634277,
+            42.2306365966797
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 60.5803527832031,
+          "kind": "shooter",
+          "live_ai_advanced": true,
+          "position": [
+            -41.9013786315918,
+            8.20083522796631,
+            42.2306365966797
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 413.329956054688,
+          "body_screen_rect": [
+            394.5966796875,
+            495.77294921875,
+            370.023986816406,
+            413.329956054688
+          ],
+          "head": [
+            -39.4360046386719,
+            10.0248193740845,
+            44.0886344909668
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 89.4181213378906,
+          "kind": "roller",
+          "live_ai_advanced": true,
+          "position": [
+            -39.440860748291,
+            8.20083332061768,
+            44.0916404724121
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 139.889923095703,
+          "body_screen_rect": [
+            1433.06774902344,
+            472.354949951172,
+            195.10693359375,
+            139.889923095703
+          ],
+          "head": [
+            -44.7245292663574,
+            10.4230470657349,
+            38.2705574035645
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 61.2436828613281,
+          "kind": "drone",
+          "live_ai_advanced": true,
+          "position": [
+            -44.7332420349121,
+            8.40999984741211,
+            38.2697334289551
+          ],
+          "readable": false,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 318.838562011719,
+          "body_screen_rect": [
+            180.063690185547,
+            563.280212402344,
+            128.686798095703,
+            318.838562011719
+          ],
+          "head": [
+            -37.8816146850586,
+            9.64930820465088,
+            44.6605491638184
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 103.856506347656,
+          "kind": "mini",
+          "live_ai_advanced": true,
+          "position": [
+            -38.0216293334961,
+            8.20083045959473,
+            44.9332962036133
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 444.5478515625,
+          "body_screen_rect": [
+            30.9291458129883,
+            346.521118164063,
+            400.1953125,
+            444.5478515625
+          ],
+          "head": [
+            -38.3972854614258,
+            11.2967357635498,
+            48.840747833252
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 76.4918518066406,
+          "kind": "artillery",
+          "live_ai_advanced": true,
+          "position": [
+            -38.3972854614258,
+            8.26000022888184,
+            48.840747833252
+          ],
+          "readable": true,
+          "world_sight_line": true
+        }
+      ],
+      "camera_matches_previous_view": true
+    },
+    {
+      "asset": "arena-1.webp",
+      "sha256": "f4d89dcb9469ee19d78594083869b33bb279273ecdf6a9c5fd45137797e2f688",
+      "bytes": 223980,
+      "source_capture": "arena-1.png",
+      "source_sha256": "ccc29e0f8eecb26741fc49e2611f74fd634514a38af54ceb1c07698fdc634daa",
+      "width": 1920,
+      "height": 1080,
+      "stage": 1,
+      "view": 0,
+      "label": "Flooded Platform",
+      "camera": [
+        -6.0,
+        1.66010010242462,
+        58.0
+      ],
+      "look_at": [
+        3.0,
+        3.09999990463257,
+        32.0
+      ],
+      "layout_signature": "campaign2-distinct-worlds-v22-r1-stage1",
+      "visible_actors": 5,
+      "readable_actors": 4,
+      "largest_head_pixels": 120.973999023438,
+      "actors": [
+        {
+          "body_pixels": 409.894134521484,
+          "body_screen_rect": [
+            923.098876953125,
+            370.704254150391,
+            347.683959960938,
+            409.894134521484
+          ],
+          "head": [
+            -2.51813054084778,
+            3.03657960891724,
+            51.6919250488281
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 73.2013549804688,
+          "kind": "artillery",
+          "live_ai_advanced": true,
+          "position": [
+            -2.51813054084778,
+            -0.000156269408762455,
+            51.6919250488281
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 368.897583007813,
+          "body_screen_rect": [
+            816.555786132813,
+            565.429748535156,
+            85.4930419921875,
+            368.897583007813
+          ],
+          "head": [
+            -5.3704719543457,
+            1.43095195293427,
+            54.6125907897949
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 120.973999023438,
+          "kind": "mini",
+          "live_ai_advanced": true,
+          "position": [
+            -5.27600765228271,
+            0.000812036683782935,
+            54.302375793457
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 142.21435546875,
+          "body_screen_rect": [
+            1404.80981445313,
+            405.869750976563,
+            230.663696289063,
+            142.21435546875
+          ],
+          "head": [
+            0.742915689945221,
+            2.78298783302307,
+            53.929443359375
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 65.6860656738281,
+          "kind": "drone",
+          "live_ai_advanced": true,
+          "position": [
+            0.758130729198456,
+            0.770000040531158,
+            53.9203033447266
+          ],
+          "readable": false,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 450.249969482422,
+          "body_screen_rect": [
+            156.270736694336,
+            477.769805908203,
+            449.67333984375,
+            450.249969482422
+          ],
+          "head": [
+            -7.79263830184937,
+            1.88399732112885,
+            52.4693260192871
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 93.4463806152344,
+          "kind": "roller",
+          "live_ai_advanced": true,
+          "position": [
+            -7.79229545593262,
+            0.0600000433623791,
+            52.4668617248535
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 321.00146484375,
+          "body_screen_rect": [
+            33.7934875488281,
+            471.076416015625,
+            338.430816650391,
+            321.00146484375
+          ],
+          "head": [
+            -9.84675598144531,
+            2.14011597633362,
+            50.7296333312988
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 65.0327453613281,
+          "kind": "shooter",
+          "live_ai_advanced": true,
+          "position": [
+            -9.84675598144531,
+            0.180841445922852,
+            50.7296333312988
+          ],
+          "readable": true,
+          "world_sight_line": true
+        }
+      ],
+      "camera_matches_previous_view": true
+    },
+    {
+      "asset": "arena-alternate-1.webp",
+      "sha256": "d28044dc3a4a1274490e27973382eba4dea062df6d6ba9c0b311e57dfaa1180d",
+      "bytes": 272184,
+      "source_capture": "arena-alternate-1.png",
+      "source_sha256": "1a71dfdacbddad4ff21808399e8e57dbcedb128dc4e842c6e5f0e0de9fa9f1a0",
+      "width": 1920,
+      "height": 1080,
+      "stage": 1,
+      "view": 1,
+      "label": "Dispatch Room",
+      "camera": [
+        -95.0,
+        9.86009979248047,
+        -7.0
+      ],
+      "look_at": [
+        -80.0,
+        10.8000001907349,
+        4.0
+      ],
+      "layout_signature": "campaign2-distinct-worlds-v22-r1-stage1",
+      "visible_actors": 5,
+      "readable_actors": 4,
+      "largest_head_pixels": 101.115905761719,
+      "actors": [
+        {
+          "body_pixels": 326.715118408203,
+          "body_screen_rect": [
+            1008.85491943359,
+            483.980255126953,
+            274.701232910156,
+            326.715118408203
+          ],
+          "head": [
+            -91.0477523803711,
+            10.229434967041,
+            -2.05368065834045
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 64.7940673828125,
+          "kind": "heavy",
+          "live_ai_advanced": true,
+          "position": [
+            -91.0477523803711,
+            8.20081233978271,
+            -2.05368065834045
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 309.246520996094,
+          "body_screen_rect": [
+            887.466674804688,
+            561.472106933594,
+            120.518005371094,
+            309.246520996094
+          ],
+          "head": [
+            -91.6369857788086,
+            9.64860820770264,
+            -4.64438676834106
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 101.115905761719,
+          "kind": "mini",
+          "live_ai_advanced": true,
+          "position": [
+            -91.4191436767578,
+            8.20083618164063,
+            -4.43569374084473
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 138.989685058594,
+          "body_screen_rect": [
+            1415.51696777344,
+            483.588623046875,
+            212.214721679688,
+            138.989685058594
+          ],
+          "head": [
+            -93.1319427490234,
+            10.3230648040771,
+            0.637282133102417
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 59.9965515136719,
+          "kind": "drone",
+          "live_ai_advanced": true,
+          "position": [
+            -93.1315689086914,
+            8.30999946594238,
+            0.638805866241455
+          ],
+          "readable": false,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 435.109771728516,
+          "body_screen_rect": [
+            414.683074951172,
+            490.800689697266,
+            308.345733642578,
+            435.109771728516
+          ],
+          "head": [
+            -89.4773941040039,
+            10.0247964859009,
+            -6.40513181686401
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 89.4724426269531,
+          "kind": "roller",
+          "live_ai_advanced": true,
+          "position": [
+            -89.4719848632813,
+            8.20081329345703,
+            -6.40199089050293
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 328.771850585938,
+          "body_screen_rect": [
+            275.504333496094,
+            493.923767089844,
+            217.31201171875,
+            328.771850585938
+          ],
+          "head": [
+            -87.6707611083984,
+            10.1555089950562,
+            -7.43396711349487
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 62.3155212402344,
+          "kind": "shooter",
+          "live_ai_advanced": true,
+          "position": [
+            -87.6707611083984,
+            8.20083045959473,
+            -7.43396711349487
+          ],
+          "readable": true,
+          "world_sight_line": true
+        }
+      ],
+      "camera_matches_previous_view": true
+    },
+    {
+      "asset": "arena-2.webp",
+      "sha256": "bff9d37c9c5260caf80848f4d39332b825bc43749a43797978585f81c5cc8339",
+      "bytes": 259048,
+      "source_capture": "arena-2.png",
+      "source_sha256": "cd6edf727cbe085037926fcf6e3ebf2fca970ef71651fbdb115fa8e63e3ecb94",
+      "width": 1920,
+      "height": 1080,
+      "stage": 2,
+      "view": 0,
+      "label": "Containment Hall",
+      "camera": [
+        -12.0,
+        1.66010010242462,
+        12.0
+      ],
+      "look_at": [
+        7.0,
+        4.09999990463257,
+        -10.0
+      ],
+      "layout_signature": "campaign2-distinct-worlds-v22-r1-stage2",
+      "visible_actors": 5,
+      "readable_actors": 4,
+      "largest_head_pixels": 112.291687011719,
+      "actors": [
+        {
+          "body_pixels": 490.889221191406,
+          "body_screen_rect": [
+            906.179870605469,
+            346.815368652344,
+            364.884948730469,
+            490.889221191406
+          ],
+          "head": [
+            -6.89818572998047,
+            3.10451054573059,
+            7.81567239761353
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 99.2198791503906,
+          "kind": "behemoth",
+          "live_ai_advanced": true,
+          "position": [
+            -6.83417415618896,
+            0.000788647739682347,
+            7.76315212249756
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 349.458068847656,
+          "body_screen_rect": [
+            632.336120605469,
+            571.967651367188,
+            130.450134277344,
+            349.458068847656
+          ],
+          "head": [
+            -10.6594228744507,
+            1.50739812850952,
+            8.23797225952148
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 112.291687011719,
+          "kind": "mini",
+          "live_ai_advanced": true,
+          "position": [
+            -10.4676694869995,
+            0.0600000433623791,
+            7.98744964599609
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 138.506744384766,
+          "body_screen_rect": [
+            1411.49987792969,
+            470.761077880859,
+            203.601318359375,
+            138.506744384766
+          ],
+          "head": [
+            -4.29877042770386,
+            2.40804648399353,
+            10.7096004486084
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 62.1361999511719,
+          "kind": "drone",
+          "live_ai_advanced": true,
+          "position": [
+            -4.29002618789673,
+            0.395000040531158,
+            10.7081527709961
+          ],
+          "readable": false,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 333.425598144531,
+          "body_screen_rect": [
+            199.555267333984,
+            514.086486816406,
+            232.74365234375,
+            333.425598144531
+          ],
+          "head": [
+            -12.2749376296997,
+            1.98055696487427,
+            4.25338411331177
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 62.0691528320313,
+          "kind": "shooter",
+          "live_ai_advanced": true,
+          "position": [
+            -12.2749376296997,
+            0.000836713938042521,
+            4.25338411331177
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 190.537048339844,
+          "body_screen_rect": [
+            33.7506866455078,
+            609.362915039063,
+            292.460571289063,
+            190.537048339844
+          ],
+          "head": [
+            -13.2164087295532,
+            1.30936419963837,
+            2.46356606483459
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 46.22607421875,
+          "kind": "spider",
+          "live_ai_advanced": true,
+          "position": [
+            -13.2164087295532,
+            0.0600000433623791,
+            2.46356606483459
+          ],
+          "readable": true,
+          "world_sight_line": true
+        }
+      ],
+      "camera_matches_previous_view": true
+    },
+    {
+      "asset": "arena-alternate-2.webp",
+      "sha256": "ebaf181fe73439a02d6a464cbd267f36ccff444b1a1ad35847caac3a3eaaca84",
+      "bytes": 319824,
+      "source_capture": "arena-alternate-2.png",
+      "source_sha256": "74f701c16380ff00ddc1ea7c428877089f589955ba3e86d52b6b734632afb0ed",
+      "width": 1920,
+      "height": 1080,
+      "stage": 2,
+      "view": 1,
+      "label": "Observation Room",
+      "camera": [
+        -37.0,
+        9.86009979248047,
+        -5.0
+      ],
+      "look_at": [
+        -53.0,
+        10.8000001907349,
+        6.0
+      ],
+      "layout_signature": "campaign2-distinct-worlds-v22-r1-stage2",
+      "visible_actors": 5,
+      "readable_actors": 4,
+      "largest_head_pixels": 98.0324096679688,
+      "actors": [
+        {
+          "body_pixels": 325.308563232422,
+          "body_screen_rect": [
+            947.326416015625,
+            415.118927001953,
+            263.253540039063,
+            325.308563232422
+          ],
+          "head": [
+            -43.4987487792969,
+            10.863564491272,
+            -2.0102744102478
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 79.6550903320313,
+          "kind": "squid",
+          "live_ai_advanced": true,
+          "position": [
+            -43.5457611083984,
+            8.19984245300293,
+            -1.98864591121674
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 299.504333496094,
+          "body_screen_rect": [
+            462.185913085938,
+            560.451049804688,
+            135.647338867188,
+            299.504333496094
+          ],
+          "head": [
+            -38.944881439209,
+            9.64860248565674,
+            -0.40292626619339
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 98.0324096679688,
+          "kind": "mini",
+          "live_ai_advanced": true,
+          "position": [
+            -39.1531944274902,
+            8.20083045959473,
+            -0.184722036123276
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 139.347595214844,
+          "body_screen_rect": [
+            1434.03210449219,
+            482.024658203125,
+            194.661499023438,
+            139.347595214844
+          ],
+          "head": [
+            -44.7593383789063,
+            10.3230648040771,
+            -5.73538017272949
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 60.1357421875,
+          "kind": "drone",
+          "live_ai_advanced": true,
+          "position": [
+            -44.7608985900879,
+            8.30999946594238,
+            -5.73553562164307
+          ],
+          "readable": false,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 397.600036621094,
+          "body_screen_rect": [
+            97.8800048828125,
+            496.212646484375,
+            373.689147949219,
+            397.600036621094
+          ],
+          "head": [
+            -38.3184852600098,
+            10.0247840881348,
+            2.16280579566956
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 83.7713623046875,
+          "kind": "roller",
+          "live_ai_advanced": true,
+          "position": [
+            -38.3225364685059,
+            8.20080089569092,
+            2.16756939888
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 280.107330322266,
+          "body_screen_rect": [
+            82.5066375732422,
+            503.874237060547,
+            224.175338745117,
+            280.107330322266
+          ],
+          "head": [
+            -38.0938377380371,
+            10.1555147171021,
+            4.56619215011597
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 55.39794921875,
+          "kind": "shooter",
+          "live_ai_advanced": true,
+          "position": [
+            -38.0938377380371,
+            8.20083618164063,
+            4.56619215011597
+          ],
+          "readable": true,
+          "world_sight_line": true
+        }
+      ],
+      "camera_matches_previous_view": true
+    },
+    {
+      "asset": "arena-3.webp",
+      "sha256": "5f684931b2e04ab6206978b8b4e926dce0a73de5f08c8dbd20e66f11ace0c6ec",
+      "bytes": 224644,
+      "source_capture": "arena-3.png",
+      "source_sha256": "481588411bd3949098cc6ccb8d212e177d3493418e24b67f051883d2ed57284d",
+      "width": 1920,
+      "height": 1080,
+      "stage": 3,
+      "view": 0,
+      "label": "Sample Archive",
+      "camera": [
+        -37.0,
+        9.86009979248047,
+        39.0
+      ],
+      "look_at": [
+        -54.0,
+        11.3000001907349,
+        50.0
+      ],
+      "layout_signature": "campaign2-distinct-worlds-v22-r1-stage3",
+      "visible_actors": 5,
+      "readable_actors": 3,
+      "largest_head_pixels": 116.551635742188,
+      "actors": [
+        {
+          "body_pixels": 175.268798828125,
+          "body_screen_rect": [
+            889.817565917969,
+            603.454711914063,
+            229.075256347656,
+            175.268798828125
+          ],
+          "head": [
+            -43.2737579345703,
+            9.45018863677979,
+            42.4058494567871
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 42.0540771484375,
+          "kind": "spider",
+          "live_ai_advanced": true,
+          "position": [
+            -43.2737579345703,
+            8.20082473754883,
+            42.4058494567871
+          ],
+          "readable": false,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 336.981018066406,
+          "body_screen_rect": [
+            518.454711914063,
+            495.324890136719,
+            293.1689453125,
+            336.981018066406
+          ],
+          "head": [
+            -40.6173667907715,
+            10.234447479248,
+            44.4002342224121
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 66.3554992675781,
+          "kind": "heavy",
+          "live_ai_advanced": true,
+          "position": [
+            -40.6173667907715,
+            8.20082473754883,
+            44.4002342224121
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 145.475921630859,
+          "body_screen_rect": [
+            1427.62255859375,
+            407.973846435547,
+            197.918823242188,
+            145.475921630859
+          ],
+          "head": [
+            -44.7533721923828,
+            11.0430555343628,
+            38.053035736084
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 65.3442993164063,
+          "kind": "drone",
+          "live_ai_advanced": true,
+          "position": [
+            -44.7597618103027,
+            9.02999973297119,
+            38.0522537231445
+          ],
+          "readable": false,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 356.399597167969,
+          "body_screen_rect": [
+            178.631225585938,
+            578.689636230469,
+            157.868377685547,
+            356.399597167969
+          ],
+          "head": [
+            -37.9946098327637,
+            9.62636566162109,
+            44.009838104248
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 116.551635742188,
+          "kind": "mini",
+          "live_ai_advanced": true,
+          "position": [
+            -38.1253509521484,
+            8.20083618164063,
+            44.3023414611816
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 439.624725341797,
+          "body_screen_rect": [
+            32.0742416381836,
+            494.197296142578,
+            414.159149169922,
+            439.624725341797
+          ],
+          "head": [
+            -38.2691497802734,
+            10.0839977264404,
+            45.8591079711914
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 89.7569274902344,
+          "kind": "roller",
+          "live_ai_advanced": true,
+          "position": [
+            -38.2705154418945,
+            8.26000022888184,
+            45.8609352111816
+          ],
+          "readable": true,
+          "world_sight_line": true
+        }
+      ],
+      "camera_matches_previous_view": true
+    },
+    {
+      "asset": "arena-alternate-3.webp",
+      "sha256": "7a885bf8fd10cb1a3f307d9b680bdd0522dae81a072d6498cf4b34f7d3aec0fa",
+      "bytes": 206692,
+      "source_capture": "arena-alternate-3.png",
+      "source_sha256": "2b8fc711d10fd26dfe277ff44c4c4ef0b48b75a50a7a741a0bafe49a997bc06f",
+      "width": 1920,
+      "height": 1080,
+      "stage": 3,
+      "view": 1,
+      "label": "Water Treatment",
+      "camera": [
+        -37.0,
+        1.66010010242462,
+        6.0
+      ],
+      "look_at": [
+        -52.0,
+        2.69999980926514,
+        -5.0
+      ],
+      "layout_signature": "campaign2-distinct-worlds-v22-r1-stage3",
+      "visible_actors": 5,
+      "readable_actors": 4,
+      "largest_head_pixels": 129.622680664063,
+      "actors": [
+        {
+          "body_pixels": 500.253479003906,
+          "body_screen_rect": [
+            870.927917480469,
+            230.81901550293,
+            428.695983886719,
+            500.253479003906
+          ],
+          "head": [
+            -44.5296440124512,
+            4.99596261978149,
+            -1.84926509857178
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 98.8712158203125,
+          "kind": "leviathan",
+          "live_ai_advanced": true,
+          "position": [
+            -44.6826705932617,
+            0.000774864689446986,
+            -2.00843644142151
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 400.050720214844,
+          "body_screen_rect": [
+            343.377227783203,
+            549.33349609375,
+            117.044494628906,
+            400.050720214844
+          ],
+          "head": [
+            -41.1386756896973,
+            1.5056836605072,
+            6.21363258361816
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 129.622680664063,
+          "kind": "mini",
+          "live_ai_advanced": true,
+          "position": [
+            -41.4317321777344,
+            0.0600000433623791,
+            6.08637714385986
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 137.838104248047,
+          "body_screen_rect": [
+            1406.70544433594,
+            441.233184814453,
+            210.433715820313,
+            137.838104248047
+          ],
+          "head": [
+            -38.9186477661133,
+            2.49294114112854,
+            -1.60826528072357
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 63.0902404785156,
+          "kind": "drone",
+          "live_ai_advanced": true,
+          "position": [
+            -38.9241333007813,
+            0.480000048875809,
+            -1.63002383708954
+          ],
+          "readable": false,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 474.377655029297,
+          "body_screen_rect": [
+            210.237579345703,
+            466.665557861328,
+            416.059295654297,
+            474.377655029297
+          ],
+          "head": [
+            -42.1806488037109,
+            1.88399207592011,
+            6.03522634506226
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 105.202026367188,
+          "kind": "roller",
+          "live_ai_advanced": true,
+          "position": [
+            -42.1847267150879,
+            0.0600000433623791,
+            6.03394317626953
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 283.340026855469,
+          "body_screen_rect": [
+            78.322509765625,
+            508.085388183594,
+            248.253662109375,
+            283.340026855469
+          ],
+          "head": [
+            -46.2164535522461,
+            1.95655596256256,
+            7.80365514755249
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 55.2394409179688,
+          "kind": "shooter",
+          "live_ai_advanced": true,
+          "position": [
+            -46.2164535522461,
+            0.000835719518363476,
+            7.80365514755249
+          ],
+          "readable": true,
+          "world_sight_line": true
+        }
+      ],
+      "camera_matches_previous_view": true
+    },
+    {
+      "asset": "arena-4.webp",
+      "sha256": "593bb6cf55e52f4533148996a3320e467e5eac98f57b9100b4d02284bf749192",
+      "bytes": 232024,
+      "source_capture": "arena-4.png",
+      "source_sha256": "d1b927e315e32f1ba66c9a2a75c719855aafd224553ac4327620318d45b3fa3a",
+      "width": 1920,
+      "height": 1080,
+      "stage": 4,
+      "view": 0,
+      "label": "Launch Chamber",
+      "camera": [
+        57.0,
+        1.66045224666595,
+        -30.0
+      ],
+      "look_at": [
+        34.0,
+        4.29999971389771,
+        -55.0
+      ],
+      "layout_signature": "campaign2-distinct-worlds-v22-r1-stage4",
+      "visible_actors": 5,
+      "readable_actors": 4,
+      "largest_head_pixels": 115.814025878906,
+      "actors": [
+        {
+          "body_pixels": 229.983551025391,
+          "body_screen_rect": [
+            944.860473632813,
+            306.738922119141,
+            251.102661132813,
+            229.983551025391
+          ],
+          "head": [
+            51.0766487121582,
+            5.09589195251465,
+            -39.1174774169922
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 77.4988708496094,
+          "kind": "carrier",
+          "live_ai_advanced": true,
+          "position": [
+            51.0410537719727,
+            0.000765526085160673,
+            -39.1724395751953
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 358.585510253906,
+          "body_screen_rect": [
+            599.605041503906,
+            567.132202148438,
+            145.951965332031,
+            358.585510253906
+          ],
+          "head": [
+            53.3974189758301,
+            1.50777196884155,
+            -31.6369075775146
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 115.814025878906,
+          "kind": "mini",
+          "live_ai_advanced": true,
+          "position": [
+            53.1730041503906,
+            0.0600000433623791,
+            -31.8385143280029
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 138.691772460938,
+          "body_screen_rect": [
+            1419.42553710938,
+            503.109680175781,
+            187.600952148438,
+            138.691772460938
+          ],
+          "head": [
+            56.5779609680176,
+            2.12306523323059,
+            -37.791805267334
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 59.4662170410156,
+          "kind": "drone",
+          "live_ai_advanced": true,
+          "position": [
+            56.5778846740723,
+            0.109999977052212,
+            -37.7933731079102
+          ],
+          "readable": false,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 431.616394042969,
+          "body_screen_rect": [
+            191.470520019531,
+            501.061340332031,
+            356.975769042969,
+            431.616394042969
+          ],
+          "head": [
+            50.5700302124023,
+            1.88398325443268,
+            -30.739200592041
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 87.9186401367188,
+          "kind": "roller",
+          "live_ai_advanced": true,
+          "position": [
+            50.5648307800293,
+            0.0600000433623791,
+            -30.7426738739014
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 284.873229980469,
+          "body_screen_rect": [
+            61.6710662841797,
+            523.884521484375,
+            224.409317016602,
+            284.873229980469
+          ],
+          "head": [
+            47.375057220459,
+            1.9555150270462,
+            -29.751766204834
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 55.2428588867188,
+          "kind": "shooter",
+          "live_ai_advanced": true,
+          "position": [
+            47.375057220459,
+            0.000836713006719947,
+            -29.751766204834
+          ],
+          "readable": true,
+          "world_sight_line": true
+        }
+      ],
+      "camera_matches_previous_view": true
+    },
+    {
+      "asset": "arena-alternate-4.webp",
+      "sha256": "03c82fd4c2036cbffd82d863b9c293a64318fb6c4c50409e808b53ce4a044c12",
+      "bytes": 251272,
+      "source_capture": "arena-alternate-4.png",
+      "source_sha256": "6916a035e9788e12104d7160c4033e42ff7d1ffc52e7b788d85b3773b1544a71",
+      "width": 1920,
+      "height": 1080,
+      "stage": 4,
+      "view": 1,
+      "label": "Sky Control",
+      "camera": [
+        -39.0,
+        9.86009979248047,
+        4.0
+      ],
+      "look_at": [
+        -53.0,
+        11.3000001907349,
+        -5.0
+      ],
+      "layout_signature": "campaign2-distinct-worlds-v22-r1-stage4",
+      "visible_actors": 5,
+      "readable_actors": 4,
+      "largest_head_pixels": 115.040466308594,
+      "actors": [
+        {
+          "body_pixels": 429.434722900391,
+          "body_screen_rect": [
+            903.176208496094,
+            385.361846923828,
+            373.705017089844,
+            429.434722900391
+          ],
+          "head": [
+            -44.3089218139648,
+            11.2358951568604,
+            -0.871403932571411
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 74.0977783203125,
+          "kind": "artillery",
+          "live_ai_advanced": true,
+          "position": [
+            -44.3089218139648,
+            8.19915962219238,
+            -0.871403932571411
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 354.518249511719,
+          "body_screen_rect": [
+            431.647979736328,
+            575.638793945313,
+            102.854888916016,
+            354.518249511719
+          ],
+          "head": [
+            -43.3802642822266,
+            9.69013977050781,
+            4.15106439590454
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 115.040466308594,
+          "kind": "mini",
+          "live_ai_advanced": true,
+          "position": [
+            -43.686107635498,
+            8.26000022888184,
+            4.04327964782715
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 143.937255859375,
+          "body_screen_rect": [
+            1410.21728515625,
+            425.930725097656,
+            219.96533203125,
+            143.937255859375
+          ],
+          "head": [
+            -41.331958770752,
+            10.9829874038696,
+            -3.54291176795959
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 65.2447509765625,
+          "kind": "drone",
+          "live_ai_advanced": true,
+          "position": [
+            -41.337230682373,
+            8.96999931335449,
+            -3.55985927581787
+          ],
+          "readable": false,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 425.311157226563,
+          "body_screen_rect": [
+            278.669189453125,
+            506.208923339844,
+            357.93115234375,
+            425.311157226563
+          ],
+          "head": [
+            -45.0143203735352,
+            10.0839977264404,
+            4.18859434127808
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 87.2265625,
+          "kind": "roller",
+          "live_ai_advanced": true,
+          "position": [
+            -45.016716003418,
+            8.26000022888184,
+            4.18791484832764
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 303.992797851563,
+          "body_screen_rect": [
+            38.8312339782715,
+            515.744323730469,
+            290.203857421875,
+            303.992797851563
+          ],
+          "head": [
+            -47.679557800293,
+            10.219274520874,
+            6.3034086227417
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 58.8729248046875,
+          "kind": "shooter",
+          "live_ai_advanced": true,
+          "position": [
+            -47.679557800293,
+            8.26000022888184,
+            6.3034086227417
+          ],
+          "readable": true,
+          "world_sight_line": true
+        }
+      ],
+      "camera_matches_previous_view": true
+    },
+    {
+      "asset": "arena-5.webp",
+      "sha256": "247e2f785e188891f16143e129def471ff7f6d446c549e0ad1b991553614265b",
+      "bytes": 139250,
+      "source_capture": "arena-5.png",
+      "source_sha256": "f2e42cfbf688a6680e97637479ae7e2b1cb1143a9529333e0eafc64e1a92b1dd",
+      "width": 1920,
+      "height": 1080,
+      "stage": 5,
+      "view": 0,
+      "label": "Reactor Heart",
+      "camera": [
+        58.0,
+        1.66010010242462,
+        -29.0
+      ],
+      "look_at": [
+        42.0,
+        6.09999990463257,
+        -49.0
+      ],
+      "layout_signature": "campaign2-distinct-worlds-v22-r1-stage5",
+      "visible_actors": 5,
+      "readable_actors": 4,
+      "largest_head_pixels": 103.393615722656,
+      "actors": [
+        {
+          "body_pixels": 505.693878173828,
+          "body_screen_rect": [
+            902.323364257813,
+            298.563446044922,
+            348.445434570313,
+            505.693878173828
+          ],
+          "head": [
+            52.7617454528809,
+            5.65409088134766,
+            -38.4745063781738
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 103.393615722656,
+          "kind": "overlord",
+          "live_ai_advanced": true,
+          "position": [
+            52.6822700500488,
+            0.000807776465080678,
+            -38.6184768676758
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 312.682250976563,
+          "body_screen_rect": [
+            610.371459960938,
+            634.41455078125,
+            145.51513671875,
+            312.682250976563
+          ],
+          "head": [
+            53.950366973877,
+            1.50739812850952,
+            -31.3090209960938
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 98.2021484375,
+          "kind": "mini",
+          "live_ai_advanced": true,
+          "position": [
+            53.7378349304199,
+            0.0600000433623791,
+            -31.5421772003174
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 139.169250488281,
+          "body_screen_rect": [
+            1427.90576171875,
+            529.849365234375,
+            199.0986328125,
+            139.169250488281
+          ],
+          "head": [
+            58.1647338867188,
+            2.40804648399353,
+            -36.8068199157715
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 61.6754150390625,
+          "kind": "drone",
+          "live_ai_advanced": true,
+          "position": [
+            58.1649208068848,
+            0.395000040531158,
+            -36.8156814575195
+          ],
+          "readable": false,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 319.490295410156,
+          "body_screen_rect": [
+            171.560897827148,
+            571.728088378906,
+            275.881652832031,
+            319.490295410156
+          ],
+          "head": [
+            49.5028038024902,
+            2.0303361415863,
+            -30.1755409240723
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 63.4354248046875,
+          "kind": "heavy",
+          "live_ai_advanced": true,
+          "position": [
+            49.5028038024902,
+            0.00083571020513773,
+            -30.1755409240723
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 346.064147949219,
+          "body_screen_rect": [
+            272.883972167969,
+            579.884948730469,
+            327.708068847656,
+            346.064147949219
+          ],
+          "head": [
+            51.2027130126953,
+            1.88399040699005,
+            -30.7717189788818
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 76.878173828125,
+          "kind": "roller",
+          "live_ai_advanced": true,
+          "position": [
+            51.1986770629883,
+            0.0600000433623791,
+            -30.7741718292236
+          ],
+          "readable": true,
+          "world_sight_line": true
+        }
+      ],
+      "camera_matches_previous_view": true
+    },
+    {
+      "asset": "arena-alternate-5.webp",
+      "sha256": "d36d1735eb7785fb8df7c09b12e33f83d98509ca997b8bb6ff8dcaa7b8b41ea1",
+      "bytes": 196368,
+      "source_capture": "arena-alternate-5.png",
+      "source_sha256": "310273ba62588b28536a05bb7c0d7ca564f92a76362eda108fa9b902c96291eb",
+      "width": 1920,
+      "height": 1080,
+      "stage": 5,
+      "view": 1,
+      "label": "Coolant Injection",
+      "camera": [
+        -8.0,
+        1.66010010242462,
+        56.0
+      ],
+      "look_at": [
+        7.0,
+        3.59999990463257,
+        35.0
+      ],
+      "layout_signature": "campaign2-distinct-worlds-v22-r1-stage5",
+      "visible_actors": 5,
+      "readable_actors": 4,
+      "largest_head_pixels": 112.044799804688,
+      "actors": [
+        {
+          "body_pixels": 340.433227539063,
+          "body_screen_rect": [
+            984.478881835938,
+            497.801208496094,
+            283.598999023438,
+            340.433227539063
+          ],
+          "head": [
+            -3.3772349357605,
+            2.03359055519104,
+            51.9577293395996
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 66.4169311523438,
+          "kind": "heavy",
+          "live_ai_advanced": true,
+          "position": [
+            -3.3772349357605,
+            0.000835715793073177,
+            51.9577293395996
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 343.836120605469,
+          "body_screen_rect": [
+            798.217651367188,
+            581.17431640625,
+            124.163269042969,
+            343.836120605469
+          ],
+          "head": [
+            -6.27634382247925,
+            1.43095278739929,
+            52.6408767700195
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 112.044799804688,
+          "kind": "mini",
+          "live_ai_advanced": true,
+          "position": [
+            -6.09695720672607,
+            0.000812894373666495,
+            52.3707313537598
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 144.116882324219,
+          "body_screen_rect": [
+            1412.31408691406,
+            419.0654296875,
+            213.6025390625,
+            144.116882324219
+          ],
+          "head": [
+            -0.351973205804825,
+            2.78298783302307,
+            54.0347442626953
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 65.1580505371094,
+          "kind": "drone",
+          "live_ai_advanced": true,
+          "position": [
+            -0.334789633750916,
+            0.770000040531158,
+            54.0303001403809
+          ],
+          "readable": false,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 351.11181640625,
+          "body_screen_rect": [
+            137.301406860352,
+            424.773254394531,
+            347.928344726563,
+            351.11181640625
+          ],
+          "head": [
+            -9.11410140991211,
+            2.66428303718567,
+            46.9443397521973
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 81.7506713867188,
+          "kind": "squid",
+          "live_ai_advanced": true,
+          "position": [
+            -9.12047672271729,
+            0.000811201985925436,
+            46.8929824829102
+          ],
+          "readable": true,
+          "world_sight_line": true
+        },
+        {
+          "body_pixels": 428.426177978516,
+          "body_screen_rect": [
+            62.1833610534668,
+            498.430694580078,
+            409.097564697266,
+            428.426177978516
+          ],
+          "head": [
+            -8.89757442474365,
+            1.88399732112885,
+            49.3308715820313
+          ],
+          "head_in_frustum": true,
+          "head_pixels": 88.0438232421875,
+          "kind": "roller",
+          "live_ai_advanced": true,
+          "position": [
+            -8.89680099487305,
+            0.0600000433623791,
+            49.3285064697266
+          ],
+          "readable": true,
+          "world_sight_line": true
+        }
+      ],
+      "camera_matches_previous_view": true
+    }
+  ]
+}

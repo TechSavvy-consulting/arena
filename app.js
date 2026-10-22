@@ -2,6 +2,7 @@
 
 const RELEASE_VERSION = '2.5.0';
 const MEDIA_ROOT = 'assets/v25';
+const WORLD_MEDIA_ROOT = 'assets/v25-locations-20261022';
 
 const worlds = [
   {name:'Foundry Complex', boss:'Foundry Warden', view:'Furnace Gallery', other:'Crane Workshop', text:'A tall furnace hall, crane workshop and upper gantries replace identical-looking rooms. Pull the power controls, explore the workshop branch and reach the Smelter Chamber.'},
@@ -73,14 +74,14 @@ function selectWorld(index) {
   const world=worlds[index];
   [...worldTabs.children].forEach((tab,i)=>{tab.setAttribute('aria-selected',String(i===index));tab.tabIndex=i===index?0:-1;});
   $('#world-panel').setAttribute('aria-labelledby',`world-tab-${index}`);
-  $('#world-image').src=`${MEDIA_ROOT}/arena-${index}.webp`; $('#world-image').alt=`${world.view} in ${world.name}, with staged Kyle enemies in the actual v${RELEASE_VERSION} environment`;
+  $('#world-image').src=`${WORLD_MEDIA_ROOT}/arena-${index}.webp`; $('#world-image').alt=`${world.view} in ${world.name}, with staged Kyle enemies in the actual v${RELEASE_VERSION} environment`;
   $('#world-location').textContent=world.view;
   $('#world-name').textContent=world.name; $('#world-description').textContent=world.text; $('#world-boss').textContent=world.boss;
   $('#world-wave').textContent=`ENCOUNTERS ${String(index*5+1).padStart(2,'0')}—${String(index*5+5).padStart(2,'0')}`;
-  $('#world-image-button').onclick=()=>openImage(`${MEDIA_ROOT}/arena-${index}.webp`,`${world.name} — ${world.view}. Actual v${RELEASE_VERSION} environment with staged enemies.`);
+  $('#world-image-button').onclick=()=>openImage(`${WORLD_MEDIA_ROOT}/arena-${index}.webp`,`${world.name} — ${world.view}. Actual v${RELEASE_VERSION} environment with staged enemies.`);
   $('#world-boss-button').onclick=()=>openImage(`${MEDIA_ROOT}/boss-${index}.webp`,`${world.boss} — actual v${RELEASE_VERSION} game model, studio lighting and no room background.`);
   $('#world-room-button').textContent=`Visit ${world.other} ↗`;
-  $('#world-room-button').onclick=()=>openImage(`${MEDIA_ROOT}/arena-alternate-${index}.webp`,`${world.name} — ${world.other}. Actual v${RELEASE_VERSION} environment with staged enemies.`);
+  $('#world-room-button').onclick=()=>openImage(`${WORLD_MEDIA_ROOT}/arena-alternate-${index}.webp`,`${world.name} — ${world.other}. Actual v${RELEASE_VERSION} environment with staged enemies.`);
 }
 wireTabs(worldTabs,tab=>selectWorld([...worldTabs.children].indexOf(tab)));
 selectWorld(0);
