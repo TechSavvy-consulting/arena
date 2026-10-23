@@ -69,13 +69,16 @@ alternate facility views; twenty-four background-free character portraits;
 and a social preview. Retain earlier assets for recoverability.
 
 The twelve current primary/alternate images in “New arena. New problems.” use
-`assets/v26-locations-lit-20261023/` and its `location-manifest.json`. They photograph
+`assets/v26-action-20261023/` and its `location-manifest.json`. They photograph
 the immutable final v2.6 PCK's six halls and upper galleries with staged native
-enemies and three temporary shadowless website-only photo lights. Soft front/side
+enemies, native action poses and cosmetic effects, and three temporary shadowless
+website-only photo lights. Closer drones, mixed creature silhouettes and native
+guardians add action at different distances. Soft front/side
 fill makes faces and armor readable without raising the sky exposure. These are
 not live gameplay-lighting evidence, AI redraws or retouched faces. The released
 game, its lighting settings, package, download, saves and profiles are unchanged.
-The darker original v2.6 set remains in `assets/v26-locations-20261023/` for rollback.
+The previous lighting-only set remains in `assets/v26-locations-lit-20261023/`, and
+the darker original v2.6 set remains in `assets/v26-locations-20261023/` for rollback.
 The prior October 22 location set in `assets/v25-locations-20261022/` remains
 available for recoverability but is no longer the active arena gallery.
 Menus and character portraits are retained v2.5 captures: those interfaces and
@@ -97,14 +100,16 @@ SHA-256. Main runs in isolated test mode with owned disposable save/profile
 fixtures; cast views use the actual native factory without Main or profile
 storage. Fresh output directories preserve earlier evidence.
 
-The new photo-lighting capture uses only the isolated native world and actor
-builders, never Main or user data. Original cameras, geometry, materials, bakes
-and verified enemy positions are retained. Five actors appear in each floor view;
-the galleries retain five except Laboratory four, Sky Docks three and Reactor four.
-Natural rails still cover some lower bodies. The original placement-suite failures
-remain in the earlier manifest; this separate pass verifies the retained layout,
-head sightlines, PCK identity and new pixels, not live combat or five actors in
-every gallery. Separate prior compiled combat checks exercise AI/player movement.
+The action-photo capture uses only the isolated native world and actor builders,
+never Main or user data. New camera angles and staged enemy positions preserve
+native geometry, materials, character proportions and bakes. Each image includes
+at least five different creature types and a clearly framed drone; each main
+hall shows its native guardian. Native moving/firing poses, staged cosmetic tracer
+trails and the game's impact bursts create action, not a simulated AI encounter.
+Native placement checks and visual review verify framing, readability, PCK
+identity and pixels. Rails may naturally cover lower bodies. Failed composition
+experiments are retained privately, never promoted as passing publication proof.
+Separate prior compiled combat checks exercise AI/player movement.
 Retained v2.5 menu progress is a fixture, not a human playthrough. Portraits use
 studio lighting and alpha backgrounds, not room screenshots, AI redraws or
 retouched faces. Whole-model framing and contain-fit CSS preserve heads/limbs.

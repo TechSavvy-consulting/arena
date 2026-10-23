@@ -1,0 +1,2793 @@
+{
+  "version": "2.6.0",
+  "media_revision": "2026-10-23-action-gallery",
+  "package_sha256": "a74da2c37c95a18a7bb264fddc30ebe96bbf86e7a44c8dff1c3af509ed4317ce",
+  "packed_config_sha256": "c8e19b2adb21f9657aba76d8dc9244dd58a91743cc438cfa13c5fbf6426ac699",
+  "capture_report_sha256": "4a4c53267e1d2b2924108ef1e0558cbb838481169a10fee11afd27981514cb52",
+  "capture_script_sha256": "8987454dd1d0bc4b7921b2e7f7193583e417f656c133cff7b6cdc7b635423cd3",
+  "conversion_script_sha256": "290fa3b3cd452eb253f356cbb95afd155f21b63136e699b03f7f07f30fba9993",
+  "capture_checks": 96,
+  "capture_failures": [],
+  "image_count": 12,
+  "image_bytes": 2400096,
+  "actual_native_render": true,
+  "ai_generated_or_redrawn": false,
+  "live_ai_simulated": false,
+  "private_profiles_loaded": false,
+  "settings_or_saves_accessed": false,
+  "lighting_changed_for_website": true,
+  "game_build_modified": false,
+  "added_lights_per_photo": 3,
+  "world_geometry_materials_changed": false,
+  "camera_composition_changed": true,
+  "retouched": false,
+  "conversion": "Whole native 1920x1080 frames, WebP quality 92. No crop, exposure adjustment, face retouching or compositing.",
+  "boundary": "Native v2.6 models and rooms; website-only staged moving/attack poses, cosmetic native effects, new camera compositions and temporary photo lights. Not a live AI combat capture. Released game, saves, profiles and download unchanged.",
+  "composition": "Closer and more varied native creatures, prominent drones, the stage guardian in each main photo, attack/movement poses and cosmetic native weapon/impact effects. Geometry and character proportions remain unchanged. These are staged website scenes, not live combat or new game behavior.",
+  "licensing": "Existing shipped public Kyle models and licensed game scenery only. No new third-party artwork or private face profiles.",
+  "images": [
+    {
+      "asset": "arena-0.webp",
+      "sha256": "797c2c75d521579cf85a194beaa35034ae7c446685d9c197035bcf0994d0f024",
+      "bytes": 176300,
+      "source_capture": "v26-action-0-floor.png",
+      "source_sha256": "f3a5d6b076a9dba8d30cf2d9d2c7ff467df91d1833890075648bdfc2b11a6c99",
+      "width": 1920,
+      "height": 1080,
+      "stage": 0,
+      "view": "floor",
+      "facility": "Foundry Complex",
+      "room_name": "Smelter Chamber",
+      "room_id": "s0_r5",
+      "camera": [
+        64.0,
+        1.50499987602234,
+        -111.0
+      ],
+      "fov": 64.0,
+      "layout_signature": "campaign2-signature-arenas-v26-r1-stage0",
+      "visible_actors": 5,
+      "actors": [
+        {
+          "distance_to_camera": 12.2385272979736,
+          "flying": false,
+          "head": [
+            56.8308410644531,
+            3.69143390655518,
+            -120.674926757813
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1056.01062011719,
+            395.295379638672
+          ],
+          "identity": "boss",
+          "kind": "boss",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            56.8308410644531,
+            0.0449999868869781,
+            -120.674926757813
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            981.701904296875,
+            363.435638427734,
+            164.682983398438,
+            301.343658447266
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 6.00995492935181,
+          "flying": true,
+          "head": [
+            63.1714973449707,
+            3.13551568984985,
+            -116.724906921387
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1554.54248046875,
+            258.072601318359
+          ],
+          "identity": "drone",
+          "kind": "drone",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            63.1709289550781,
+            1.12259936332703,
+            -116.749443054199
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1430.93884277344,
+            200.282150268555,
+            262.484252929688,
+            225.339859008789
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 9.03289222717285,
+          "flying": false,
+          "head": [
+            63.064266204834,
+            1.86890423297882,
+            -119.976921081543
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1609.4599609375,
+            509.213256835938
+          ],
+          "identity": "roller",
+          "kind": "roller",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            63.0717277526855,
+            0.0449999868869781,
+            -119.989822387695
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1503.71520996094,
+            473.536376953125,
+            236.05224609375,
+            274.349243164063
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 10.6157093048096,
+          "flying": false,
+          "head": [
+            54.5975074768066,
+            2.05286931991577,
+            -115.897575378418
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            652.640991210938,
+            505.410827636719
+          ],
+          "identity": "grenadier",
+          "kind": "grenadier",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            54.5975074768066,
+            0.0449999868869781,
+            -115.897575378418
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            599.086303710938,
+            483.682586669922,
+            105.741088867188,
+            201.740570068359
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 7.12558937072754,
+          "flying": false,
+          "head": [
+            57.2458267211914,
+            2.02434778213501,
+            -113.210304260254
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            481.814453125,
+            480.663238525391
+          ],
+          "identity": "shooter",
+          "kind": "shooter",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            57.2458267211914,
+            0.0449999868869781,
+            -113.210304260254
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            388.653594970703,
+            444.9912109375,
+            179.792633056641,
+            328.974548339844
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        }
+      ],
+      "unique_kinds": [
+        "boss",
+        "drone",
+        "roller",
+        "grenadier",
+        "shooter"
+      ],
+      "cosmetic_effects": 4,
+      "placement_notes": [
+        "Could not place mini",
+        "Could not place heavy:vanguard"
+      ],
+      "baked_environment": {
+        "applied": true,
+        "atlas_count": 1,
+        "baked_users": 387,
+        "collision_unchanged": true,
+        "hidden_static_visuals": 275,
+        "lighting": "verified fresh editor LightmapGI plus original direct lights",
+        "path": "res://assets/campaign2/v26/lighting/stage_0.scn",
+        "probe_count": 112,
+        "revision": "campaign2-signature-arenas-lightmap-v26-r1",
+        "room_groups": 18,
+        "source_fingerprint": "7e2b5c3d1f41a1b0a574532ea8752ba8f4a9ebb14d9a0bb9d87d7eb110ac66f9"
+      },
+      "gameplay_capture": false,
+      "lighting_changed_for_website": true,
+      "added_lights_per_photo": 3
+    },
+    {
+      "asset": "arena-0-alt.webp",
+      "sha256": "7bc38b9e30ef89b1929c9cc6e6d500f03b61a4f84cda0e45d5dee82416c45011",
+      "bytes": 267594,
+      "source_capture": "v26-action-0-gallery.png",
+      "source_sha256": "bf7538c6a540d12a74b6252427574e38a00f1d736b5f44638790e08180600462",
+      "width": 1920,
+      "height": 1080,
+      "stage": 0,
+      "view": "gallery",
+      "facility": "Foundry Complex",
+      "room_name": "Smelter Chamber",
+      "room_id": "s0_r5",
+      "camera": [
+        63.5,
+        10.0,
+        -117.919998168945
+      ],
+      "fov": 64.0,
+      "layout_signature": "campaign2-signature-arenas-v26-r1-stage0",
+      "visible_actors": 5,
+      "actors": [
+        {
+          "distance_to_camera": 3.92700147628784,
+          "flying": false,
+          "head": [
+            59.5850410461426,
+            10.3011922836304,
+            -117.980995178223
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            921.600219726563,
+            477.407806396484
+          ],
+          "identity": "heavy:vanguard",
+          "kind": "heavy",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            59.5850410461426,
+            8.24499988555908,
+            -117.980995178223
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            792.711059570313,
+            417.032928466797,
+            273.824096679688,
+            550.376586914063
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 5.1997504234314,
+          "flying": true,
+          "head": [
+            59.4946823120117,
+            11.5412569046021,
+            -120.85587310791
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1516.07275390625,
+            225.367904663086
+          ],
+          "identity": "drone",
+          "kind": "drone",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            59.4767761230469,
+            9.52834033966064,
+            -120.872657775879
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1377.58532714844,
+            157.153198242188,
+            293.123168945313,
+            260.010528564453
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 7.52856016159058,
+          "flying": false,
+          "head": [
+            56.4944496154785,
+            11.8914337158203,
+            -119.925979614258
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1152.00122070313,
+            314.411987304688
+          ],
+          "identity": "boss",
+          "kind": "boss",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            56.4944496154785,
+            8.24499988555908,
+            -119.925979614258
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            999.251647949219,
+            254.023483276367,
+            292.924011230469,
+            536.648559570313
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 7.38854503631592,
+          "flying": false,
+          "head": [
+            56.3426284790039,
+            9.49436378479004,
+            -116.157341003418
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            691.197875976563,
+            606.028625488281
+          ],
+          "identity": "spider",
+          "kind": "spider",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            56.3426284790039,
+            8.24499988555908,
+            -116.157341003418
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            598.027038574219,
+            582.065856933594,
+            194.052917480469,
+            202.990417480469
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 4.20661926269531,
+          "flying": false,
+          "head": [
+            60.1509742736816,
+            10.2243480682373,
+            -120.455612182617
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1536.00793457031,
+            488.471069335938
+          ],
+          "identity": "shooter",
+          "kind": "shooter",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            60.1509742736816,
+            8.24499988555908,
+            -120.455612182617
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1377.58483886719,
+            424.086761474609,
+            338.060913085938,
+            630.835083007813
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        }
+      ],
+      "unique_kinds": [
+        "heavy",
+        "drone",
+        "boss",
+        "spider",
+        "shooter"
+      ],
+      "cosmetic_effects": 4,
+      "placement_notes": [
+        "Could not place roller"
+      ],
+      "baked_environment": {
+        "applied": true,
+        "atlas_count": 1,
+        "baked_users": 387,
+        "collision_unchanged": true,
+        "hidden_static_visuals": 275,
+        "lighting": "verified fresh editor LightmapGI plus original direct lights",
+        "path": "res://assets/campaign2/v26/lighting/stage_0.scn",
+        "probe_count": 112,
+        "revision": "campaign2-signature-arenas-lightmap-v26-r1",
+        "room_groups": 18,
+        "source_fingerprint": "7e2b5c3d1f41a1b0a574532ea8752ba8f4a9ebb14d9a0bb9d87d7eb110ac66f9"
+      },
+      "gameplay_capture": false,
+      "lighting_changed_for_website": true,
+      "added_lights_per_photo": 3
+    },
+    {
+      "asset": "arena-1.webp",
+      "sha256": "23c7e5a2af5c85c7d352bf13b22116513d6f947fe800851b327168796bd3aa35",
+      "bytes": 178794,
+      "source_capture": "v26-action-1-floor.png",
+      "source_sha256": "4b3cd8441b190a031a1c56bb06decf2be10487e413993ddfaa7eeb742fe91b5d",
+      "width": 1920,
+      "height": 1080,
+      "stage": 1,
+      "view": "floor",
+      "facility": "Flooded Transit",
+      "room_name": "Freight Terminus",
+      "room_id": "s1_r5",
+      "camera": [
+        152.0,
+        1.50499987602234,
+        17.0
+      ],
+      "fov": 64.0,
+      "layout_signature": "campaign2-signature-arenas-v26-r1-stage1",
+      "visible_actors": 7,
+      "actors": [
+        {
+          "distance_to_camera": 14.7704877853394,
+          "flying": false,
+          "head": [
+            139.395278930664,
+            4.02496194839478,
+            9.72414302825928
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            863.981262207031,
+            401.406036376953
+          ],
+          "identity": "dredger",
+          "kind": "dredger",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            139.395278930664,
+            0.0449999868869781,
+            9.72414302825928
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            795.121765136719,
+            373.981140136719,
+            148.143676757813,
+            272.998779296875
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 6.00995016098022,
+          "flying": true,
+          "head": [
+            146.216049194336,
+            3.12915563583374,
+            16.8340625762939
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            364.165985107422,
+            257.871459960938
+          ],
+          "identity": "drone",
+          "kind": "drone",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            146.191772460938,
+            1.11623930931091,
+            16.8304138183594
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            219.618591308594,
+            200.323287963867,
+            263.865203857422,
+            224.717666625977
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 6.14679479598999,
+          "flying": false,
+          "head": [
+            150.245010375977,
+            1.29436409473419,
+            11.1128330230713
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1612.85571289063,
+            588.790649414063
+          ],
+          "identity": "spider",
+          "kind": "spider",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            150.245010375977,
+            0.0449999868869781,
+            11.1128330230713
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1470.56506347656,
+            555.474060058594,
+            349.745971679688,
+            304.950256347656
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 9.03166484832764,
+          "flying": false,
+          "head": [
+            142.976364135742,
+            1.86890423297882,
+            17.1120281219482
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            307.745544433594,
+            507.988342285156
+          ],
+          "identity": "roller",
+          "kind": "roller",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            142.964202880859,
+            0.0449999868869781,
+            17.1034202575684
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            182.935928344727,
+            472.4970703125,
+            234.906356811523,
+            274.985229492188
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 9.56045150756836,
+          "flying": false,
+          "head": [
+            146.655456542969,
+            2.09201455116272,
+            9.09471702575684
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1267.29553222656,
+            495.247741699219
+          ],
+          "identity": "heavy",
+          "kind": "heavy",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            146.655456542969,
+            0.0449999868869781,
+            9.09471702575684
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1204.69543457031,
+            468.990356445313,
+            132.394165039063,
+            229.932861328125
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 16.0080165863037,
+          "flying": false,
+          "head": [
+            136.749206542969,
+            3.08173584938049,
+            12.3974161148071
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            653.436157226563,
+            460.9765625
+          ],
+          "identity": "artillery:siege",
+          "kind": "artillery",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            136.749206542969,
+            0.0449999868869781,
+            12.3974161148071
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            581.4013671875,
+            441.938507080078,
+            132.649536132813,
+            199.235748291016
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 6.27466678619385,
+          "flying": false,
+          "head": [
+            147.402465820313,
+            2.02434778213501,
+            12.7615566253662
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1055.66735839844,
+            479.49072265625
+          ],
+          "identity": "shooter",
+          "kind": "shooter",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            147.402465820313,
+            0.0449999868869781,
+            12.7615566253662
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            980.412536621094,
+            444.627655029297,
+            157.026306152344,
+            318.457977294922
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        }
+      ],
+      "unique_kinds": [
+        "dredger",
+        "drone",
+        "spider",
+        "roller",
+        "heavy",
+        "artillery",
+        "shooter"
+      ],
+      "cosmetic_effects": 4,
+      "placement_notes": [],
+      "baked_environment": {
+        "applied": true,
+        "atlas_count": 1,
+        "baked_users": 409,
+        "collision_unchanged": true,
+        "hidden_static_visuals": 274,
+        "lighting": "verified fresh editor LightmapGI plus original direct lights",
+        "path": "res://assets/campaign2/v26/lighting/stage_1.scn",
+        "probe_count": 82,
+        "revision": "campaign2-signature-arenas-lightmap-v26-r1",
+        "room_groups": 21,
+        "source_fingerprint": "8b28487587e36d0bb5c939ea112622810724a7844c24b3c9b3a5b785960cc26a"
+      },
+      "gameplay_capture": false,
+      "lighting_changed_for_website": true,
+      "added_lights_per_photo": 3
+    },
+    {
+      "asset": "arena-1-alt.webp",
+      "sha256": "0ea6532c86bd81b1594e5324d32325cc20a3b6351bf0efcad6972df5af6a5ae1",
+      "bytes": 225598,
+      "source_capture": "v26-action-1-gallery.png",
+      "source_sha256": "a8107ddf91c9ff96fce5585ce7de2bfd6597d6cee37b15d82cc509bcb942f8af",
+      "width": 1920,
+      "height": 1080,
+      "stage": 1,
+      "view": "gallery",
+      "facility": "Flooded Transit",
+      "room_name": "Freight Terminus",
+      "room_id": "s1_r5",
+      "camera": [
+        151.5,
+        10.0,
+        -7.67999982833862
+      ],
+      "fov": 64.0,
+      "layout_signature": "campaign2-signature-arenas-v26-r1-stage1",
+      "visible_actors": 5,
+      "actors": [
+        {
+          "distance_to_camera": 10.1140775680542,
+          "flying": false,
+          "head": [
+            141.467468261719,
+            11.2817354202271,
+            -7.67425632476807
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            998.400085449219,
+            432.861511230469
+          ],
+          "identity": "artillery:siege",
+          "kind": "artillery",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            141.467468261719,
+            8.24499988555908,
+            -7.67425632476807
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            913.217163085938,
+            403.836090087891,
+            194.326416015625,
+            303.106964111328
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 5.19974517822266,
+          "flying": true,
+          "head": [
+            147.453430175781,
+            11.5383243560791,
+            -4.79969072341919
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            402.480529785156,
+            225.127853393555
+          ],
+          "identity": "drone",
+          "kind": "drone",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            147.431869506836,
+            9.5254077911377,
+            -4.78796672821045
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            239.586761474609,
+            157.364212036133,
+            295.535308837891,
+            259.08642578125
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 3.99884414672852,
+          "flying": false,
+          "head": [
+            147.729614257813,
+            9.49436378479004,
+            -8.91259002685547
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1286.40270996094,
+            661.130920410156
+          ],
+          "identity": "spider",
+          "kind": "spider",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            147.729614257813,
+            8.24499988555908,
+            -8.91259002685547
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1114.15380859375,
+            614.472290039063,
+            414.21826171875,
+            445.637573242188
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 21.2685890197754,
+          "flying": false,
+          "head": [
+            136.341430664063,
+            12.2249622344971,
+            7.07195711135864
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            191.998321533203,
+            421.746185302734
+          ],
+          "identity": "dredger",
+          "kind": "dredger",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            136.341430664063,
+            8.24499988555908,
+            7.07195711135864
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            89.9301300048828,
+            396.906646728516,
+            179.480911254883,
+            251.887908935547
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 4.00929975509644,
+          "flying": false,
+          "head": [
+            148.056274414063,
+            10.2243480682373,
+            -5.63918924331665
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            499.195251464844,
+            488.445434570313
+          ],
+          "identity": "shooter",
+          "kind": "shooter",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            148.056274414063,
+            8.24499988555908,
+            -5.63918924331665
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            322.022888183594,
+            425.172058105469,
+            318.509582519531,
+            603.699401855469
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        }
+      ],
+      "unique_kinds": [
+        "artillery",
+        "drone",
+        "spider",
+        "dredger",
+        "shooter"
+      ],
+      "cosmetic_effects": 3,
+      "placement_notes": [
+        "Could not place heavy"
+      ],
+      "baked_environment": {
+        "applied": true,
+        "atlas_count": 1,
+        "baked_users": 409,
+        "collision_unchanged": true,
+        "hidden_static_visuals": 274,
+        "lighting": "verified fresh editor LightmapGI plus original direct lights",
+        "path": "res://assets/campaign2/v26/lighting/stage_1.scn",
+        "probe_count": 82,
+        "revision": "campaign2-signature-arenas-lightmap-v26-r1",
+        "room_groups": 21,
+        "source_fingerprint": "8b28487587e36d0bb5c939ea112622810724a7844c24b3c9b3a5b785960cc26a"
+      },
+      "gameplay_capture": false,
+      "lighting_changed_for_website": true,
+      "added_lights_per_photo": 3
+    },
+    {
+      "asset": "arena-2.webp",
+      "sha256": "b499e3b696cf43516562c3174564c2db55e68c4e8146a1bc49c5d4b6bb642796",
+      "bytes": 208950,
+      "source_capture": "v26-action-2-floor.png",
+      "source_sha256": "0d7a532bc7677677976b206690407718470397b87ed2f5b798af372ce5ec1073",
+      "width": 1920,
+      "height": 1080,
+      "stage": 2,
+      "view": "floor",
+      "facility": "Mutation Laboratory",
+      "room_name": "Containment Chamber",
+      "room_id": "s2_r5",
+      "camera": [
+        64.0,
+        1.50499987602234,
+        -63.0
+      ],
+      "fov": 64.0,
+      "layout_signature": "campaign2-signature-arenas-v26-r1-stage2",
+      "visible_actors": 6,
+      "actors": [
+        {
+          "distance_to_camera": 12.392614364624,
+          "flying": false,
+          "head": [
+            57.493968963623,
+            4.74288415908813,
+            -73.0381546020508
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1056.49450683594,
+            317.119476318359
+          ],
+          "identity": "matriarch",
+          "kind": "matriarch",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            57.4421806335449,
+            0.0449999868869781,
+            -73.1027603149414
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            928.377868652344,
+            272.442138671875,
+            277.623596191406,
+            374.57763671875
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 6.00994777679443,
+          "flying": true,
+          "head": [
+            63.5264587402344,
+            3.12938737869263,
+            -68.7668533325195
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1554.54370117188,
+            258.076538085938
+          ],
+          "identity": "drone",
+          "kind": "drone",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            63.5274047851563,
+            1.1164710521698,
+            -68.7913818359375
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1430.89709472656,
+            200.319839477539,
+            262.409912109375,
+            225.228652954102
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 5.9692850112915,
+          "flying": false,
+          "head": [
+            58.223445892334,
+            2.00717544555664,
+            -64.4183120727539
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            312.898193359375,
+            460.600372314453
+          ],
+          "identity": "stalker",
+          "kind": "stalker",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            58.0292205810547,
+            0.0449999868869781,
+            -64.445182800293
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            153.558364868164,
+            412.534027099609,
+            310.330444335938,
+            425.786041259766
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 12.2013721466064,
+          "flying": false,
+          "head": [
+            53.6027870178223,
+            2.71180295944214,
+            -69.2701721191406
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            653.283630371094,
+            460.632598876953
+          ],
+          "identity": "squid",
+          "kind": "squid",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            53.5560150146484,
+            0.0449999868869781,
+            -69.2923202514648
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            565.422729492188,
+            432.273040771484,
+            174.191650390625,
+            219.749847412109
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 15.5231399536133,
+          "flying": false,
+          "head": [
+            58.7183227539063,
+            3.13710165023804,
+            -77.5054473876953
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1262.7939453125,
+            454.978790283203
+          ],
+          "identity": "behemoth:breacher",
+          "kind": "behemoth",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            58.6073188781738,
+            0.0449999868869781,
+            -77.9896850585938
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1191.34008789063,
+            430.3369140625,
+            134.997192382813,
+            212.689025878906
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 6.27713537216187,
+          "flying": false,
+          "head": [
+            59.5272369384766,
+            2.05286931991577,
+            -67.3699722290039
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            864.338928222656,
+            475.576019287109
+          ],
+          "identity": "grenadier",
+          "kind": "grenadier",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            59.5272369384766,
+            0.0449999868869781,
+            -67.3699722290039
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            785.33154296875,
+            439.423767089844,
+            160.330993652344,
+            328.105529785156
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        }
+      ],
+      "unique_kinds": [
+        "matriarch",
+        "drone",
+        "stalker",
+        "squid",
+        "behemoth",
+        "grenadier"
+      ],
+      "cosmetic_effects": 3,
+      "placement_notes": [
+        "Could not place mini"
+      ],
+      "baked_environment": {
+        "applied": true,
+        "atlas_count": 1,
+        "baked_users": 362,
+        "collision_unchanged": true,
+        "hidden_static_visuals": 227,
+        "lighting": "verified fresh editor LightmapGI plus original direct lights",
+        "path": "res://assets/campaign2/v26/lighting/stage_2.scn",
+        "probe_count": 116,
+        "revision": "campaign2-signature-arenas-lightmap-v26-r1",
+        "room_groups": 19,
+        "source_fingerprint": "48165c0287c8bc45e186cb910a36b5557d70a1d239353142846f0094b976d4cd"
+      },
+      "gameplay_capture": false,
+      "lighting_changed_for_website": true,
+      "added_lights_per_photo": 3
+    },
+    {
+      "asset": "arena-2-alt.webp",
+      "sha256": "b2d199c0a0a656ce1c07adf4454378bfbba274315d10f743f3db51a44bd892d6",
+      "bytes": 247842,
+      "source_capture": "v26-action-2-gallery.png",
+      "source_sha256": "6c33d4068bf9dd6c07caaacc4d103ea48cc8eec01f48c48848e69c5d6305d1f3",
+      "width": 1920,
+      "height": 1080,
+      "stage": 2,
+      "view": "gallery",
+      "facility": "Mutation Laboratory",
+      "room_name": "Containment Chamber",
+      "room_id": "s2_r5",
+      "camera": [
+        44.0,
+        10.0,
+        -64.5
+      ],
+      "fov": 64.0,
+      "layout_signature": "campaign2-signature-arenas-v26-r1-stage2",
+      "visible_actors": 5,
+      "actors": [
+        {
+          "distance_to_camera": 10.0007362365723,
+          "flying": false,
+          "head": [
+            43.9561195373535,
+            11.337100982666,
+            -74.4108505249023
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            925.930419921875,
+            427.318634033203
+          ],
+          "identity": "behemoth:breacher",
+          "kind": "behemoth",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            43.9018630981445,
+            8.24499988555908,
+            -74.9046783447266
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            838.823486328125,
+            390.480010986328,
+            199.928466796875,
+            325.522613525391
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 5.19975519180298,
+          "flying": true,
+          "head": [
+            46.8348350524902,
+            11.5412569046021,
+            -68.5774612426758
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1516.07189941406,
+            225.368377685547
+          ],
+          "identity": "drone",
+          "kind": "drone",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            46.8511695861816,
+            9.52834033966064,
+            -68.5957794189453
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1377.58483886719,
+            157.153915405273,
+            293.1220703125,
+            260.009826660156
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 3.80791521072388,
+          "flying": false,
+          "head": [
+            42.0108871459961,
+            9.71103286743164,
+            -67.7342147827148
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            385.643585205078,
+            622.922058105469
+          ],
+          "identity": "mini",
+          "kind": "mini",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            41.8024597167969,
+            8.24499988555908,
+            -67.943977355957
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            332.244293212891,
+            549.823669433594,
+            111.121276855469,
+            444.605895996094
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 4.45040941238403,
+          "flying": false,
+          "head": [
+            46.2269706726074,
+            10.2528686523438,
+            -68.344841003418
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1420.80505371094,
+            488.203186035156
+          ],
+          "identity": "grenadier",
+          "kind": "grenadier",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            46.2269706726074,
+            8.24499988555908,
+            -68.344841003418
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1281.67077636719,
+            430.012756347656,
+            289.233642578125,
+            559.842346191406
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 6.20778560638428,
+          "flying": false,
+          "head": [
+            42.6168670654297,
+            9.49436378479004,
+            -70.5305786132813
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            729.59814453125,
+            617.046630859375
+          ],
+          "identity": "spider",
+          "kind": "spider",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            42.6168670654297,
+            8.24499988555908,
+            -70.5305786132813
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            620.00927734375,
+            588.677795410156,
+            229.082702636719,
+            244.277770996094
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        }
+      ],
+      "unique_kinds": [
+        "behemoth",
+        "drone",
+        "mini",
+        "grenadier",
+        "spider"
+      ],
+      "cosmetic_effects": 3,
+      "placement_notes": [
+        "Could not place matriarch",
+        "Could not place squid"
+      ],
+      "baked_environment": {
+        "applied": true,
+        "atlas_count": 1,
+        "baked_users": 362,
+        "collision_unchanged": true,
+        "hidden_static_visuals": 227,
+        "lighting": "verified fresh editor LightmapGI plus original direct lights",
+        "path": "res://assets/campaign2/v26/lighting/stage_2.scn",
+        "probe_count": 116,
+        "revision": "campaign2-signature-arenas-lightmap-v26-r1",
+        "room_groups": 19,
+        "source_fingerprint": "48165c0287c8bc45e186cb910a36b5557d70a1d239353142846f0094b976d4cd"
+      },
+      "gameplay_capture": false,
+      "lighting_changed_for_website": true,
+      "added_lights_per_photo": 3
+    },
+    {
+      "asset": "arena-3.webp",
+      "sha256": "0b686ebc86f6dc267cb72e45521f7d095c894efffdf9892c7b8c832aa7fddcee",
+      "bytes": 159360,
+      "source_capture": "v26-action-3-floor.png",
+      "source_sha256": "d0b313c3e265dd60a9b7f5772f901965ca469c90823baa1d47ab0e4547eb2522",
+      "width": 1920,
+      "height": 1080,
+      "stage": 3,
+      "view": "floor",
+      "facility": "Flooded Research Complex",
+      "room_name": "Pressure Chamber",
+      "room_id": "s3_r6",
+      "camera": [
+        68.0,
+        1.50499987602234,
+        -63.0
+      ],
+      "fov": 64.0,
+      "layout_signature": "campaign2-signature-arenas-v26-r1-stage3",
+      "visible_actors": 7,
+      "actors": [
+        {
+          "distance_to_camera": 14.7670478820801,
+          "flying": false,
+          "head": [
+            56.1789436340332,
+            5.04307508468628,
+            -71.1123580932617
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            865.412719726563,
+            336.866455078125
+          ],
+          "identity": "leviathan",
+          "kind": "leviathan",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            55.985164642334,
+            0.0449999868869781,
+            -71.2182006835938
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            760.809387207031,
+            295.816558837891,
+            224.669677734375,
+            353.853790283203
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 6.00994157791138,
+          "flying": true,
+          "head": [
+            62.2443618774414,
+            3.12443256378174,
+            -63.607837677002
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            364.164916992188,
+            257.875030517578
+          ],
+          "identity": "drone",
+          "kind": "drone",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            62.2204399108887,
+            1.11151623725891,
+            -63.6133308410645
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            219.702362060547,
+            200.352416992188,
+            263.821502685547,
+            224.634307861328
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 5.9691367149353,
+          "flying": false,
+          "head": [
+            66.7599182128906,
+            2.00717544555664,
+            -68.817268371582
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1616.1025390625,
+            459.240173339844
+          ],
+          "identity": "stalker",
+          "kind": "stalker",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            66.6994857788086,
+            0.0449999868869781,
+            -69.0037994384766
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1482.845703125,
+            410.884460449219,
+            323.928833007813,
+            421.430908203125
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 9.03792381286621,
+          "flying": false,
+          "head": [
+            58.983528137207,
+            1.29436409473419,
+            -63.5856056213379
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            308.283172607422,
+            576.023071289063
+          ],
+          "identity": "spider",
+          "kind": "spider",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            58.983528137207,
+            0.0449999868869781,
+            -63.5856056213379
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            179.648834228516,
+            553.417114257813,
+            227.943084716797,
+            194.249755859375
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 9.56806373596191,
+          "flying": false,
+          "head": [
+            63.303653717041,
+            2.71180295944214,
+            -71.2483825683594
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1267.54760742188,
+            434.312683105469
+          ],
+          "identity": "squid",
+          "kind": "squid",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            63.2736625671387,
+            0.0449999868869781,
+            -71.2905578613281
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1163.4072265625,
+            397.150726318359,
+            225.66748046875,
+            285.401519775391
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 15.9368829727173,
+          "flying": false,
+          "head": [
+            53.2185020446777,
+            3.19254922866821,
+            -68.7134704589844
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            652.81591796875,
+            453.223205566406
+          ],
+          "identity": "behemoth:executioner",
+          "kind": "behemoth",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            53.1454238891602,
+            0.0449999868869781,
+            -68.7523956298828
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            560.714538574219,
+            433.196960449219,
+            172.1904296875,
+            206.593383789063
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 6.27360248565674,
+          "flying": false,
+          "head": [
+            63.7401008605957,
+            2.02434778213501,
+            -67.5762023925781
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1055.69104003906,
+            478.619995117188
+          ],
+          "identity": "shooter",
+          "kind": "shooter",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            63.7401008605957,
+            0.0449999868869781,
+            -67.5762023925781
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            980.417907714844,
+            443.744110107422,
+            157.008483886719,
+            318.469451904297
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        }
+      ],
+      "unique_kinds": [
+        "leviathan",
+        "drone",
+        "stalker",
+        "spider",
+        "squid",
+        "behemoth",
+        "shooter"
+      ],
+      "cosmetic_effects": 3,
+      "placement_notes": [],
+      "baked_environment": {
+        "applied": true,
+        "atlas_count": 1,
+        "baked_users": 435,
+        "collision_unchanged": true,
+        "hidden_static_visuals": 275,
+        "lighting": "verified fresh editor LightmapGI plus original direct lights",
+        "path": "res://assets/campaign2/v26/lighting/stage_3.scn",
+        "probe_count": 128,
+        "revision": "campaign2-signature-arenas-lightmap-v26-r1",
+        "room_groups": 21,
+        "source_fingerprint": "9be7bf7f391ba583ebf34202db04188b38a41cec23b90e53b5197ced2e2cd360"
+      },
+      "gameplay_capture": false,
+      "lighting_changed_for_website": true,
+      "added_lights_per_photo": 3
+    },
+    {
+      "asset": "arena-3-alt.webp",
+      "sha256": "a68ff284cac610a43792ac94e9f8405996ab106ea11ddae84f41bdc23404753d",
+      "bytes": 198990,
+      "source_capture": "v26-action-3-gallery.png",
+      "source_sha256": "9d15d90777d3ba40ebd51a868abe2edc98418bbd341d091462a620b7e7b8f7e1",
+      "width": 1920,
+      "height": 1080,
+      "stage": 3,
+      "view": "gallery",
+      "facility": "Flooded Research Complex",
+      "room_name": "Pressure Chamber",
+      "room_id": "s3_r6",
+      "camera": [
+        67.5,
+        10.0,
+        -74.1999969482422
+      ],
+      "fov": 64.0,
+      "layout_signature": "campaign2-signature-arenas-v26-r1-stage3",
+      "visible_actors": 5,
+      "actors": [
+        {
+          "distance_to_camera": 7.8877968788147,
+          "flying": false,
+          "head": [
+            59.7364501953125,
+            11.3925495147705,
+            -74.1262435913086
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            999.320861816406,
+            388.266693115234
+          ],
+          "identity": "behemoth:executioner",
+          "kind": "behemoth",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            59.6541557312012,
+            8.24499988555908,
+            -74.1171112060547
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            842.057678222656,
+            347.477691650391,
+            333.313049316406,
+            408.144500732422
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 5.19974756240845,
+          "flying": true,
+          "head": [
+            63.4824333190918,
+            11.5383243560791,
+            -71.2793655395508
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            402.480529785156,
+            225.128021240234
+          ],
+          "identity": "drone",
+          "kind": "drone",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            63.4609870910645,
+            9.5254077911377,
+            -71.2674255371094
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            239.588928222656,
+            157.364791870117,
+            295.534301757813,
+            259.085815429688
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 3.99883770942688,
+          "flying": false,
+          "head": [
+            63.7174835205078,
+            9.49436378479004,
+            -75.3948211669922
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1286.40283203125,
+            661.131103515625
+          ],
+          "identity": "spider",
+          "kind": "spider",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            63.7174835205078,
+            8.24499988555908,
+            -75.3948211669922
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1114.15307617188,
+            614.472290039063,
+            414.218505859375,
+            445.639038085938
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 22.7531490325928,
+          "flying": false,
+          "head": [
+            51.5383911132813,
+            13.2430744171143,
+            -58.3124122619629
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            190.187469482422,
+            376.731018066406
+          ],
+          "identity": "leviathan",
+          "kind": "leviathan",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            51.3642196655273,
+            8.24499988555908,
+            -58.1767044067383
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            48.5593414306641,
+            342.721435546875,
+            251.621536254883,
+            302.120849609375
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 4.0092945098877,
+          "flying": false,
+          "head": [
+            64.0768585205078,
+            10.2243480682373,
+            -72.1248550415039
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            499.195465087891,
+            488.445343017578
+          ],
+          "identity": "shooter",
+          "kind": "shooter",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            64.0768585205078,
+            8.24499988555908,
+            -72.1248550415039
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            322.021240234375,
+            425.171966552734,
+            318.512390136719,
+            603.700927734375
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        }
+      ],
+      "unique_kinds": [
+        "behemoth",
+        "drone",
+        "spider",
+        "leviathan",
+        "shooter"
+      ],
+      "cosmetic_effects": 3,
+      "placement_notes": [
+        "Could not place squid"
+      ],
+      "baked_environment": {
+        "applied": true,
+        "atlas_count": 1,
+        "baked_users": 435,
+        "collision_unchanged": true,
+        "hidden_static_visuals": 275,
+        "lighting": "verified fresh editor LightmapGI plus original direct lights",
+        "path": "res://assets/campaign2/v26/lighting/stage_3.scn",
+        "probe_count": 128,
+        "revision": "campaign2-signature-arenas-lightmap-v26-r1",
+        "room_groups": 21,
+        "source_fingerprint": "9be7bf7f391ba583ebf34202db04188b38a41cec23b90e53b5197ced2e2cd360"
+      },
+      "gameplay_capture": false,
+      "lighting_changed_for_website": true,
+      "added_lights_per_photo": 3
+    },
+    {
+      "asset": "arena-4.webp",
+      "sha256": "80f6ced73333e22c17e94e2cea72e1f5c3a150b3a2e37e4c4c0a0ccfa30210f5",
+      "bytes": 186082,
+      "source_capture": "v26-action-4-floor.png",
+      "source_sha256": "2e7142c46f0e495a36817dd8425651e8bc613bfd2b206459e20a1a8c42565f44",
+      "width": 1920,
+      "height": 1080,
+      "stage": 4,
+      "view": "floor",
+      "facility": "Sky Docks",
+      "room_name": "Launch Chamber",
+      "room_id": "s4_r5",
+      "camera": [
+        72.0,
+        1.50499987602234,
+        -63.0
+      ],
+      "fov": 64.0,
+      "layout_signature": "campaign2-signature-arenas-v26-r1-stage4",
+      "visible_actors": 6,
+      "actors": [
+        {
+          "distance_to_camera": 13.4187088012695,
+          "flying": true,
+          "head": [
+            67.9634094238281,
+            5.75016832351685,
+            -75.0725402832031
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1439.47619628906,
+            221.439636230469
+          ],
+          "identity": "carrier",
+          "kind": "carrier",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            67.9378967285156,
+            0.654999911785126,
+            -75.1291885375977
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1322.92602539063,
+            175.181121826172,
+            250.477294921875,
+            245.12841796875
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 6.38284826278687,
+          "flying": true,
+          "head": [
+            71.1284027099609,
+            3.1198787689209,
+            -69.1133651733398
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1669.70190429688,
+            258.171325683594
+          ],
+          "identity": "drone",
+          "kind": "drone",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            71.1278839111328,
+            1.10696244239807,
+            -69.1379013061523
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1539.12670898438,
+            200.658874511719,
+            280.041748046875,
+            224.797088623047
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 9.02984714508057,
+          "flying": false,
+          "head": [
+            70.3313140869141,
+            1.86890423297882,
+            -71.8668594360352
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1609.88122558594,
+            506.358703613281
+          ],
+          "identity": "roller",
+          "kind": "roller",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            70.3376922607422,
+            0.0449999868869781,
+            -71.8803329467773
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1503.69152832031,
+            470.64794921875,
+            235.93359375,
+            274.362060546875
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 9.55789375305176,
+          "flying": false,
+          "head": [
+            63.2017288208008,
+            2.02295804023743,
+            -66.6980361938477
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            652.697448730469,
+            500.203948974609
+          ],
+          "identity": "sniper",
+          "kind": "sniper",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            63.2017288208008,
+            0.0449999868869781,
+            -66.6980361938477
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            602.001647949219,
+            476.425231933594,
+            100.355529785156,
+            220.642028808594
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 16.0066547393799,
+          "flying": false,
+          "head": [
+            64.5074996948242,
+            3.08173584938049,
+            -77.0566482543945
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1266.6484375,
+            459.276336669922
+          ],
+          "identity": "artillery:marshal",
+          "kind": "artillery",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            64.5074996948242,
+            0.0449999868869781,
+            -77.0566482543945
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1217.94458007813,
+            440.057189941406,
+            103.610473632813,
+            199.595764160156
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 6.27500247955322,
+          "flying": false,
+          "head": [
+            66.946533203125,
+            2.05286931991577,
+            -66.6793975830078
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            864.291259765625,
+            473.82080078125
+          ],
+          "identity": "grenadier",
+          "kind": "grenadier",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            66.946533203125,
+            0.0449999868869781,
+            -66.6793975830078
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            785.355590820313,
+            437.640747070313,
+            160.301818847656,
+            328.13134765625
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        }
+      ],
+      "unique_kinds": [
+        "carrier",
+        "drone",
+        "roller",
+        "sniper",
+        "artillery",
+        "grenadier"
+      ],
+      "cosmetic_effects": 4,
+      "placement_notes": [
+        "Could not place mini"
+      ],
+      "baked_environment": {
+        "applied": true,
+        "atlas_count": 1,
+        "baked_users": 263,
+        "collision_unchanged": true,
+        "hidden_static_visuals": 211,
+        "lighting": "verified fresh editor LightmapGI plus original direct lights",
+        "path": "res://assets/campaign2/v26/lighting/stage_4.scn",
+        "probe_count": 128,
+        "revision": "campaign2-signature-arenas-lightmap-v26-r1",
+        "room_groups": 21,
+        "source_fingerprint": "1ecf89bfd47af70dfdafceeea415ec6c92ec27b7eabf3faa48d7617ed2ca65df"
+      },
+      "gameplay_capture": false,
+      "lighting_changed_for_website": true,
+      "added_lights_per_photo": 3
+    },
+    {
+      "asset": "arena-4-alt.webp",
+      "sha256": "053be92f744622bbf889e06d94ca8eae72c450e8bfd30f740ce7063956774dcf",
+      "bytes": 186206,
+      "source_capture": "v26-action-4-gallery.png",
+      "source_sha256": "09ec5f39919ca241c83b8c0224c24623855bbb77f39ade523710e1dc21229943",
+      "width": 1920,
+      "height": 1080,
+      "stage": 4,
+      "view": "gallery",
+      "facility": "Sky Docks",
+      "room_name": "Launch Chamber",
+      "room_id": "s4_r5",
+      "camera": [
+        36.0800018310547,
+        10.0,
+        -64.5
+      ],
+      "fov": 64.0,
+      "layout_signature": "campaign2-signature-arenas-v26-r1-stage4",
+      "visible_actors": 5,
+      "actors": [
+        {
+          "distance_to_camera": 10.0594778060913,
+          "flying": false,
+          "head": [
+            36.0856742858887,
+            11.2817354202271,
+            -74.4774856567383
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            921.599914550781,
+            432.866027832031
+          ],
+          "identity": "artillery:marshal",
+          "kind": "artillery",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            36.0856742858887,
+            8.24499988555908,
+            -74.4774856567383
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            845.039672851563,
+            403.463836669922,
+            153.104675292969,
+            308.827667236328
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 5.19974994659424,
+          "flying": true,
+          "head": [
+            38.9554672241211,
+            11.5412569046021,
+            -68.5489044189453
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1516.07214355469,
+            225.367965698242
+          ],
+          "identity": "drone",
+          "kind": "drone",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            38.9719848632813,
+            9.52834033966064,
+            -68.5670623779297
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1377.58544921875,
+            157.153747558594,
+            293.12255859375,
+            260.010070800781
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 4.93554401397705,
+          "flying": false,
+          "head": [
+            34.5400009155273,
+            10.0689039230347,
+            -69.1886291503906
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            632.415161132813,
+            531.025024414063
+          ],
+          "identity": "roller",
+          "kind": "roller",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            34.5413551330566,
+            8.24499988555908,
+            -69.2034759521484
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            467.492126464844,
+            476.301391601563,
+            315.264892578125,
+            459.7705078125
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 4.4504017829895,
+          "flying": false,
+          "head": [
+            38.3453063964844,
+            10.2528686523438,
+            -68.3223724365234
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1420.80541992188,
+            488.203094482422
+          ],
+          "identity": "grenadier",
+          "kind": "grenadier",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            38.3453063964844,
+            8.24499988555908,
+            -68.3223724365234
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1281.67065429688,
+            430.012542724609,
+            289.23388671875,
+            559.843017578125
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 6.09312534332275,
+          "flying": false,
+          "head": [
+            37.4100761413574,
+            9.49436378479004,
+            -70.4246444702148
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1113.60131835938,
+            617.046691894531
+          ],
+          "identity": "spider",
+          "kind": "spider",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            37.4100761413574,
+            8.24499988555908,
+            -70.4246444702148
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1011.67572021484,
+            588.866333007813,
+            227.099060058594,
+            236.706298828125
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        }
+      ],
+      "unique_kinds": [
+        "artillery",
+        "drone",
+        "roller",
+        "grenadier",
+        "spider"
+      ],
+      "cosmetic_effects": 3,
+      "placement_notes": [
+        "Could not place carrier",
+        "Could not place mini"
+      ],
+      "baked_environment": {
+        "applied": true,
+        "atlas_count": 1,
+        "baked_users": 263,
+        "collision_unchanged": true,
+        "hidden_static_visuals": 211,
+        "lighting": "verified fresh editor LightmapGI plus original direct lights",
+        "path": "res://assets/campaign2/v26/lighting/stage_4.scn",
+        "probe_count": 128,
+        "revision": "campaign2-signature-arenas-lightmap-v26-r1",
+        "room_groups": 21,
+        "source_fingerprint": "1ecf89bfd47af70dfdafceeea415ec6c92ec27b7eabf3faa48d7617ed2ca65df"
+      },
+      "gameplay_capture": false,
+      "lighting_changed_for_website": true,
+      "added_lights_per_photo": 3
+    },
+    {
+      "asset": "arena-5.webp",
+      "sha256": "91c66bddeeb842f35c0493498192001dc9f5d2c4fa781a13968aec830bed3d5f",
+      "bytes": 141426,
+      "source_capture": "v26-action-5-floor.png",
+      "source_sha256": "697c29d73d76ab8f79a8b0d20094054b0e419d4c1b8b9d866894773b4a1e7e49",
+      "width": 1920,
+      "height": 1080,
+      "stage": 5,
+      "view": "floor",
+      "facility": "Alien Reactor Fortress",
+      "room_name": "Reactor Heart",
+      "room_id": "s5_r5",
+      "camera": [
+        68.0,
+        1.50499987602234,
+        -59.0
+      ],
+      "fov": 64.0,
+      "layout_signature": "campaign2-signature-arenas-v26-r1-stage5",
+      "visible_actors": 6,
+      "actors": [
+        {
+          "distance_to_camera": 16.9319496154785,
+          "flying": false,
+          "head": [
+            55.4540901184082,
+            5.70162200927734,
+            -69.5678482055664
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            864.951171875,
+            328.185791015625
+          ],
+          "identity": "overlord",
+          "kind": "overlord",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            55.3182716369629,
+            0.0449999868869781,
+            -69.6605682373047
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            757.884521484375,
+            289.841552734375,
+            214.373413085938,
+            344.15283203125
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 6.00993967056274,
+          "flying": true,
+          "head": [
+            62.3317031860352,
+            3.12002372741699,
+            -60.175365447998
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            364.164398193359,
+            257.878692626953
+          ],
+          "identity": "drone",
+          "kind": "drone",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            62.3084449768066,
+            1.10710740089417,
+            -60.1832008361816
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            219.779891967773,
+            200.380493164063,
+            263.781921386719,
+            224.555786132813
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 5.19810724258423,
+          "flying": false,
+          "head": [
+            67.8829193115234,
+            1.51103293895721,
+            -64.1967849731445
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1746.55078125,
+            548.628112792969
+          ],
+          "identity": "mini",
+          "kind": "mini",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            67.8100814819336,
+            0.0449999868869781,
+            -64.4833831787109
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1699.94116210938,
+            488.125335693359,
+            101.699462890625,
+            368.213592529297
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 9.0370569229126,
+          "flying": false,
+          "head": [
+            59.0864486694336,
+            1.29436409473419,
+            -60.4739875793457
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            308.209991455078,
+            575.228576660156
+          ],
+          "identity": "spider",
+          "kind": "spider",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            59.0864486694336,
+            0.0449999868869781,
+            -60.4739875793457
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            179.636138916016,
+            552.620422363281,
+            227.943359375,
+            194.23779296875
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 9.56874084472656,
+          "flying": false,
+          "head": [
+            64.1422500610352,
+            2.71180295944214,
+            -67.6730728149414
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1267.55810546875,
+            433.51318359375
+          ],
+          "identity": "squid",
+          "kind": "squid",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            64.1165771484375,
+            0.0449999868869781,
+            -67.7180099487305
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1163.37194824219,
+            396.344848632813,
+            225.621948242188,
+            285.377197265625
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 6.27260732650757,
+          "flying": false,
+          "head": [
+            64.2144393920898,
+            2.02434778213501,
+            -63.9744758605957
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1055.71313476563,
+            477.807342529297
+          ],
+          "identity": "shooter",
+          "kind": "shooter",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            64.2144393920898,
+            0.0449999868869781,
+            -63.9744758605957
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            980.422302246094,
+            442.919372558594,
+            156.992736816406,
+            318.480712890625
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        }
+      ],
+      "unique_kinds": [
+        "overlord",
+        "drone",
+        "mini",
+        "spider",
+        "squid",
+        "shooter"
+      ],
+      "cosmetic_effects": 3,
+      "placement_notes": [
+        "Could not place heavy:warlord"
+      ],
+      "baked_environment": {
+        "applied": true,
+        "atlas_count": 1,
+        "baked_users": 387,
+        "collision_unchanged": true,
+        "hidden_static_visuals": 290,
+        "lighting": "verified fresh editor LightmapGI plus original direct lights",
+        "path": "res://assets/campaign2/v26/lighting/stage_5.scn",
+        "probe_count": 138,
+        "revision": "campaign2-signature-arenas-lightmap-v26-r1",
+        "room_groups": 21,
+        "source_fingerprint": "59b83ad6e43bbb0b3a3e1e3dbe887a692f6069610ef407e2c26eed4467227238"
+      },
+      "gameplay_capture": false,
+      "lighting_changed_for_website": true,
+      "added_lights_per_photo": 3
+    },
+    {
+      "asset": "arena-5-alt.webp",
+      "sha256": "c95ac91079d78bac18faf7673bed52e9f1978a792d0ec19a710c4a9696c4b7d8",
+      "bytes": 222954,
+      "source_capture": "v26-action-5-gallery.png",
+      "source_sha256": "301e235998c953a17d847195293ed13a43075efac3028d8f712d9f47ea6c26c6",
+      "width": 1920,
+      "height": 1080,
+      "stage": 5,
+      "view": "gallery",
+      "facility": "Alien Reactor Fortress",
+      "room_name": "Reactor Heart",
+      "room_id": "s5_r5",
+      "camera": [
+        67.5,
+        10.0,
+        -84.0
+      ],
+      "fov": 64.0,
+      "layout_signature": "campaign2-signature-arenas-v26-r1-stage5",
+      "visible_actors": 5,
+      "actors": [
+        {
+          "distance_to_camera": 3.60071325302124,
+          "flying": false,
+          "head": [
+            63.9100112915039,
+            10.2728328704834,
+            -84.0517654418945
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            998.399841308594,
+            477.607788085938
+          ],
+          "identity": "heavy:warlord",
+          "kind": "heavy",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            63.9100112915039,
+            8.24499988555908,
+            -84.0517654418945
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            838.599670410156,
+            403.983245849609,
+            330.147888183594,
+            601.8896484375
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 5.19974851608276,
+          "flying": true,
+          "head": [
+            63.4106788635254,
+            11.5383243560791,
+            -81.1807098388672
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            402.480804443359,
+            225.128143310547
+          ],
+          "identity": "drone",
+          "kind": "drone",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            63.3889427185059,
+            9.5254077911377,
+            -81.1693115234375
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            239.587387084961,
+            157.364822387695,
+            295.5361328125,
+            259.085754394531
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 3.77368927001953,
+          "flying": false,
+          "head": [
+            64.3728408813477,
+            9.71103286743164,
+            -86.0923919677734
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1576.76708984375,
+            624.882690429688
+          ],
+          "identity": "mini",
+          "kind": "mini",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            64.0959625244141,
+            8.24499988555908,
+            -86.1962127685547
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1523.80981445313,
+            549.435791015625,
+            117.922607421875,
+            447.538330078125
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 4.25096368789673,
+          "flying": false,
+          "head": [
+            64.0401763916016,
+            10.2243480682373,
+            -81.5403289794922
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            383.994598388672,
+            488.445434570313
+          ],
+          "identity": "shooter",
+          "kind": "shooter",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            64.0401763916016,
+            8.24499988555908,
+            -81.5403289794922
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            193.49836730957,
+            424.981140136719,
+            337.960083007813,
+            610.092224121094
+          ],
+          "shooting_pose": true,
+          "world_sight_line": true
+        },
+        {
+          "distance_to_camera": 6.4043140411377,
+          "flying": false,
+          "head": [
+            61.5034446716309,
+            9.49436378479004,
+            -86.1910934448242
+          ],
+          "head_in_frustum": true,
+          "head_screen": [
+            1305.60217285156,
+            617.058715820313
+          ],
+          "identity": "spider",
+          "kind": "spider",
+          "moving_pose": true,
+          "native_body": true,
+          "position": [
+            61.5034446716309,
+            8.24499988555908,
+            -86.1910934448242
+          ],
+          "private_profile": false,
+          "screen_bounds": [
+            1199.63366699219,
+            588.488952636719,
+            243.006591796875,
+            245.307434082031
+          ],
+          "shooting_pose": false,
+          "world_sight_line": true
+        }
+      ],
+      "unique_kinds": [
+        "heavy",
+        "drone",
+        "mini",
+        "shooter",
+        "spider"
+      ],
+      "cosmetic_effects": 4,
+      "placement_notes": [
+        "Could not place overlord",
+        "Could not place squid"
+      ],
+      "baked_environment": {
+        "applied": true,
+        "atlas_count": 1,
+        "baked_users": 387,
+        "collision_unchanged": true,
+        "hidden_static_visuals": 290,
+        "lighting": "verified fresh editor LightmapGI plus original direct lights",
+        "path": "res://assets/campaign2/v26/lighting/stage_5.scn",
+        "probe_count": 138,
+        "revision": "campaign2-signature-arenas-lightmap-v26-r1",
+        "room_groups": 21,
+        "source_fingerprint": "59b83ad6e43bbb0b3a3e1e3dbe887a692f6069610ef407e2c26eed4467227238"
+      },
+      "gameplay_capture": false,
+      "lighting_changed_for_website": true,
+      "added_lights_per_photo": 3
+    }
+  ]
+}

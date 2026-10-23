@@ -3,7 +3,7 @@
 const RELEASE_VERSION = '2.6.0';
 const CAST_CAPTURE_VERSION = '2.5.0';
 const MEDIA_ROOT = 'assets/v25';
-const WORLD_MEDIA_ROOT = 'assets/v26-locations-lit-20261023';
+const WORLD_MEDIA_ROOT = 'assets/v26-action-20261023';
 
 const worlds = [
   {name:'Foundry Complex', boss:'Foundry Warden', view:'Foundry Casting Hall', other:'Maintenance Gallery', text:'A larger casting arena adds machinery, conveyor lanes and two stair routes to connected maintenance galleries. Work through the furnace rooms, then use cover and height against the Foundry Warden.'},
@@ -75,14 +75,14 @@ function selectWorld(index) {
   const world=worlds[index];
   [...worldTabs.children].forEach((tab,i)=>{tab.setAttribute('aria-selected',String(i===index));tab.tabIndex=i===index?0:-1;});
   $('#world-panel').setAttribute('aria-labelledby',`world-tab-${index}`);
-  $('#world-image').src=`${WORLD_MEDIA_ROOT}/arena-${index}.webp`; $('#world-image').alt=`${world.view} in ${world.name}, native v${RELEASE_VERSION} scene with Kyle enemies staged and lit for the website`;
+  $('#world-image').src=`${WORLD_MEDIA_ROOT}/arena-${index}.webp`; $('#world-image').alt=`${world.view} in ${world.name}, native v${RELEASE_VERSION} drones, guardian and varied Kyle enemies in staged action poses with website lighting`;
   $('#world-location').textContent=world.view;
   $('#world-name').textContent=world.name; $('#world-description').textContent=world.text; $('#world-boss').textContent=world.boss;
   $('#world-wave').textContent=`ENCOUNTERS ${String(index*5+1).padStart(2,'0')}—${String(index*5+5).padStart(2,'0')}`;
-  $('#world-image-button').onclick=()=>openImage(`${WORLD_MEDIA_ROOT}/arena-${index}.webp`,`${world.name} — ${world.view}. Native v${RELEASE_VERSION} scene, staged and lit for the website.`);
+  $('#world-image-button').onclick=()=>openImage(`${WORLD_MEDIA_ROOT}/arena-${index}.webp`,`${world.name} — ${world.view}. Native v${RELEASE_VERSION} models with staged action and cosmetic effects, lit for the website.`);
   $('#world-boss-button').onclick=()=>openImage(`${MEDIA_ROOT}/boss-${index}.webp`,`${world.boss} — v${CAST_CAPTURE_VERSION} studio portrait of the model retained in v${RELEASE_VERSION}; no room background.`);
   $('#world-room-button').textContent=`Visit ${world.other} ↗`;
-  $('#world-room-button').onclick=()=>openImage(`${WORLD_MEDIA_ROOT}/arena-${index}-alt.webp`,`${world.name} — ${world.other}. Native v${RELEASE_VERSION} scene, staged and lit for the website.`);
+  $('#world-room-button').onclick=()=>openImage(`${WORLD_MEDIA_ROOT}/arena-${index}-alt.webp`,`${world.name} — ${world.other}. Native v${RELEASE_VERSION} models with staged action and cosmetic effects, lit for the website.`);
 }
 wireTabs(worldTabs,tab=>selectWorld([...worldTabs.children].indexOf(tab)));
 selectWorld(0);
