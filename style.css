@@ -39,6 +39,10 @@ dialog{width:min(1150px,95vw);max-height:95dvh;padding:0;border:1px solid #54707
 .launch-callout p{color:#fffaf2;font-size:18px;font-weight:800;line-height:1.65}
 .launch-filename{overflow-wrap:anywhere}
 @media(max-width:650px){.launch-callout{padding:16px}.launch-callout p{font-size:16px}}
+.download-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:20px 0 10px}
+.download-actions .button{margin:0}
+.download-account-note{color:#c7d2d8;font-size:13px;font-weight:700;white-space:nowrap}
+.launch-callout .launch-help{margin-top:12px;font-size:14px;font-weight:400;line-height:1.55}
 
 /* Keep the supplied cast picture whole; the original badge has its own strip. */
 .hero-image{aspect-ratio:auto}
