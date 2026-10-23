@@ -19,13 +19,16 @@ build history. No video player or Watch the Game button. The user-selected
 welcoming-committee close-up at `assets/boss-3.webp` intentionally remains the
 older approved image; its caption does not call it a v2.5 capture.
 
-## v2.5.0 release
+## v2.6.0 release
 
-Current package: `TechSavvy-Arena-v2.5.0.zip`.
-Release URL: https://github.com/TechSavvy-consulting/arena/releases/tag/v2.5.0
-Verified archive: 1,281,336,324 bytes (1,281 MB decimal), SHA-256
-`4abd831a90ba08febad70641d66ee22aa6a2b3743954452e2eb9c69473487891`.
-Game source commit: `89c72aa5d98c7f8308e4e24e33f9c48e6340946f`.
+Current package: `TechSavvy-Arena-v2.6.0.zip`.
+Release URL: https://github.com/TechSavvy-consulting/arena/releases/tag/v2.6.0
+Verified archive: 1,309,169,463 bytes (1,309 MB decimal), SHA-256
+`97c33b006b08b24542fc5ccc9e58b583af51071abe4f44ecfe13ce260ea1e2f3`.
+Package source commit: `425f609abd70274f2537a332b68e9b23a1f63e9f`.
+The unchanged, tested EXE/PCK were exported from code commit `f75f2c9`; later
+packaging, documentation and external capture changes do not alter their bytes.
+PCK SHA-256: `a74da2c37c95a18a7bb264fddc30ebe96bbf86e7a44c8dff1c3af509ed4317ce`.
 The current release metadata is also recorded in `assets/build-history.json`.
 
 The full six-facility/thirty-encounter game retains five guns, eight uncapped
@@ -35,16 +38,23 @@ character art covers twelve ordinary enemies, six guardians and six champions.
 
 New in this release:
 
-- Busier routes: small pursuit packs between mission objectives.
-- A room control that starts combat releases its enemies immediately, without
-  a second activation dot.
-- A steady, independently smoothed route compass; written hints stay top left.
-- Uncapped collected grenade and reserve-ammo storage; normal ammo consumption,
-  reloading and magazine limits remain. Passive grenade regeneration targets
-  five and does not remove collected excess.
-- Five shorter settings pages: Audio, Controls, Gameplay & comfort,
-  Graphics & display, and How to play.
-- Featuring Kyle Hearn / TechSavvy Consulting LLC credits.
+- Six larger furnished signature halls, each with two separated stair routes
+  and connected upper galleries. New industrial props use licensed CC0 assets
+  from Kenney and Poly Haven, with provenance included in the game package.
+- Ammo crates and supply cases collect on approach or the existing Interact
+  button with a clear path on the same floor. Feedback reports the collected
+  amounts, and repeatable stations show their 30-second recharge countdown.
+- Optional caches refill reserves and add 10% of the upgraded reserve target,
+  plus an extra grenade. Collected ammo and grenades remain uncapped; ordinary
+  ammo consumption, reloading and magazine limits remain unchanged.
+- Every tenth eligible enemy ammo drop becomes a grenade. Health drops,
+  automatic salvage, crates and stations do not count toward that substitution.
+- Existing v2.4/v2.5 checkpoints preserve encounter progress and inventory,
+  with safe placement for the changed room layouts.
+
+The v2.5 travel pursuers, immediate room-control encounters, independently
+smoothed compass, five settings pages and LLC credits are retained. Passive
+grenade regeneration still targets five without removing collected excess.
 
 Keyboard Shift defaults to hold sprint; controller L3 toggles sprint. R3 means
 clicking the right stick for melee, not moving it. Automatic prompts follow the
@@ -53,33 +63,42 @@ path. Physical-controller testing is not implied by scripted checks.
 
 ## Current media and provenance
 
-The original v2.5 media remains in `assets/v25/`: home, pause, upgrades, victory,
+The unchanged v2.5 media remains in `assets/v25/`: home, pause, upgrades, victory,
 personalization, options hub and all five category pages; six primary and six
 alternate facility views; twenty-four background-free character portraits;
 and a social preview. Retain earlier assets for recoverability.
 
-Location-only refresh, October 22: the twelve primary/alternate images in
-“New arena. New problems.” use `assets/v25-locations-20261022/` and its
-`location-manifest.json`. These are closer staged native enemies in the same
-v2.5 geometry, cameras and lighting—not a new game build. Menus, portraits,
-hero, social image, welcoming tile and game downloads remain unchanged.
+The twelve current primary/alternate images in “New arena. New problems.” use
+`assets/v26-locations-20261023/` and its `location-manifest.json`. They photograph
+the actual final v2.6 PCK's six new halls and upper galleries with staged native
+enemies. They are not gameplay footage, AI redraws or newly generated art.
+The prior October 22 location set in `assets/v25-locations-20261022/` remains
+available for recoverability but is no longer the active arena gallery.
+Menus and character portraits are retained v2.5 captures: those interfaces and
+models are unchanged in v2.6, not freshly photographed for this release. Their
+captions and the footer retain that provenance. The approved hero, social image
+and welcoming-committee close-up are intentionally unchanged.
 
-The twelve distinct room views remain:
+The six primary/upper-level pairs are:
 
-- Foundry Complex: Furnace Gallery / Crane Workshop.
-- Flooded Transit: Flooded Platform / Dispatch Room.
-- Mutation Laboratory: Containment Hall / Observation Room.
-- Flooded Research Complex: Sample Archive / Water Treatment.
-- Sky Docks: Launch Chamber / Sky Control.
-- Alien Reactor Fortress: Reactor Heart / Coolant Injection.
+- Foundry Complex: Foundry Casting Hall / Maintenance Gallery.
+- Flooded Transit: Transit Freight Hall / Dispatch Gallery.
+- Mutation Laboratory: Containment Arena / Observation Gallery.
+- Flooded Research Complex: Water Treatment Hall / Dry Service Gallery.
+- Sky Docks: Cargo Handling Arena / Logistics Deck.
+- Alien Reactor Fortress: Reactor Combat Hall / Upper Reactor Gallery.
 
 Root-run external tools photograph the exact final PCK using its supplied
 SHA-256. Main runs in isolated test mode with owned disposable save/profile
 fixtures; cast views use the actual native factory without Main or profile
 storage. Fresh output directories preserve earlier evidence.
 
-Arena views have staged camera/enemy starts and briefly running actual AI.
-Menu progress is a fixture, not a human playthrough. Character portraits use
+The new arena views use staged cameras and posed native enemy models; separate
+compiled combat checks exercise actual AI and player movement. Their photography
+suite had composition failures where fewer than five separately framed models
+fit on three upper galleries. Those failures remain documented; selecting a
+visually inspected image does not turn the suite into an all-pass test.
+Retained v2.5 menu progress is a fixture, not a human playthrough. Portraits use
 studio lighting and alpha backgrounds, not room screenshots, AI redraws or
 retouched faces. Whole-model framing and contain-fit CSS preserve heads/limbs.
 Godot's transparent studio viewport does not render the heads' subsurface
@@ -101,7 +120,7 @@ CC BY 4.0 base and the existing CC0 FORGE pilot asset.
 
 ## Save compatibility and privacy
 
-v2.5 keeps the exact v2.4 application-data identity:
+v2.6 keeps the exact v2.4/v2.5 application-data identity:
 `TechSavvyArenaRosterUpgrade-20261021`. Its checkpoint, settings and named
 face library are retained. Do not reset or silently migrate that directory.
 
@@ -118,9 +137,10 @@ retain the smile; this is not a 3D scan. No upload, account or analytics service
 ## Historical downloads
 
 Keep every previously published record in `assets/build-history.json`, including
-separately labeled previews and experiments. Add v2.4 and v2.2 beneath the current
-v2.5 download, using actual release ZIP sizes and SHA-256 values. No remote
-release/asset deletions are approved by the retained-all history decision.
+separately labeled previews and experiments. The former current v2.5 download is
+now the first historical record, preserving its exact file, bytes, SHA-256,
+source commit and URLs. All twenty-two older records remain unchanged beneath
+it. No remote release/asset deletions are approved by the retained-all decision.
 
 The page keeps history expandable, not another large gallery. Historical builds
 retain known bugs and differing save formats; archive integrity is not a new

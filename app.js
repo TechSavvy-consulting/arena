@@ -1,16 +1,17 @@
 'use strict';
 
-const RELEASE_VERSION = '2.5.0';
+const RELEASE_VERSION = '2.6.0';
+const CAST_CAPTURE_VERSION = '2.5.0';
 const MEDIA_ROOT = 'assets/v25';
-const WORLD_MEDIA_ROOT = 'assets/v25-locations-20261022';
+const WORLD_MEDIA_ROOT = 'assets/v26-locations-20261023';
 
 const worlds = [
-  {name:'Foundry Complex', boss:'Foundry Warden', view:'Furnace Gallery', other:'Crane Workshop', text:'A tall furnace hall, crane workshop and upper gantries replace identical-looking rooms. Pull the power controls, explore the workshop branch and reach the Smelter Chamber.'},
-  {name:'Flooded Transit', boss:'Transit Dredger', view:'Flooded Platform', other:'Dispatch Room', text:'Long flooded rail platforms open into upper dispatch and maintenance rooms. Work the pumps, follow the central train lane and push toward the Freight Terminus.'},
-  {name:'Mutation Laboratory', boss:'Tentacle Matriarch', view:'Containment Hall', other:'Observation Room', text:'A glass containment atrium, observation galleries and laboratories across three floors. Operate the quarantine controls; the specimens have mounted weapons and tentacles.'},
-  {name:'Flooded Research Complex', boss:'Drowned Colossus', view:'Sample Archive', other:'Water Treatment', text:'Dry upper archive galleries contrast with flooded lower filter rooms and heavy water-treatment machinery. Follow the power and pump route to the Pressure Chamber.'},
-  {name:'Sky Docks', boss:'Sky Carrier', view:'Launch Chamber', other:'Sky Control', text:'Open-sky crane decks, cargo hangars and upper dispatch walkways. Use the compass to connect the floors, then dodge the Carrier’s marked bomb runs.'},
-  {name:'Alien Reactor Fortress', boss:'Kyle Abomination', view:'Reactor Heart', other:'Coolant Injection', text:'Core vaults and separate coolant machinery rooms lead through the fortress. Release security, follow the reactor galleries and dismantle the final Abomination.'}
+  {name:'Foundry Complex', boss:'Foundry Warden', view:'Foundry Casting Hall', other:'Maintenance Gallery', text:'A larger casting arena adds machinery, conveyor lanes and two stair routes to connected maintenance galleries. Work through the furnace rooms, then use cover and height against the Foundry Warden.'},
+  {name:'Flooded Transit', boss:'Transit Dredger', view:'Transit Freight Hall', other:'Dispatch Gallery', text:'Freight equipment and platform lanes fill a larger terminus arena. Take either stair route to the dispatch gallery, circle above the cargo and face the Transit Dredger.'},
+  {name:'Mutation Laboratory', boss:'Tentacle Matriarch', view:'Containment Arena', other:'Observation Gallery', text:'Containment equipment breaks up a spacious laboratory arena beneath connected observation galleries. Operate the quarantine controls, change floors and keep moving around the Matriarch’s tentacles.'},
+  {name:'Flooded Research Complex', boss:'Drowned Colossus', view:'Water Treatment Hall', other:'Dry Service Gallery', text:'Treatment hardware and shallow water surround the larger pressure arena. Dry service galleries connect both stair approaches, giving you a second route around the Drowned Colossus.'},
+  {name:'Sky Docks', boss:'Sky Carrier', view:'Cargo Handling Arena', other:'Logistics Deck', text:'A broad cargo arena opens beneath the sky, with containers, handling equipment and raised logistics decks. Climb either side, use the freight as cover and dodge the Carrier’s marked bomb runs.'},
+  {name:'Alien Reactor Fortress', boss:'Kyle Abomination', view:'Reactor Combat Hall', other:'Upper Reactor Gallery', text:'Capacitor machinery, coolant fittings and connected upper galleries frame the enlarged final arena. Release security, choose a stair approach and dismantle the Abomination.'}
 ];
 const enemies = [
   ['Mini Rusher','mini','Small body. Big hurry.'],['Roller','roller','A tire with an attitude.'],['Spider','spider','Eight legs. Same Kyle.'],['Drone','drone','Ducted fans. Trouble from above.'],['Shooter','shooter','Armed and familiar.'],['Sniper','sniper','Long coat. Longer sightline.'],['Grenadier','grenadier','Blast gear and bad intentions.'],['Heavy','heavy','Broad armor. Mounted firepower.'],['Squid','squid','A mantle full of tentacles.'],['Artillery','artillery','Hydraulic walking ground pressure.'],['Stalker','stalker','A fast, raptor-like hunter.'],['Behemoth','behemoth','A horned, heavily built brute.']
@@ -79,9 +80,9 @@ function selectWorld(index) {
   $('#world-name').textContent=world.name; $('#world-description').textContent=world.text; $('#world-boss').textContent=world.boss;
   $('#world-wave').textContent=`ENCOUNTERS ${String(index*5+1).padStart(2,'0')}—${String(index*5+5).padStart(2,'0')}`;
   $('#world-image-button').onclick=()=>openImage(`${WORLD_MEDIA_ROOT}/arena-${index}.webp`,`${world.name} — ${world.view}. Actual v${RELEASE_VERSION} environment with staged enemies.`);
-  $('#world-boss-button').onclick=()=>openImage(`${MEDIA_ROOT}/boss-${index}.webp`,`${world.boss} — actual v${RELEASE_VERSION} game model, studio lighting and no room background.`);
+  $('#world-boss-button').onclick=()=>openImage(`${MEDIA_ROOT}/boss-${index}.webp`,`${world.boss} — v${CAST_CAPTURE_VERSION} studio portrait of the model retained in v${RELEASE_VERSION}; no room background.`);
   $('#world-room-button').textContent=`Visit ${world.other} ↗`;
-  $('#world-room-button').onclick=()=>openImage(`${WORLD_MEDIA_ROOT}/arena-alternate-${index}.webp`,`${world.name} — ${world.other}. Actual v${RELEASE_VERSION} environment with staged enemies.`);
+  $('#world-room-button').onclick=()=>openImage(`${WORLD_MEDIA_ROOT}/arena-${index}-alt.webp`,`${world.name} — ${world.other}. Actual v${RELEASE_VERSION} environment with staged enemies.`);
 }
 wireTabs(worldTabs,tab=>selectWorld([...worldTabs.children].indexOf(tab)));
 selectWorld(0);
@@ -95,9 +96,9 @@ function renderCast() {
   ];
   entries.forEach(entry=>{const button=document.createElement('button');button.className='cast-card';button.type='button';button.setAttribute('aria-label',`View ${entry.name}`);
     const portrait=document.createElement('div');portrait.className='cast-portrait';
-    const img=document.createElement('img');img.src=entry.src;img.alt=entry.name+` — background-free view of the v${RELEASE_VERSION} game model`;img.loading='lazy';img.width=1280;img.height=1280;portrait.append(img);
+    const img=document.createElement('img');img.src=entry.src;img.alt=entry.name+` — v${CAST_CAPTURE_VERSION} studio portrait; character retained in v${RELEASE_VERSION}`;img.loading='lazy';img.width=1280;img.height=1280;portrait.append(img);
     const label=document.createElement('span');const name=document.createElement('b');name.textContent=entry.name;const text=document.createElement('small');text.textContent=entry.text;label.append(name,text);button.append(portrait,label);
-    button.addEventListener('click',()=>openImage(entry.src,`${entry.name} — ${entry.text} · Actual v${RELEASE_VERSION} game model, studio lighting and no room background.`));panel.append(button);
+    button.addEventListener('click',()=>openImage(entry.src,`${entry.name} — ${entry.text} · v${CAST_CAPTURE_VERSION} studio portrait of the model retained in v${RELEASE_VERSION}; no room background.`));panel.append(button);
   });
 }
 renderCast();
@@ -111,7 +112,7 @@ $('#share-button').addEventListener('click',async()=>{
 // when JavaScript is disabled or the catalog cannot load.
 async function loadBuildHistory() {
   try {
-    const response = await fetch('assets/build-history.json?v=20261021-v25');
+    const response = await fetch('assets/build-history.json?v=20261023-v26');
     if (!response.ok) throw new Error('Archive catalog unavailable');
     const catalog = await response.json();
     const builds = catalog.builds.filter(build =>
